@@ -123,10 +123,10 @@ def gen_analyzed_xml(meta_dict, opt):
 
     # TODO: külön függvénybe a header, data, sentences és paragraphs, 10 elemzés legenerálását
     # TODO: header nincs megoldva, csak továbbadja őket írásra. a header-hez kelleni fog az mxml, sajnos!
+    # TODO: metaadatok a headerhez: oliphant.nytud.hu:/store/share/projects/mnsz2/xml_clean/
     if opt == 'header':
         return {'anl': soup, 'xmlname': xmlname, 'anl_folder': anl_folder}
     if opt == 'data':
-        # TODO: docid normális megadása
         txt = soup.new_tag('text')
         txt.string = meta_dict['data']
         meta = soup.new_tag('metadata', file='metadata.xml')
