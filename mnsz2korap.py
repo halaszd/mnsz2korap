@@ -122,7 +122,16 @@ def gen_analyzed_xml(meta_dict, opt):
     sents_or_pgraphs = meta_dict['sents' if opt != 'paragraphs' else 'pgraphs']
 
     # TODO: header és data nincs megoldva, csak továbbadja őket írásra. a header-hez kelleni fog az mxml, sajnos!
-    if opt == 'header' or opt == 'data':
+    if opt == 'header':
+        return {'anl': soup, 'xmlname': xmlname, 'anl_folder': anl_folder}
+    if opt == 'data':
+        txt = soup.new_tag('text')
+        txt.string = meta_dict['data']
+        meta = soup.new_tag('metadata', file='metadata.xml')
+        raw_text = soup.new_tag('raw_text', attrs={'docid': 'valami', 'xmlns': 'http://ids-mannheim.de/ns/KorAP'})
+        raw_text.append(meta)
+        raw_text.append(txt)
+        soup.append(raw_text)
         return {'anl': soup, 'xmlname': xmlname, 'anl_folder': anl_folder}
 
     soup.append(soup.new_tag('layer', attrs={'docid': meta_dict['fname'],
@@ -284,7 +293,7 @@ def process(inps):
                 pgraphs.append(pgraph)
 
             meta_dict = {'fname': fname, 'genre': genre, 'region': region, 'txt_type': txt_type,
-                         'txt_title': txt_title, 'pgraphs': pgraphs, 'sents': sents}
+                         'txt_title': txt_title, 'pgraphs': pgraphs, 'sents': sents, 'data': data}
             # print(meta_dict['sents'])
 
             for opt in opts:
