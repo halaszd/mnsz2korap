@@ -1,0 +1,334 @@
+#! /usr/bin/env python3
+
+from bs4 import BeautifulSoup
+import os
+import argparse
+from glob import glob
+import re
+# from time import gmtime, strftime
+
+"""
+    11 oszlop van. (TSV)
+
+      1 word        szóalak
+      2 lemma       szótő
+      3 msd         morfoszintaktikai leírás
+      4 ctag        (figyelmen kívül hagyandó)
+      5 ana         részletes morfológiai elemzés
+      6 word_cv     szóalak CV-váza
+      7 word_syll   szóalak szótagszáma
+      8 lemma_cv    szótő CV-váza
+      9 lemma_syll  szótő szótagszáma
+     10 word_phon   szóalak fonetikai reprezentációja
+     11 lemma_phon  szótő fonetikai reprezentációja
+
+    BEMENET: no_ske-t használom bemenetként.
+    <doc file ="file" style="style", region="region">
+        <div type="type">
+            <head rend="rend">
+                <p> ??
+                   <byline rend="rend"> ??
+                        <s>
+                            word->lemma->msd->ctag->ana->word_cv->word_syll->lemma_cv->lemma_syll->word_phon->lemma_phon
+                            ..
+                            ..
+                            </g>
+                        </s>
+                    </byline>
+                </p>
+            </head>
+        </div>
+    </doc>
+
+    KIMENET (morpho.xml):
+    <span id="s89" from="657" to="668" l="4">
+      <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+        <f name="lex">
+          <fs>
+            <f name="lemma">módosítható</f>
+            <f name="pos">MN.NOM</f>
+            <f name="msd">compound=n;;hyphenated=n;;stem=mód::FN;;morphemes=ít::_FAK ZERO::NOM os::_SKEP ható::_HATO;;mboundary=mód+os+ít+ható</f>
+          </fs>
+        </f>
+      </fs>
+    </span>
+    """
+
+
+def write(outp, ext):
+    # {'anl':soup, 'xmlname':xmlname}, parent_doc_nampts, child_docname
+    for outpf in outp:
+        parent_dir = ''.join(outpf[1])
+        child_dir = outpf[2]
+        # os.makedirs(parent_dir, exist_ok=True)
+        anl_folder = outpf[0]['anl_folder']
+        os.makedirs(os.path.join(parent_dir, child_dir, anl_folder), exist_ok=True)
+        # os.makedirs(child_dir, exist_ok=True)
+        with open(os.path.join(parent_dir, child_dir, anl_folder, os.path.splitext(outpf[0]['xmlname'])[0] + ext),
+                  "w", encoding="utf-8", newline="\n") as f:
+            f.write(outpf[0]['anl'].prettify())
+
+
+def read(files):
+    for fl in files:
+        # with open(fl, encoding="utf8") as f:
+        with open(fl, encoding="latin2") as f:
+            yield os.path.basename(fl), f.read()
+
+
+def get_prev_word(i, j, curr_ls, compl_ls):
+    prev_word = None
+    if j > 0:
+        prev_word = curr_ls[j-1]['word']
+    elif i > 0:
+        prev_word = compl_ls[i-1][-1]['word']
+    return prev_word
+
+
+def gen_analyzed_xml(meta_dict, opt):
+    """
+    gen. options:
+        - header: metadata XML of analyzed text
+        - data: XML of raw text
+        -(sentences: XML of boundaries of sentences
+        - paragraphs): XML of boundaries of paragraphs
+        - word: XML of boundaries of words
+        - lemma: XML of lemmas
+        - pos: XML of lemmas + pos (msd)
+        - ana: XML of lemmas + pos (msd) + ana
+        - word_cv: XML of lemmas + word_cv
+        - word_syll: XML of lemmas + word_syll
+        - lemma_cv: XML of lemmas + lemma_cv
+        - lemma_syll: XML of lemmas + lemma_syll
+        - word_phon: XML of lemmas + word_phon
+        - lemma_phon: XML of lemmas + lemma_phon
+    """
+    opt_dict = {'header': (None, 'header', ''),
+                'data': (None, 'data', ''),
+                'sentences': (None, 'sentences', 'base'),
+                'paragraphs': (None, 'paragraphs', 'base'),
+                'word': (None, 'tokens', 'to_be_named'),
+                'lemma': (('lemma',), 'lemmas', 'to_be_named'),
+                'pos': (('word', 'lemma', 'pos'), 'part-of-speech', 'to_be_named'),
+                'ana': (('lemma', 'pos', 'ana'), 'morpho', 'to_be_named'),
+                'word_cv': (('word', 'word_cv'), 'word_cv', 'to_be_named'),
+                'word_syll': (('word', 'word_syll'), 'word_syll', 'to_be_named'),
+                'lemma_cv': (('lemma', 'lemma_cv'), 'lemma_cv', 'to_be_named'),
+                'lemma_syll': (('lemma', 'lemma_syll'), 'lemma_syll', 'to_be_named'),
+                'word_phon': (('word', 'word_phon'), 'word_phon', 'to_be_named'),
+                'lemma_phon': (('lemma', 'lemma_phon'), 'lemma_phon', 'to_be_named')}
+
+    soup = BeautifulSoup(
+        '<?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>',
+        features='xml')
+
+    anl_types = opt_dict[opt][0]
+    xmlname = opt_dict[opt][1]
+    anl_folder = opt_dict[opt][2]
+    from_index = 0
+    to_index = 0
+    iden = 0
+    sents_or_pgraphs = meta_dict['sents' if opt != 'paragraphs' else 'pgraphs']
+    pro_not = ['(', '[', '{', '\'', '"']
+    pre_not = ['!', ')', '.', ',', ':', ';', '?', ']', '}']
+
+    # TODO: header és data nincs megoldva, csak továbbadja őket írásra (a semmit)
+    # TODO: a <g/> azt jelenti, hogy nincs space
+    # TODO: a header-hez kelleni fog az mxml, sajnos!
+    if opt == 'header' or opt == 'data':
+        return {'anl': soup, 'xmlname': xmlname, 'anl_folder': anl_folder}
+
+    soup.append(soup.new_tag('layer', attrs={'docid': meta_dict['fname'],
+                                             'xmlns': 'http://ids-mannheim.de/ns/KorAP',
+                                             'version': 'KorAP-0.4'}))
+    span_list = soup.new_tag('spanList')
+    for i, s_or_p in enumerate(sents_or_pgraphs):
+        diff = -1
+
+        for j, word in enumerate(s_or_p):
+            prev_word = get_prev_word(i, j, s_or_p, sents_or_pgraphs)
+            if prev_word in pro_not or word['word'] in pre_not:
+                from_index -= 1
+                diff -= 1
+
+            to_index = from_index + len(word['word'])
+            diff += len(word['word'])+1
+
+            # tag+number --> lowest the number the higher in hierarchy it is.
+            if opt not in ('paragraphs', 'sentences', 'header', 'data'):
+                span = soup.new_tag('span', attrs={'id': 's{}'.format(iden),
+                                                   'from': str(from_index),
+                                                   'to': str(to_index)})
+                if anl_types is not None:
+                    # 1. szint
+                    fs1 = soup.new_tag('fs', attrs={'type': 'lex',
+                                                    'xmlns': 'http://www.tei-c.org/ns/1.0'})
+                    # 2. szint
+                    f2 = soup.new_tag('f', attrs={'name': 'lex'})
+                    # 3. szint
+                    fs3 = soup.new_tag('fs')
+                    for anl in anl_types:
+                        # 4.szint: bármennyi következhet egymásután
+                        f4 = soup.new_tag('f', attrs={'name': anl})
+                        f4.string = s_or_p[j][anl]
+                        fs3.append(f4)
+
+                    span.append(fs1)
+                    fs1.append(f2)
+                    f2.append(fs3)
+                span_list.append(span)
+
+            from_index = to_index + 1
+            iden += 1
+
+        if opt == 'paragraphs' or opt == 'sentences':
+            span = soup.new_tag('span', attrs={'from': str(to_index - diff),
+                                               'to': str(to_index)})
+            span_list.append(span)
+    soup.layer.append(span_list)
+    return {'anl': soup, 'xmlname': xmlname, 'anl_folder': anl_folder}
+
+
+def gen_docname(num_of_doc, i):
+    i_str = str(i + 1)
+    num_of_doc = num_of_doc[0:-len(i_str)] + i_str
+    return num_of_doc
+
+
+def get_data(div):
+    pat_cut_space = re.compile(r' ?NoSpace ?')
+    data = []
+    for s_tag in div.find_all('s'):
+        s_tag = s_tag.text.split('\n')
+        for line in s_tag:
+            line = line.strip()
+            if line != '':
+                data.append(line.split('\t')[0])
+
+            else:
+                data.append('NoSpace')
+    print(data)
+    return pat_cut_space.sub('', ' '.join(data).replace(' NoSpace NoSpace', ''))
+
+
+def process(inps):
+    # észrevett hiba no-ske-val kapcs-ban: néha nincsen annyi tab -1, amennyi hely az elemzésfajtákhoz kell:
+    # TODO: az első s_tag eleme lemarad az elemzésekből: kijavítani
+    anls_ordered = (
+        'word',
+        'lemma',
+        'pos',
+        'ctag',
+        'ana',
+        'word_cv',
+        'word_syll',
+        'lemma_cv',
+        'lemma_syll',
+        'word_phon',
+        'lemma_phon')
+
+    opts = (
+        'header',
+        'data',
+        'sentences',
+        'paragraphs',
+        'word',
+        'lemma',
+        'pos',
+        'ana',
+        'word_cv',
+        'word_syll',
+        'lemma_cv',
+        'lemma_syll',
+        'word_phon',
+        'lemma_phon')
+
+    parent_doc_nampts = ['DOC', '000000']
+    for i, inp in enumerate(inps):
+        parent_doc_nampts[1] = gen_docname(parent_doc_nampts[1], i)
+        child_docname = '000000'
+        # TODO: (header.xml, data.xml)
+        # TODO: sentences.xml, paragraphs.xml, tokens.xml), (10 féle elemzés) --> megvan, de jó így?
+        # TODO most csak egy divet dolgoz fel. Az összeset dolgozza fel és yield-eljen.
+        soup = BeautifulSoup(inp[1], 'xml')
+        doc = soup.find('doc')
+        divs = doc.find_all({'div'})
+        fname = doc['file']
+        genre = doc['style']
+        region = doc['region']
+        # ha vége van egy divnek --> yield kimenet --> kimenet kiírása külön mappába, amiben külön mappában az elemzések
+        for j, div in enumerate(divs):  # a teszt miatt divs[-1], mert egyelőre nem yield-et használok
+            child_docname = gen_docname(child_docname, j)
+            sents = []
+            pgraphs = []
+            # szöveg típus
+            txt_type = div['type']
+            # cím
+            txt_title = " ".join([ln.split('\t')[0] for ln in div.find('head').text.split('\n')])
+            data = get_data(div)
+            print(data)
+            for p_tag in div.find_all('p'):  # TODO az első s_tag nincs p-be ágyazva, azért marad le.
+                pgraph = []
+                for s_tag in p_tag.find_all('s'):
+                    sent = []
+                    s_tag = s_tag.text.split('\n')
+                    for line in s_tag:
+                        line = line.strip()
+                        if line != '':
+                            # [word, lemma, msd, ctag, ana, word_cv, word_syll, lemma_cv, lemma_syll, word_phon, lemma_phon]
+                            anls = {}
+                            k_count = 0
+                            for k, anl in enumerate(line.split('\t')):
+                                k_count = k
+                                anls[anls_ordered[k]] = anl
+                            if k_count < 10:
+                                start = 11 - (10 - k_count)
+                                for l in range(start, len(anls_ordered)):
+                                    anls[anls_ordered[l]] = '__NA__'
+
+                            sent.append(anls)
+                            pgraph.append(anls)
+                    sents.append(sent)
+                pgraphs.append(pgraph)
+
+            meta_dict = {'fname': fname, 'genre': genre, 'region': region, 'txt_type': txt_type,
+                         'txt_title': txt_title, 'pgraphs': pgraphs, 'sents': sents}
+
+            for opt in opts:
+                if opt:  # header és data: még nincsen írva rájuk script, de kellenek
+                    yield gen_analyzed_xml(meta_dict, opt), parent_doc_nampts, child_docname  # TODO: adja vissza a meta_dict-et is
+
+
+def get_args(basp):
+    """
+    :param basp: folder of output
+    :return: 1: folder of output, 2: folder of input
+    """
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('filepath', help='Path to file', nargs="+")
+    parser.add_argument('-d', '--directory', help='Path of output file(s)', nargs='?')
+
+    args = parser.parse_args()
+    files = []
+
+    if args.filepath:
+        for p in args.filepath:
+            poss_files = glob(p)
+            poss_files = [os.path.abspath(x) for x in poss_files]
+            files += poss_files
+
+    if args.directory:
+        basp = os.path.abspath(args.directory)
+
+    return {'dir': basp, 'files': files}
+
+
+def main():
+    args = get_args('outp')
+    inp = read(args['files'])
+    outp = process(inp)
+    write(outp, '.xml')
+
+if __name__ == '__main__':
+    main()
