@@ -130,7 +130,9 @@ def gen_analyzed_xml(meta_dict, opt):
         txt = soup.new_tag('text')
         txt.string = meta_dict['data']
         meta = soup.new_tag('metadata', file='metadata.xml')
-        raw_text = soup.new_tag('raw_text', attrs={'docid': 'valami', 'xmlns': 'http://ids-mannheim.de/ns/KorAP'})
+        raw_text = soup.new_tag('raw_text',
+                                attrs={'docid': '{}.{}'.format(''.join(meta_dict['parent_doc_nampts']), meta_dict['child_docname']),
+                                'xmlns': 'http://ids-mannheim.de/ns/KorAP'})
         raw_text.append(meta)
         raw_text.append(txt)
         soup.append(raw_text)
@@ -148,8 +150,6 @@ def gen_analyzed_xml(meta_dict, opt):
             if j != 0 and word[0] is True:
                 from_index -= 1
                 diff -= 1
-            print(word[0])
-            print(word[1]['word'])
             to_index = from_index + len(word[1]['word'])
             diff += len(word[1]['word'])+1
 
@@ -294,12 +294,13 @@ def process(inps):
                 pgraphs.append(pgraph)
 
             meta_dict = {'fname': fname, 'genre': genre, 'region': region, 'txt_type': txt_type,
-                         'txt_title': txt_title, 'pgraphs': pgraphs, 'sents': sents, 'data': data}
+                         'txt_title': txt_title, 'pgraphs': pgraphs, 'sents': sents, 'data': data,
+                         'parent_doc_nampts': parent_doc_nampts, 'child_docname': child_docname}
             # print(meta_dict['sents'])
 
             for opt in opts:
                 if opt:  # header és data: még nincsen írva rájuk script, de kellenek
-                    yield gen_analyzed_xml(meta_dict, opt), parent_doc_nampts, child_docname
+                    yield gen_analyzed_xml(meta_dict, opt), meta_dict['parent_doc_nampts'], meta_dict['child_docname']
 
 
 def get_args(basp):
