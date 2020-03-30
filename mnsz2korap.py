@@ -76,15 +76,6 @@ def read(files):
             yield os.path.basename(fl), f.read()
 
 
-def get_prev_word(i, j, curr_ls, compl_ls):
-    prev_word = None
-    if j > 0:
-        prev_word = curr_ls[j-1]['word']
-    elif i > 0:
-        prev_word = compl_ls[i-1][-1]['word']
-    return prev_word
-
-
 def gen_analyzed_xml(meta_dict, opt):
     """
     gen. options:
@@ -129,8 +120,6 @@ def gen_analyzed_xml(meta_dict, opt):
     to_index = 0
     iden = 0
     sents_or_pgraphs = meta_dict['sents' if opt != 'paragraphs' else 'pgraphs']
-    pro_not = ['(', '[', '{', '\'', '"']
-    pre_not = ['!', ')', '.', ',', ':', ';', '?', ']', '}']
 
     # TODO: header és data nincs megoldva, csak továbbadja őket írásra. a header-hez kelleni fog az mxml, sajnos!
     if opt == 'header' or opt == 'data':
@@ -145,13 +134,14 @@ def gen_analyzed_xml(meta_dict, opt):
 
         for j, word in enumerate(s_or_p):
             # TODO: a <g/> szerint döntse el, hogy van e space vagy sem, ne a pro_not és pre_not alapján
-            prev_word = get_prev_word(i, j, s_or_p, sents_or_pgraphs)
-            if prev_word in pro_not or word['word'] in pre_not:
+            # TODO sentences.xml és a paragraphs.xml végindexe nem mindig egyezik.
+            if j != 0 and word[0] is True:
                 from_index -= 1
                 diff -= 1
-
-            to_index = from_index + len(word['word'])
-            diff += len(word['word'])+1
+            print(word[0])
+            print(word[1]['word'])
+            to_index = from_index + len(word[1]['word'])
+            diff += len(word[1]['word'])+1
 
             # tag+number --> lowest the number the higher in hierarchy it is.
             if opt not in ('paragraphs', 'sentences', 'header', 'data'):
@@ -169,7 +159,7 @@ def gen_analyzed_xml(meta_dict, opt):
                     for anl in anl_types:
                         # 4.szint: bármennyi következhet egymásután
                         f4 = soup.new_tag('f', attrs={'name': anl})
-                        f4.string = s_or_p[j][anl]
+                        f4.string = word[1][anl]
                         fs3.append(f4)
 
                     span.append(fs1)
@@ -204,10 +194,12 @@ def get_data(div):
             if line != '':
                 data.append(line.split('\t')[0])
 
+            elif len(data) > 0 and data[-1] == 'NoSpace':
+                del data[-1]
             else:
                 data.append('NoSpace')
-    print(data)
-    return pat_cut_space.sub('', ' '.join(data).replace(' NoSpace NoSpace', ''))
+    # print(data)
+    return pat_cut_space.sub('', ' '.join(data))
 
 
 def process(inps):
@@ -252,6 +244,7 @@ def process(inps):
         fname = doc['file']
         genre = doc['style']
         region = doc['region']
+        nospace = False
         # ha vége van egy divnek --> yield kimenet --> kimenet kiírása külön mappába, amiben külön mappában az elemzések
         for j, div in enumerate(divs):  # a teszt miatt divs[-1], mert egyelőre nem yield-et használok
             child_docname = gen_docname(child_docname, j)
@@ -262,7 +255,6 @@ def process(inps):
             # cím
             txt_title = " ".join([ln.split('\t')[0] for ln in div.find('head').text.split('\n')])
             data = get_data(div)
-            print(data)
             for p_tag in div.find_all('p'):  # TODO a <head>.text-te hozzáadni
                 pgraph = []
                 for s_tag in p_tag.find_all('s'):
@@ -281,18 +273,23 @@ def process(inps):
                                 start = 11 - (10 - k_count)
                                 for l in range(start, len(anls_ordered)):
                                     anls[anls_ordered[l]] = '__NA__'
+                            sent.append((nospace, anls))
+                            pgraph.append((nospace, anls))
+                            if nospace:
+                                nospace = False
+                        else:
+                            nospace = True
 
-                            sent.append(anls)
-                            pgraph.append(anls)
                     sents.append(sent)
                 pgraphs.append(pgraph)
 
             meta_dict = {'fname': fname, 'genre': genre, 'region': region, 'txt_type': txt_type,
                          'txt_title': txt_title, 'pgraphs': pgraphs, 'sents': sents}
+            # print(meta_dict['sents'])
 
             for opt in opts:
                 if opt:  # header és data: még nincsen írva rájuk script, de kellenek
-                    yield gen_analyzed_xml(meta_dict, opt), parent_doc_nampts, child_docname  # TODO: adja vissza a meta_dict-et is
+                    yield gen_analyzed_xml(meta_dict, opt), parent_doc_nampts, child_docname
 
 
 def get_args(basp):
