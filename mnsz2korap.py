@@ -121,10 +121,12 @@ def gen_analyzed_xml(meta_dict, opt):
     iden = 0
     sents_or_pgraphs = meta_dict['sents' if opt != 'paragraphs' else 'pgraphs']
 
-    # TODO: header és data nincs megoldva, csak továbbadja őket írásra. a header-hez kelleni fog az mxml, sajnos!
+    # TODO: külön függvénybe a header, data, sentences és paragraphs, 10 elemzés legenerálását
+    # TODO: header nincs megoldva, csak továbbadja őket írásra. a header-hez kelleni fog az mxml, sajnos!
     if opt == 'header':
         return {'anl': soup, 'xmlname': xmlname, 'anl_folder': anl_folder}
     if opt == 'data':
+        # TODO: docid normális megadása
         txt = soup.new_tag('text')
         txt.string = meta_dict['data']
         meta = soup.new_tag('metadata', file='metadata.xml')
@@ -142,7 +144,6 @@ def gen_analyzed_xml(meta_dict, opt):
         diff = -1
 
         for j, word in enumerate(s_or_p):
-            # TODO: a <g/> szerint döntse el, hogy van e space vagy sem, ne a pro_not és pre_not alapján
             # TODO sentences.xml és a paragraphs.xml végindexe nem mindig egyezik.
             if j != 0 and word[0] is True:
                 from_index -= 1
@@ -264,7 +265,7 @@ def process(inps):
             # cím
             txt_title = " ".join([ln.split('\t')[0] for ln in div.find('head').text.split('\n')])
             data = get_data(div)
-            for p_tag in div.find_all('p'):  # TODO a <head>.text-te hozzáadni
+            for p_tag in div.find_all('p'):
                 pgraph = []
                 for s_tag in p_tag.find_all('s'):
                     sent = []
