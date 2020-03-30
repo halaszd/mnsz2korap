@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<layer docid="lit_er_ambrus_l.s1.clean" version="KorAP-0.4" xmlns="http://ids-mannheim.de/ns/KorAP">
+ <spanList>
+  <span from="0" id="s0" to="6"/>
+  <span from="7" id="s1" to="12"/>
+  <span from="13" id="s2" to="19"/>
+  <span from="19" id="s3" to="20"/>
+  <span from="21" id="s4" to="30"/>
+  <span from="30" id="s5" to="31"/>
+  <span from="32" id="s6" to="40"/>
+  <span from="41" id="s7" to="48"/>
+  <span from="49" id="s8" to="55"/>
+  <span from="56" id="s9" to="59"/>
+  <span from="59" id="s10" to="60"/>
+  <span from="61" id="s11" to="65"/>
+  <span from="66" id="s12" to="69"/>
+  <span from="70" id="s13" to="83"/>
+  <span from="84" id="s14" to="93"/>
+  <span from="94" id="s15" to="102"/>
+  <span from="103" id="s16" to="104"/>
+  <span from="105" id="s17" to="110"/>
+  <span from="111" id="s18" to="119"/>
+  <span from="119" id="s19" to="120"/>
+  <span from="121" id="s20" to="135"/>
+  <span from="135" id="s21" to="136"/>
+  <span from="137" id="s22" to="144"/>
+  <span from="145" id="s23" to="150"/>
+  <span from="151" id="s24" to="159"/>
+  <span from="160" id="s25" to="161"/>
+  <span from="162" id="s26" to="167"/>
+  <span from="168" id="s27" to="171"/>
+  <span from="172" id="s28" to="173"/>
+  <span from="174" id="s29" to="184"/>
+  <span from="184" id="s30" to="185"/>
+  <span from="186" id="s31" to="194"/>
+  <span from="195" id="s32" to="199"/>
+  <span from="200" id="s33" to="204"/>
+  <span from="205" id="s34" to="210"/>
+  <span from="211" id="s35" to="218"/>
+  <span from="219" id="s36" to="220"/>
+  <span from="221" id="s37" to="225"/>
+  <span from="225" id="s38" to="226"/>
+  <span from="227" id="s39" to="228"/>
+  <span from="228" id="s40" to="232"/>
+  <span from="232" id="s41" to="233"/>
+ </spanList>
+</layer>

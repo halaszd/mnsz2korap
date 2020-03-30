@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<layer docid="lit_er_ambrus_l.s1.clean" version="KorAP-0.4" xmlns="http://ids-mannheim.de/ns/KorAP">
+ <spanList>
+  <span from="0" id="s0" to="11"/>
+  <span from="12" id="s1" to="18"/>
+  <span from="19" id="s2" to="21"/>
+  <span from="22" id="s3" to="23"/>
+  <span from="24" id="s4" to="28"/>
+  <span from="28" id="s5" to="29"/>
+  <span from="30" id="s6" to="41"/>
+  <span from="41" id="s7" to="42"/>
+  <span from="43" id="s8" to="45"/>
+  <span from="46" id="s9" to="54"/>
+  <span from="55" id="s10" to="58"/>
+  <span from="59" id="s11" to="60"/>
+  <span from="61" id="s12" to="74"/>
+  <span from="74" id="s13" to="75"/>
+  <span from="76" id="s14" to="80"/>
+  <span from="81" id="s15" to="88"/>
+  <span from="89" id="s16" to="100"/>
+  <span from="101" id="s17" to="106"/>
+  <span from="107" id="s18" to="111"/>
+  <span from="112" id="s19" to="113"/>
+  <span from="114" id="s20" to="121"/>
+  <span from="121" id="s21" to="122"/>
+ </spanList>
+</layer>
