@@ -132,9 +132,7 @@ def gen_analyzed_xml(meta_dict, opt):
     pro_not = ['(', '[', '{', '\'', '"']
     pre_not = ['!', ')', '.', ',', ':', ';', '?', ']', '}']
 
-    # TODO: header és data nincs megoldva, csak továbbadja őket írásra (a semmit)
-    # TODO: a <g/> azt jelenti, hogy nincs space
-    # TODO: a header-hez kelleni fog az mxml, sajnos!
+    # TODO: header és data nincs megoldva, csak továbbadja őket írásra. a header-hez kelleni fog az mxml, sajnos!
     if opt == 'header' or opt == 'data':
         return {'anl': soup, 'xmlname': xmlname, 'anl_folder': anl_folder}
 
@@ -146,6 +144,7 @@ def gen_analyzed_xml(meta_dict, opt):
         diff = -1
 
         for j, word in enumerate(s_or_p):
+            # TODO: a <g/> szerint döntse el, hogy van e space vagy sem, ne a pro_not és pre_not alapján
             prev_word = get_prev_word(i, j, s_or_p, sents_or_pgraphs)
             if prev_word in pro_not or word['word'] in pre_not:
                 from_index -= 1
@@ -213,7 +212,6 @@ def get_data(div):
 
 def process(inps):
     # észrevett hiba no-ske-val kapcs-ban: néha nincsen annyi tab -1, amennyi hely az elemzésfajtákhoz kell:
-    # TODO: az első s_tag eleme lemarad az elemzésekből: kijavítani
     anls_ordered = (
         'word',
         'lemma',
@@ -247,9 +245,7 @@ def process(inps):
     for i, inp in enumerate(inps):
         parent_doc_nampts[1] = gen_docname(parent_doc_nampts[1], i)
         child_docname = '000000'
-        # TODO: (header.xml, data.xml)
-        # TODO: sentences.xml, paragraphs.xml, tokens.xml), (10 féle elemzés) --> megvan, de jó így?
-        # TODO most csak egy divet dolgoz fel. Az összeset dolgozza fel és yield-eljen.
+        # TODO: a header tag s-je (a cím) lemarad az elemzésekből: kijavítani
         soup = BeautifulSoup(inp[1], 'xml')
         doc = soup.find('doc')
         divs = doc.find_all({'div'})
@@ -267,7 +263,7 @@ def process(inps):
             txt_title = " ".join([ln.split('\t')[0] for ln in div.find('head').text.split('\n')])
             data = get_data(div)
             print(data)
-            for p_tag in div.find_all('p'):  # TODO az első s_tag nincs p-be ágyazva, azért marad le.
+            for p_tag in div.find_all('p'):  # TODO a <head>.text-te hozzáadni
                 pgraph = []
                 for s_tag in p_tag.find_all('s'):
                     sent = []
@@ -329,6 +325,7 @@ def main():
     inp = read(args['files'])
     outp = process(inp)
     write(outp, '.xml')
+
 
 if __name__ == '__main__':
     main()
