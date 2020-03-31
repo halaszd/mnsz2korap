@@ -279,8 +279,7 @@ def process(inps):
                          'txt_title': txt_title, 'txt': txt, 'data': data,
                          'parent_doc_nampts': parent_doc_nampts, 'child_docname': child_docname}
             for opt in opts:
-                if opt:
-                    yield gen_xml(meta_dict, opt), meta_dict['parent_doc_nampts'], meta_dict['child_docname']
+                yield gen_xml(meta_dict, opt), meta_dict['parent_doc_nampts'], meta_dict['child_docname']
 
 
 def get_args(basp):
