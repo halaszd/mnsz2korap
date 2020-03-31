@@ -76,7 +76,84 @@ def read(files):
             yield os.path.basename(fl), f.read()
 
 
-def gen_analyzed_xml(meta_dict, opt):
+def gen_header_xml():
+    soup = BeautifulSoup(
+        '<?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>',
+        features='xml')
+    return soup
+
+
+def gen_data_xml(data, docid_one, docid_two):
+    soup = BeautifulSoup(
+        '<?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>',
+        features='xml')
+    txt = soup.new_tag('text')
+    txt.string = data
+    meta = soup.new_tag('metadata', file='metadata.xml')
+    raw_text = soup.new_tag('raw_text',
+                            attrs={'docid': '{}.{}'.format(docid_one, docid_two),
+                                   'xmlns': 'http://ids-mannheim.de/ns/KorAP'})
+    raw_text.append(meta)
+    raw_text.append(txt)
+    soup.append(raw_text)
+    return soup
+
+
+def gen_annotated_xml(anl_types, fname, txt, opt):
+    soup = BeautifulSoup(
+        '<?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>',
+        features='xml')
+    from_index_sp = 0
+    from_index = 0
+    to_index = 0
+    iden = 0
+    soup.append(soup.new_tag('layer', attrs={'docid': fname,
+                                             'xmlns': 'http://ids-mannheim.de/ns/KorAP',
+                                             'version': 'KorAP-0.4'}))
+    span_list = soup.new_tag('spanList')
+    for i, word in enumerate(txt):
+        if i != 0 and txt[i - 1] not in ['SSTOP', 'PSTOP'] and word[0] is True:
+            from_index -= 1
+        if word == 'SSTOP' or word == 'PSTOP':
+            if (word == 'SSTOP' and opt == 'sentences') or (word == 'PSTOP' and opt == 'paragraphs'):
+                span = soup.new_tag('span', attrs={'from': str(from_index_sp),
+                                                   'to': str(to_index)})
+                span_list.append(span)
+                from_index_sp = to_index + 1
+            continue
+
+        to_index = from_index + len(word[1]['word'])
+
+        # tag+number --> lowest the number the higher in hierarchy it is.
+        if opt not in ('paragraphs', 'sentences', 'header', 'data'):
+            span = soup.new_tag('span', attrs={'id': 's{}'.format(iden),
+                                               'from': str(from_index),
+                                               'to': str(to_index)})
+            if anl_types is not None:
+                # 1. szint
+                fs1 = soup.new_tag('fs', attrs={'type': 'lex', 'xmlns': 'http://www.tei-c.org/ns/1.0'})
+                # 2. szint
+                f2 = soup.new_tag('f', attrs={'name': 'lex'})
+                # 3. szint
+                fs3 = soup.new_tag('fs')
+                for anl in anl_types:
+                    # 4.szint: bármennyi következhet egymásután
+                    f4 = soup.new_tag('f', attrs={'name': anl})
+                    f4.string = word[1][anl]
+                    fs3.append(f4)
+
+                span.append(fs1)
+                fs1.append(f2)
+                f2.append(fs3)
+            span_list.append(span)
+
+        from_index = to_index + 1
+        iden += 1
+    soup.layer.append(span_list)
+    return soup
+
+
+def gen_xml(meta_dict, opt):
     """
     gen. options:
         - header: metadata XML of analyzed text
@@ -94,6 +171,7 @@ def gen_analyzed_xml(meta_dict, opt):
         - word_phon: XML of lemmas + word_phon
         - lemma_phon: XML of lemmas + lemma_phon
     """
+
     opt_dict = {'header': (None, 'header', ''),
                 'data': (None, 'data', ''),
                 'sentences': (None, 'sentences', 'base'),
@@ -109,83 +187,18 @@ def gen_analyzed_xml(meta_dict, opt):
                 'word_phon': (('word', 'word_phon'), 'word_phon', 'noske'),
                 'lemma_phon': (('lemma', 'lemma_phon'), 'lemma_phon', 'noske')}
 
-    soup = BeautifulSoup(
-        '<?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>',
-        features='xml')
-
-    anl_types = opt_dict[opt][0]
     xmlname = opt_dict[opt][1]
     anl_folder = opt_dict[opt][2]
-    from_index = 0
-    to_index = 0
-    iden = 0
-    sents_or_pgraphs = meta_dict['sents' if opt != 'paragraphs' else 'pgraphs']
 
-    # TODO: külön függvénybe a header, data, sentences és paragraphs, 10 elemzés legenerálását
     # TODO: header nincs megoldva, csak továbbadja őket írásra. a header-hez kelleni fog az mxml, sajnos!
     # TODO: metaadatok a headerhez: oliphant.nytud.hu:/store/share/projects/mnsz2/xml_clean/
     if opt == 'header':
-        return {'anl': soup, 'xmlname': xmlname, 'anl_folder': anl_folder}
-    if opt == 'data':
-        txt = soup.new_tag('text')
-        txt.string = meta_dict['data']
-        meta = soup.new_tag('metadata', file='metadata.xml')
-        raw_text = soup.new_tag('raw_text',
-                                attrs={'docid': '{}.{}'.format(''.join(meta_dict['parent_doc_nampts']), meta_dict['child_docname']),
-                                'xmlns': 'http://ids-mannheim.de/ns/KorAP'})
-        raw_text.append(meta)
-        raw_text.append(txt)
-        soup.append(raw_text)
-        return {'anl': soup, 'xmlname': xmlname, 'anl_folder': anl_folder}
-
-    soup.append(soup.new_tag('layer', attrs={'docid': meta_dict['fname'],
-                                             'xmlns': 'http://ids-mannheim.de/ns/KorAP',
-                                             'version': 'KorAP-0.4'}))
-    span_list = soup.new_tag('spanList')
-    for i, s_or_p in enumerate(sents_or_pgraphs):
-        diff = -1
-
-        for j, word in enumerate(s_or_p):
-            # TODO sentences.xml és a paragraphs.xml végindexe nem mindig egyezik.
-            if j != 0 and word[0] is True:
-                from_index -= 1
-                diff -= 1
-            to_index = from_index + len(word[1]['word'])
-            diff += len(word[1]['word'])+1
-
-            # tag+number --> lowest the number the higher in hierarchy it is.
-            if opt not in ('paragraphs', 'sentences', 'header', 'data'):
-                span = soup.new_tag('span', attrs={'id': 's{}'.format(iden),
-                                                   'from': str(from_index),
-                                                   'to': str(to_index)})
-                if anl_types is not None:
-                    # 1. szint
-                    fs1 = soup.new_tag('fs', attrs={'type': 'lex',
-                                                    'xmlns': 'http://www.tei-c.org/ns/1.0'})
-                    # 2. szint
-                    f2 = soup.new_tag('f', attrs={'name': 'lex'})
-                    # 3. szint
-                    fs3 = soup.new_tag('fs')
-                    for anl in anl_types:
-                        # 4.szint: bármennyi következhet egymásután
-                        f4 = soup.new_tag('f', attrs={'name': anl})
-                        f4.string = word[1][anl]
-                        fs3.append(f4)
-
-                    span.append(fs1)
-                    fs1.append(f2)
-                    f2.append(fs3)
-                span_list.append(span)
-
-            from_index = to_index + 1
-            iden += 1
-
-        if opt == 'paragraphs' or opt == 'sentences':
-            span = soup.new_tag('span', attrs={'from': str(to_index - diff),
-                                               'to': str(to_index)})
-            span_list.append(span)
-    soup.layer.append(span_list)
-    return {'anl': soup, 'xmlname': xmlname, 'anl_folder': anl_folder}
+        anl = gen_header_xml()
+    elif opt == 'data':
+        anl = gen_data_xml(meta_dict['data'], ''.join(meta_dict['parent_doc_nampts']), meta_dict['child_docname'])
+    else:
+        anl = gen_annotated_xml(opt_dict[opt][0], meta_dict['fname'], meta_dict['txt'], opt)
+    return {'anl': anl, 'xmlname': xmlname, 'anl_folder': anl_folder}
 
 
 def gen_docname(num_of_doc, i):
@@ -254,18 +267,17 @@ def process(inps):
         fname = doc['file']
         genre = doc['style']
         region = doc['region']
-        nospace = False
         # ha vége van egy divnek --> yield kimenet --> kimenet kiírása külön mappába, amiben külön mappában az elemzések
         for j, div in enumerate(divs):  # a teszt miatt divs[-1], mert egyelőre nem yield-et használok
             child_docname = gen_docname(child_docname, j)
-            sents = []
-            pgraphs = []
+            txt = []
             # szöveg típus
             txt_type = div['type']
             # cím
             txt_title = " ".join([ln.split('\t')[0] for ln in div.find('head').text.split('\n')])
             data = get_data(div)
             for p_tag in div.find_all('p'):
+                nospace = False
                 pgraph = []
                 for s_tag in p_tag.find_all('s'):
                     sent = []
@@ -283,24 +295,23 @@ def process(inps):
                                 start = 11 - (10 - k_count)
                                 for l in range(start, len(anls_ordered)):
                                     anls[anls_ordered[l]] = '__NA__'
-                            sent.append((nospace, anls))
-                            pgraph.append((nospace, anls))
+                            txt.append((nospace, anls))
                             if nospace:
                                 nospace = False
                         else:
                             nospace = True
 
-                    sents.append(sent)
-                pgraphs.append(pgraph)
+                    txt.append("SSTOP")
+                txt.append("PSTOP")
 
             meta_dict = {'fname': fname, 'genre': genre, 'region': region, 'txt_type': txt_type,
-                         'txt_title': txt_title, 'pgraphs': pgraphs, 'sents': sents, 'data': data,
+                         'txt_title': txt_title, 'txt': txt, 'data': data,
                          'parent_doc_nampts': parent_doc_nampts, 'child_docname': child_docname}
             # print(meta_dict['sents'])
 
             for opt in opts:
                 if opt:  # header és data: még nincsen írva rájuk script, de kellenek
-                    yield gen_analyzed_xml(meta_dict, opt), meta_dict['parent_doc_nampts'], meta_dict['child_docname']
+                    yield gen_xml(meta_dict, opt), meta_dict['parent_doc_nampts'], meta_dict['child_docname']
 
 
 def get_args(basp):
