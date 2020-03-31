@@ -23,15 +23,16 @@ import re
 
 
 def write(outp, ext):
-    # {'xml':soup, 'xmlname':xmlname}, parent_doc_nampts, child_docname
+    # TODO: a korpusz mappa alatt legyen az összes
     for outpf in outp:
+        corpora_dir = outpf[3]
         parent_dir = ''.join(outpf[1])
         child_dir = outpf[2]
         # os.makedirs(parent_dir, exist_ok=True)
-        anl_folder = outpf[0]['annot_folder']
-        os.makedirs(os.path.join(parent_dir, child_dir, anl_folder), exist_ok=True)
+        annot_folder = outpf[0]['annot_folder']
+        os.makedirs(os.path.join(corpora_dir, parent_dir, child_dir, annot_folder), exist_ok=True)
         # os.makedirs(child_dir, exist_ok=True)
-        with open(os.path.join(parent_dir, child_dir, anl_folder, os.path.splitext(outpf[0]['xmlname'])[0] + ext),
+        with open(os.path.join(corpora_dir, parent_dir, child_dir, annot_folder, os.path.splitext(outpf[0]['xmlname'])[0] + ext),
                   "w", encoding="utf-8", newline="\n") as f:
             f.write(outpf[0]['xml'].prettify())
 
@@ -279,7 +280,7 @@ def process(inps):
                          'txt_title': txt_title, 'txt': txt, 'data': data,
                          'parent_doc_nampts': parent_doc_nampts, 'child_docname': child_docname}
             for opt in opts:
-                yield gen_xml(meta_dict, opt), meta_dict['parent_doc_nampts'], meta_dict['child_docname']
+                yield gen_xml(meta_dict, opt), meta_dict['parent_doc_nampts'], meta_dict['child_docname'], "MNSZ"
 
 
 def get_args(basp):
