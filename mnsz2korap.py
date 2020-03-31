@@ -7,66 +7,33 @@ from glob import glob
 import re
 # from time import gmtime, strftime
 
-"""
-    11 oszlop van. (TSV)
-
-      1 word        szóalak
-      2 lemma       szótő
-      3 msd         morfoszintaktikai leírás
-      4 ctag        (figyelmen kívül hagyandó)
-      5 ana         részletes morfológiai elemzés
-      6 word_cv     szóalak CV-váza
-      7 word_syll   szóalak szótagszáma
-      8 lemma_cv    szótő CV-váza
-      9 lemma_syll  szótő szótagszáma
-     10 word_phon   szóalak fonetikai reprezentációja
-     11 lemma_phon  szótő fonetikai reprezentációja
-
-    BEMENET: no_ske-t használom bemenetként.
-    <doc file ="file" style="style", region="region">
-        <div type="type">
-            <head rend="rend">
-                <p> ??
-                   <byline rend="rend"> ??
-                        <s>
-                            word->lemma->msd->ctag->ana->word_cv->word_syll->lemma_cv->lemma_syll->word_phon->lemma_phon
-                            ..
-                            ..
-                            </g>
-                        </s>
-                    </byline>
-                </p>
-            </head>
-        </div>
-    </doc>
-
-    KIMENET (morpho.xml):
-    <span id="s89" from="657" to="668" l="4">
-      <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
-        <f name="lex">
-          <fs>
-            <f name="lemma">módosítható</f>
-            <f name="pos">MN.NOM</f>
-            <f name="msd">compound=n;;hyphenated=n;;stem=mód::FN;;morphemes=ít::_FAK ZERO::NOM os::_SKEP ható::_HATO;;mboundary=mód+os+ít+ható</f>
-          </fs>
-        </f>
-      </fs>
-    </span>
-    """
+# 11 oszlop van. (TSV)
+#
+# 1 word        szóalak
+# 2 lemma       szótő
+# 3 msd         morfoszintaktikai leírás
+# 4 ctag        (figyelmen kívül hagyandó)
+# 5 ana         részletes morfológiai elemzés
+# 6 word_cv     szóalak CV-váza
+# 7 word_syll   szóalak szótagszáma
+# 8 lemma_cv    szótő CV-váza
+# 9 lemma_syll  szótő szótagszáma
+# 10 word_phon   szóalak fonetikai reprezentációja
+# 11 lemma_phon  szótő fonetikai reprezentációja
 
 
 def write(outp, ext):
-    # {'anl':soup, 'xmlname':xmlname}, parent_doc_nampts, child_docname
+    # {'xml':soup, 'xmlname':xmlname}, parent_doc_nampts, child_docname
     for outpf in outp:
         parent_dir = ''.join(outpf[1])
         child_dir = outpf[2]
         # os.makedirs(parent_dir, exist_ok=True)
-        anl_folder = outpf[0]['anl_folder']
+        anl_folder = outpf[0]['annot_folder']
         os.makedirs(os.path.join(parent_dir, child_dir, anl_folder), exist_ok=True)
         # os.makedirs(child_dir, exist_ok=True)
         with open(os.path.join(parent_dir, child_dir, anl_folder, os.path.splitext(outpf[0]['xmlname'])[0] + ext),
                   "w", encoding="utf-8", newline="\n") as f:
-            f.write(outpf[0]['anl'].prettify())
+            f.write(outpf[0]['xml'].prettify())
 
 
 def read(files):
@@ -99,7 +66,7 @@ def gen_data_xml(data, docid_one, docid_two):
     return soup
 
 
-def gen_annotated_xml(anl_types, fname, txt, opt):
+def gen_annotated_xml(annot_types, fname, txt, opt):
     soup = BeautifulSoup(
         '<?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>',
         features='xml')
@@ -129,17 +96,17 @@ def gen_annotated_xml(anl_types, fname, txt, opt):
             span = soup.new_tag('span', attrs={'id': 's{}'.format(iden),
                                                'from': str(from_index),
                                                'to': str(to_index)})
-            if anl_types is not None:
+            if annot_types is not None:
                 # 1. szint
                 fs1 = soup.new_tag('fs', attrs={'type': 'lex', 'xmlns': 'http://www.tei-c.org/ns/1.0'})
                 # 2. szint
                 f2 = soup.new_tag('f', attrs={'name': 'lex'})
                 # 3. szint
                 fs3 = soup.new_tag('fs')
-                for anl in anl_types:
+                for annot in annot_types:
                     # 4.szint: bármennyi következhet egymásután
-                    f4 = soup.new_tag('f', attrs={'name': anl})
-                    f4.string = word[1][anl]
+                    f4 = soup.new_tag('f', attrs={'name': annot})
+                    f4.string = word[1][annot]
                     fs3.append(f4)
 
                 span.append(fs1)
@@ -188,17 +155,17 @@ def gen_xml(meta_dict, opt):
                 'lemma_phon': (('lemma', 'lemma_phon'), 'lemma_phon', 'noske')}
 
     xmlname = opt_dict[opt][1]
-    anl_folder = opt_dict[opt][2]
+    annot_folder = opt_dict[opt][2]
 
-    # TODO: header nincs megoldva, csak továbbadja őket írásra. a header-hez kelleni fog az mxml, sajnos!
+    # TODO: header nincs megoldva, csak továbbadja írásra
     # TODO: metaadatok a headerhez: oliphant.nytud.hu:/store/share/projects/mnsz2/xml_clean/
     if opt == 'header':
-        anl = gen_header_xml()
+        xml = gen_header_xml()
     elif opt == 'data':
-        anl = gen_data_xml(meta_dict['data'], ''.join(meta_dict['parent_doc_nampts']), meta_dict['child_docname'])
+        xml = gen_data_xml(meta_dict['data'], ''.join(meta_dict['parent_doc_nampts']), meta_dict['child_docname'])
     else:
-        anl = gen_annotated_xml(opt_dict[opt][0], meta_dict['fname'], meta_dict['txt'], opt)
-    return {'anl': anl, 'xmlname': xmlname, 'anl_folder': anl_folder}
+        xml = gen_annotated_xml(opt_dict[opt][0], meta_dict['fname'], meta_dict['txt'], opt)
+    return {'xml': xml, 'xmlname': xmlname, 'annot_folder': annot_folder}
 
 
 def gen_docname(num_of_doc, i):
@@ -221,13 +188,26 @@ def get_data(div):
                 del data[-1]
             else:
                 data.append('NoSpace')
-    # print(data)
     return pat_cut_space.sub('', ' '.join(data))
+
+
+def get_annots(line, annots_ordered):
+    # word,lemma,msd,ctag,ana,word_cv,word_syll,lemma_cv,lemma_syll,word_phon,lemma_phon
+    annots = {}
+    k_count = 0
+    for k, anl in enumerate(line.split('\t')):
+        k_count = k
+        annots[annots_ordered[k]] = anl
+    if k_count < 10:
+        start = 11 - (10 - k_count)
+        for l in range(start, len(annots_ordered)):
+            annots[annots_ordered[l]] = '__NA__'
+    return annots
 
 
 def process(inps):
     # észrevett hiba no-ske-val kapcs-ban: néha nincsen annyi tab -1, amennyi hely az elemzésfajtákhoz kell:
-    anls_ordered = (
+    annots_ordered = (
         'word',
         'lemma',
         'pos',
@@ -257,18 +237,20 @@ def process(inps):
         'lemma_phon')
 
     parent_doc_nampts = ['DOC', '000000']
+
     for i, inp in enumerate(inps):
         parent_doc_nampts[1] = gen_docname(parent_doc_nampts[1], i)
         child_docname = '000000'
         # TODO: a header tag s-je (a cím) lemarad az elemzésekből: kijavítani
+        # TODO: paragraphus más kezdőindexet kap, mint a sentence
         soup = BeautifulSoup(inp[1], 'xml')
         doc = soup.find('doc')
         divs = doc.find_all({'div'})
         fname = doc['file']
         genre = doc['style']
         region = doc['region']
-        # ha vége van egy divnek --> yield kimenet --> kimenet kiírása külön mappába, amiben külön mappában az elemzések
-        for j, div in enumerate(divs):  # a teszt miatt divs[-1], mert egyelőre nem yield-et használok
+
+        for j, div in enumerate(divs):
             child_docname = gen_docname(child_docname, j)
             txt = []
             # szöveg típus
@@ -278,23 +260,12 @@ def process(inps):
             data = get_data(div)
             for p_tag in div.find_all('p'):
                 nospace = False
-                pgraph = []
                 for s_tag in p_tag.find_all('s'):
-                    sent = []
                     s_tag = s_tag.text.split('\n')
                     for line in s_tag:
                         line = line.strip()
                         if line != '':
-                            # [word, lemma, msd, ctag, ana, word_cv, word_syll, lemma_cv, lemma_syll, word_phon, lemma_phon]
-                            anls = {}
-                            k_count = 0
-                            for k, anl in enumerate(line.split('\t')):
-                                k_count = k
-                                anls[anls_ordered[k]] = anl
-                            if k_count < 10:
-                                start = 11 - (10 - k_count)
-                                for l in range(start, len(anls_ordered)):
-                                    anls[anls_ordered[l]] = '__NA__'
+                            anls = get_annots(line, annots_ordered)
                             txt.append((nospace, anls))
                             if nospace:
                                 nospace = False
@@ -307,10 +278,8 @@ def process(inps):
             meta_dict = {'fname': fname, 'genre': genre, 'region': region, 'txt_type': txt_type,
                          'txt_title': txt_title, 'txt': txt, 'data': data,
                          'parent_doc_nampts': parent_doc_nampts, 'child_docname': child_docname}
-            # print(meta_dict['sents'])
-
             for opt in opts:
-                if opt:  # header és data: még nincsen írva rájuk script, de kellenek
+                if opt:
                     yield gen_xml(meta_dict, opt), meta_dict['parent_doc_nampts'], meta_dict['child_docname']
 
 
