@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="iso-8859-2" standalone="no"?>
+<!DOCTYPE cesDoc SYSTEM "/home/projects/mnsz2/dtd/hncxml.dtd"
+[]>
+<cesDoc type="text" version="1.0" TEIform="TEI.2">
+  <cesHeader type="text" status="new" version="1.0" TEIform="teiHeader">
+    <fileDesc>
+      <titleStmt>
+ <h.title>Magyar Nemzeti Szövegtár: Ambrus Lajos versei</h.title>
+      </titleStmt>
+<publicationStmt>
+ <distributor>MTA NYTI</distributor>
+<pubAddress>Bp.</pubAddress>
+ <availability region="world" status="unknown">Szabad</availability>
+<pubDate>2003/01/29</pubDate>
+      </publicationStmt>
+      <sourceDesc Default="n">
+        <biblFull>
+          <titleStmt>
+            <h.title>
+             Ambrus Lajos versei
+            </h.title>
+     <respStmt>
+       <respName></respName>
+       <respType></respType>
+     </respStmt>
+           </titleStmt>
+<publicationStmt>
+     <distributor></distributor>
+<pubAddress></pubAddress>
+     <availability region="world" status="unknown"></availability>
+<pubDate></pubDate>
+   </publicationStmt>
+   <sourceDesc Default="n">
+     <biblStruct Default="n">
+       <monogr>
+ <h.title></h.title>
+ <imprint>
+ </imprint>
+       </monogr>
+     </biblStruct>
+   </sourceDesc>
+ </biblFull>
+      </sourceDesc>
+    </fileDesc>
+<profileDesc>
+      <langUsage>
+ <language id="hu" iso639="hu">Hungarian</language>
+        <language id="foreign" iso639="none">Unidentified but not Hungarian</language>
+      </langUsage>
+    </profileDesc>
+  </cesHeader>
+ <text complete="y">
+   <body>
+      <!--beginning of orig-->
+<div type="poem">
+<head rend="BO">Roviden</head>
+<p>
+  (Sz. Korondon) tanár, a Hazanéző c. korondi művelődési folyóirat
+  főszerkesztője, a lap szorgalmazta Hazanéző-könyvek sorozatának
+  gondozója költészete a székely életforma helyi színeinek
+  megtestesítője, nyelvi leleményességének őrzője.
+</p>
+
+  </div>
+<div type="poem">
+<head rend="BO">SÓHEGY</head>
+<p>  Foszló fehér köpeny, tisztaság,
+  harangot lehetne önteni itt,
+  mint egy közép-európai
+  csillagos éjszakán -
+</p>
+<p>
+          Csupa hangulat,
+          szúette-palást,
+          könnyet kever
+          kávéjába a patak
+          már -
+</p>
+<p>
+  Vonatfütty.
+</p>
+<p>
+  Firtoson
+  ágak közé rejti
+  derekát a bükk.
+
+                          (1994)
+</p>
+
+  </div>
+<div type="poem">
+<head rend="BO">KOSZORÚ</head>
+<p>  1.
+
+  Elkészítette szép albomát a rend,
+  csokorban mind, miről álmodtál,
+  tilalom-palástot kötött köréd a csend,
+  a méhraj sudár jegenyére száll.
+</p>
+<p>
+  Tornác alatt a harsány illatoktól
+  megbarnult a szerelem-patak,
+  és te furán, hogy menekülj a sártól,
+  féltettél engem, s vádoltad magad.
+</p>
+<p>
+  Mi lesz, ha akkor hallgatok reád,
+  virágöbölben daccá nő a vád,
+  Játékszer leszel, mint réten a szél,
+</p>
+<p>
+  ki saját hangjától bódultan rohan,
+  és illatát vesztve egyre boldogabb,
+  mert a múltjából ő is megél.
+</p>
+<p>
+  2.
+
+  Eladtad fényes hegyeidet,
+  szeres pásztorod a hold,
+  boldog, hogy vakon is mást vezet,
+  ő az éjben drága folt.
+</p>
+<p>
+  Az öröm azóta barkában leng,
+  érted meghajol az ág,
+  bársonyt sző az út, ha elmerengsz,
+  bezárkózik a virág.
+</p>
+<p>
+  Mint fájától búcsúzó levél,
+  ki vérzik, ha itt tarlóra lép,
+  megállsz te is, a fogoly.
+</p>
+<p>
+  Ilyen a kép, melyet völgy ölel,
+  festi a múlt, mosolyod felemel,
+  s veled virraszt egy bagoly.
+</p>
+<p>
+  3.
+
+  Mint volt-esték andalgó teleholdja,
+  ki magában hord tengernyi holt-követ,
+  nagyböjtre készülsz, bár ami tagadja,
+  évszakok határán csupán követ.
+</p>
+<p>
+  Meglelted házad, tűzhelyeden már a
+  kis lábas csak duzzogó pletykafészek,
+  alvó vulkánt rajzol fel a pára,
+  eladta régen kisingét a szeg.
+</p>
+<p>
+  És fogat vált a bolondos április,
+  ibolya helyett majd kikerics virít,
+  görcsös guzsalyban álmodik a szú,
+</p>
+<p>
+  köréd gyűl a csend, s a hajdan-volt kacaj
+  arcodra fest majd hulló ráncokat,
+  élő éket: szeretet-koszorút.
+
+                                  (1998)
+</p>
+
+  </div>
+<div type="poem">
+<head rend="BO">FATÖRÉS</head>
+<p>  Azon az istenadta napon:
+ pontosan úgy éjfél tájban
+ megmozdult a vérvörös
+ kecskerágó koronája,
+ alatta, mint elhagyott
+ gyermek,
+ a tengerszem összerezzent
+</p>
+<p>
+ a rehomás föld, mint
+ kehes ló, köhintett, mert
+ ő itt többé mérce nem
+ lesz, és az út, jaj!
+ kereket oldott -
+ pontosan úgy éjfél után
+ a tölgyek is, akik felett
+ gyakran csattant tüzes
+ ostor, útra keltek,
+ pedig tudták:
+ a vérvörös korona alatt
+ megszakad a
+ kicsi forrás -
+</p>
+<p>
+  És most, éppen delelőben:
+ nagy úr az, aki tudja,
+ járható
+ a Kacorok gyalogútja.
+
+</p>
+
+  </div>
+<div type="poem">
+<head rend="BO">KERÁMIA (Ii)</head>
+<p>  Tányérszemű
+  óriásé ez a
+  föld,
+  korongostól,
+  ki parazsat
+  fúj
+  a holtszén-éjbe,
+  hogy bujkáló
+  tűzvirággal
+  oltsa éhét
+  a kemence.
+</p>
+
+  </div>
+<div type="poem">
+<head rend="BO">INTELEM</head>
+<p>  Egymás vállán
+  pihennek a kertek,
+  mint fehér lapon,
+  terem itt a vétek,
+  mert ha egy szép fát
+  megindít az ének,
+  törvényt ül felette
+  a feldúlt darázsfészek.
+</p>
+<byline rend="IT">AMBRUS LAJOS VERSEI</byline></div>
+
+                               
+
+  
+      <!--end of orig-->
+  </body>
+  </text>
+</cesDoc>

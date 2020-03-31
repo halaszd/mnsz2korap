@@ -100,14 +100,14 @@ def gen_analyzed_xml(meta_dict, opt):
                 'paragraphs': (None, 'paragraphs', 'base'),
                 'word': (None, 'tokens', 'to_be_named'),
                 'lemma': (('lemma',), 'lemmas', 'to_be_named'),
-                'pos': (('word', 'lemma', 'pos'), 'part-of-speech', 'to_be_named'),
-                'ana': (('lemma', 'pos', 'ana'), 'morpho', 'to_be_named'),
-                'word_cv': (('word', 'word_cv'), 'word_cv', 'to_be_named'),
-                'word_syll': (('word', 'word_syll'), 'word_syll', 'to_be_named'),
-                'lemma_cv': (('lemma', 'lemma_cv'), 'lemma_cv', 'to_be_named'),
-                'lemma_syll': (('lemma', 'lemma_syll'), 'lemma_syll', 'to_be_named'),
-                'word_phon': (('word', 'word_phon'), 'word_phon', 'to_be_named'),
-                'lemma_phon': (('lemma', 'lemma_phon'), 'lemma_phon', 'to_be_named')}
+                'pos': (('word', 'lemma', 'pos'), 'part-of-speech', 'noske'),
+                'ana': (('lemma', 'pos', 'ana'), 'morpho', 'noske'),
+                'word_cv': (('word', 'word_cv'), 'word_cv', 'noske'),
+                'word_syll': (('word', 'word_syll'), 'word_syll', 'noske'),
+                'lemma_cv': (('lemma', 'lemma_cv'), 'lemma_cv', 'noske'),
+                'lemma_syll': (('lemma', 'lemma_syll'), 'lemma_syll', 'noske'),
+                'word_phon': (('word', 'word_phon'), 'word_phon', 'noske'),
+                'lemma_phon': (('lemma', 'lemma_phon'), 'lemma_phon', 'noske')}
 
     soup = BeautifulSoup(
         '<?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>',
