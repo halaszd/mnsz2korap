@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<raw_text docid="DOC000001.000005" xmlns="http://ids-mannheim.de/ns/KorAP">
- <metadata file="metadata.xml"/>
- <text>
-  KERÁMIA (Ii) Tányérszemű óriásé ez a föld, korongostól, ki parazsat fúj a holtszén-éjbe, hogy bujkáló tűzvirággal oltsa éhét a kemence.
- </text>
-</raw_text>

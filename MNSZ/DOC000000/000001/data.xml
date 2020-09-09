@@ -1,0 +1,8 @@
+<?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<raw_text docid="DOC000000.000001" xmlns="http://ids-mannheim.de/ns/KorAP">
+ <metadata file="metadata.xml">
+ </metadata>
+ <text>
+  Roviden (Sz. Korondon) tanár, a Hazanéző c. korondi művelődési folyóirat főszerkesztője, a lap szorgalmazta Hazanéző-könyvek sorozatának gondozója költészete a székely életforma helyi színeinek megtestesítője, nyelvi leleményességének őrzője.
+ </text>
+</raw_text>

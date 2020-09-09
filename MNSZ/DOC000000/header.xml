@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="header.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE idsCorpus PUBLIC "-//IDS//DTD IDS-XCES 1.0//EN" "http://corpora.ids-mannheim.de/idsxces1/DTD/ids.xcesdoc.dtd">
+<idsHeader type="text" status="new" version="1.0" TEIform="teiHeader">
+    <fileDesc>
+      <titleStmt>
+ <h.title>Magyar Nemzeti Szövegtár: Ambrus Lajos versei</h.title>
+      </titleStmt>
+<publicationStmt>
+ <distributor>MTA NYTI</distributor>
+<pubAddress>Bp.</pubAddress>
+ <availability region="world" status="unknown">Szabad</availability>
+<pubDate>2003/01/29</pubDate>
+      </publicationStmt>
+      <sourceDesc Default="n">
+        <biblFull>
+          <titleStmt>
+            <h.title>
+             Ambrus Lajos versei
+            </h.title>
+     <respStmt>
+       <respName></respName>
+       <respType></respType>
+     </respStmt>
+           </titleStmt>
+<publicationStmt>
+     <distributor></distributor>
+<pubAddress></pubAddress>
+     <availability region="world" status="unknown"></availability>
+<pubDate></pubDate>
+   </publicationStmt>
+   <sourceDesc Default="n">
+     <biblStruct Default="n">
+       <monogr>
+ <h.title></h.title>
+ <imprint>
+ </imprint>
+       </monogr>
+     </biblStruct>
+   </sourceDesc>
+ </biblFull>
+      </sourceDesc>
+    </fileDesc>
+<profileDesc>
+      <langUsage>
+ <language id="hu" iso639="hu">Hungarian</language>
+        <language id="foreign" iso639="none">Unidentified but not Hungarian</language>
+      </langUsage>
+    </profileDesc>
+  </idsHeader>

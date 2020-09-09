@@ -1,9 +1,11 @@
 # Dávid
+TODO.txt
+hncxml.dtd
 .idea/
-HNC/
-corap.txt
-generate_xml.py
-DOC000001.rar
-noske_samp/hibas.mxml
-noske_samp/source.spok_hu_radio_052.mxml
+sample_input/other_noske
+sample_input/other_clean
+sample_to_reproduce
+inputs
+scripts/old_mnsz2korap.py
+scripts/test.py
 mnsz2_noske_tabsep_oszlopok.README
