@@ -281,14 +281,16 @@ def gen_xml(meta_dict, opt):
     if opt == 'header':
         output_xml = gen_header_xml(
             '3rd_level_header',
-            docid=f'{"".join(meta_dict["parent_doc_nampts"])}.{meta_dict["child_docname"]}',
+            docid=f'{meta_dict["parent_folder_name"]}.{meta_dict["child_folder_name"]}',
             div=meta_dict['clean_div'])
 
     elif opt == 'data':
-        output_xml = gen_data_xml(meta_dict['data'], ''.join(meta_dict['parent_doc_nampts']), meta_dict['child_docname'])
+        output_xml = gen_data_xml(meta_dict['data'], meta_dict['parent_folder_name'],
+                                  meta_dict['child_folder_name'])
 
     else:
-        output_xml = gen_annotated_xml(OPT_DICT[opt][0], meta_dict['fname_wo_ext'], meta_dict['annotations_per_line'], opt)
+        output_xml = gen_annotated_xml(OPT_DICT[opt][0], meta_dict['fname_wo_ext'],
+                                       meta_dict['annotations_per_line'], opt)
 
     return {'output_xml': output_xml, 'output_xmlname': output_xmlname, 'annot_folder': annot_folder}
 
@@ -326,7 +328,7 @@ def get_meta_file_path(clean_inps, fname_wo_ext):
 
 def teszt_write_out(dirname, fname, txt):
     os.makedirs(dirname, exist_ok=True)
-    with open(os.path.join(dirname, fname), 'w', encoding='utf-8') as f:
+    with open(os.path.join(dirname, f'{fname}.xml'), 'w', encoding='utf-8') as f:
         print(txt.replace(
             '<g/>', '###NOSPACE###').replace(
             '<poem>', '</div>\n<div>').replace('</poem>', '').replace('<div>\n</div>', ''), file=f)
@@ -335,8 +337,6 @@ def teszt_write_out(dirname, fname, txt):
 def get_annotations_with_paragraph(tag_to_iterate, annotations_per_line):
     for p_tag in tag_to_iterate.find_all('p'):
         get_annotatons_with_sentence(p_tag, annotations_per_line)
-
-        annotations_per_line.append((True, 'PSTOP'))
 
 
 def get_annotatons_with_sentence(tag_to_iterate, annotations_per_line):
@@ -373,17 +373,19 @@ def get_annotatons_with_sentence(tag_to_iterate, annotations_per_line):
                 is_space = True
 
         annotations_per_line.append((True, 'SSTOP'))
+    annotations_per_line.append((True, 'PSTOP'))
 
 
 def process_documents(noske_inps, clean_inps, corpora_dir):
-    parent_doc_nampts = ['DOC', '000000']
+    parent_folder_name = 'DOC'
+    parent_folder_number = '000000'
 
     for i, noske_inp in enumerate(noske_inps):
         get_annotations = get_annotations_with_paragraph
 
         # inp[0] --> fájlnév, noske_inp[1] szöveg
-        parent_doc_nampts[1] = gen_docname(parent_doc_nampts[1], i)
-        child_docname = '000000'
+        parent_folder_number = gen_docname(parent_folder_number, i)
+        child_folder_name = '000000'
 
         # NoSkE soup létrehozása
         noske_soup = BeautifulSoup(noske_inp[1].replace('<g/>', '###NOSPACE###').
@@ -414,34 +416,37 @@ def process_documents(noske_inps, clean_inps, corpora_dir):
 
         # Az egész bemeneti XML metaadatának (header-jének) legenerálása és kiírása
         gen_header_xml('2nd_level_header', corpora_dir=corpora_dir,
-                       parent_dir=''.join(parent_doc_nampts), clean_xml=clean_xml)
+                       parent_dir=f'{parent_folder_name}{parent_folder_number}', clean_xml=clean_xml)
 
-        child_docnum = 0
+        child_folder_number = 0
 
         for j, div in enumerate(noske_divs):
-            child_docnum += 1
+
             if div.text.strip() == '':
-                child_docnum -= 1
                 continue
 
+            child_folder_number += 1
+
             clean_div = clean_divs[j]
-            child_docname = gen_docname(child_docname, child_docnum)
+            child_folder_name = gen_docname(child_folder_name, child_folder_number)
             annotations_per_line = []
             data = get_data(div)
             paragraphs = div.find_all('p')
 
             # Ha nincsen <p> tag a diven belül, akkor div-re állítódik az értéke, hogy lehessen benne iterálni a s-ket
-            if paragraphs is None:
+
+            if len(paragraphs) == 0:
                 get_annotations = get_annotatons_with_sentence
 
             # A szövegrész elemzésének hozzáadása az annotations listához
             get_annotations(div, annotations_per_line)
 
             meta_dict = {'fname_wo_ext': fname_wo_ext, 'annotations_per_line': annotations_per_line, 'data': data,
-                         'clean_div': clean_div, 'parent_doc_nampts': parent_doc_nampts, 'child_docname': child_docname}
+                         'clean_div': clean_div, 'parent_folder_name': f'{parent_folder_name}{parent_folder_number}',
+                         'child_folder_name': child_folder_name}
 
             for opt in OPTS:
-                yield gen_xml(meta_dict, opt), meta_dict['parent_doc_nampts'], meta_dict['child_docname']
+                yield gen_xml(meta_dict, opt), meta_dict['parent_folder_name'], meta_dict['child_folder_name']
 
 
 def get_args():
