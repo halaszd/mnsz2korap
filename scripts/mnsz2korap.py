@@ -468,7 +468,8 @@ def get_args():
                          for clean_filepath in iglob(args.input_clean_iglob_filepath, recursive=True)}
     input_noske_files = {}
 
-    for noske_file in args.input_noske_filepath:
+    for noske_file in sorted(args.input_noske_filepath):
+        # Noske filenames start with source., this is the part which is cut down from filename
         noske_to_clean_fname_wo_ext = os.path.splitext(os.path.basename(noske_file))[0][7:]
         clean_file = input_clean_files.get(noske_to_clean_fname_wo_ext, '')
 
@@ -482,6 +483,9 @@ def get_args():
 
                 if clean_file in input_clean_files:
                     clean_file = input_clean_files[clean_file]
+                else:
+                    print('Failed to find MNSZ clean file for metadata', noske_to_clean_fname_wo_ext)
+                    continue
 
         input_noske_files[noske_file] = clean_file
 
