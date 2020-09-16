@@ -1,0 +1,79 @@
+<doc file="lit_hu_dia_Agh_Istvan-Rezerdo" style="szépirodalom" region="magyarországi">
+<div type="dummy">
+<poem>
+<head>
+<s>
+Most	most	HA	R__R	compound=n;;hyphenated=n;;stem=most::HA;;mboundary=most	CBCC	1	CBCC	1	most	most
+az	az	DET	D__D	compound=n;;hyphenated=n;;stem=az::DET;;mboundary=az	BC	1	BC	1	az	az
+ünnepre	ünnep	FN.SUB	NS3NS	compound=n;;hyphenated=n;;stem=ünnep::FN;;morphemes=re::SUB;;mboundary=ünnep+re	FCCNCCN	3	FCCNC	2	ünnepre	ünnep
+ne	ne	HA	R__R	compound=n;;hyphenated=n;;stem=ne::HA;;mboundary=ne	CN	1	CN	1	ne	ne
+gondolj	gondol	IGE.Pe2	VS2SI	compound=n;;hyphenated=n;;stem=gondol::IGE;;morphemes=j::Pe2;;mboundary=gondol+j	CBCCBCC	2	CBCCBC	2	gondolj	gondol
+</s>
+</head>
+<lg>
+<s>
+<l>
+Most	most	HA	R__R	compound=n;;hyphenated=n;;stem=most::HA;;mboundary=most	CBCC	1	CBCC	1	most	most
+az	az	DET	D__D	compound=n;;hyphenated=n;;stem=az::DET;;mboundary=az	BC	1	BC	1	az	az
+ünnepre	ünnep	FN.SUB	NS3NS	compound=n;;hyphenated=n;;stem=ünnep::FN;;morphemes=re::SUB;;mboundary=ünnep+re	FCCNCCN	3	FCCNC	2	ünnepre	ünnep
+ne	ne	HA	R__R	compound=n;;hyphenated=n;;stem=ne::HA;;mboundary=ne	CN	1	CN	1	ne	ne
+gondolj	gondol	IGE.Pe2	VS2SI	compound=n;;hyphenated=n;;stem=gondol::IGE;;morphemes=j::Pe2;;mboundary=gondol+j	CBCCBCC	2	CBCCBC	2	gondolj	gondol
+<g/>
+,	,	WPUNCT	__WPUNCT__	__NA__	__NA__	__NA__	__NA__	__NA__	__NA__	__NA__
+</l>
+<l>
+szállásodra	szállás	FN.PSe2.SUB	NS3NSS2	compound=n;;hyphenated=n;;stem=száll::IGE;;morphemes=ra::SUB od::PSe2 ás::_IF;;mboundary=száll+ás+od+ra	CBCCBCBCCB	4	CBCCBC	2	Sállásodra	Sállás
+ne	ne	HA	R__R	compound=n;;hyphenated=n;;stem=ne::HA;;mboundary=ne	CN	1	CN	1	ne	ne
+eressz	ereszt	IGE.Pe2	VS2SI	compound=n;;hyphenated=n;;stem=ereszt::IGE;;stemvar=eress::IGE;;morphemes=z::Pe2;;mboundary=eress+z	NCNCC	2	NCNCC	2	ereSS	ereSt
+</l>
+<l>
+pásztorokat	pásztor	FN.PL.ACC	NP3NA	compound=n;;hyphenated=n;;stem=pásztor::FN;;morphemes=ok::PL at::ACC;;mboundary=pásztor+ok+at	CBCCBCBCBC	4	CBCCBC	2	páStorokat	páStor
+<g/>
+,	,	WPUNCT	__WPUNCT__	__NA__	__NA__	__NA__	__NA__	__NA__	__NA__	__NA__
+szakálluktól	szakáll	FN.PSt3.ABL	NS3NBP3	compound=n;;hyphenated=n;;stem=szakáll::FN;;morphemes=uk::PSt3 tól::ABL;;mboundary=szakáll+uk+tól	CBCBCCBCCBC	4	CBCBCC	2	Sakálluktól	Sakáll
+</l>
+<l>
+megijedsz	megijed	IK.IGE.e2	VS2RI@	compound=n;;hyphenated=n;;stem=ijed::IGE;;morphemes=sz::e2 meg::IK;;mboundary=meg+ijed+sz	CNCNCNCC	3	CNCNCNC	3	megijedS	megijed
+és	és	KOT	C	compound=n;;hyphenated=n;;stem=és::KOT;;mboundary=és	NC	1	NC	1	és	és
+meggebedsz	meggebed	IK.IGE.e2	VS2RI@	compound=n;;hyphenated=n;;stem=gebed::IGE;;morphemes=sz::e2 meg::IK;;mboundary=meg+gebed+sz	CNCCNCNCC	3	CNCCNCNC	3	meggebedS	meggebed
+<g/>
+,	,	SPUNCT	__SPUNCT__	__NA__	__NA__	__NA__	__NA__	__NA__	__NA__	__NA__
+</l>
+</s>
+</lg>
+<lg>
+<s>
+<l>
+ne	ne	HA	R__R	compound=n;;hyphenated=n;;stem=ne::HA;;mboundary=ne	CN	1	CN	1	ne	ne
+kivánd	kivánd	UNKNOWN	__UNKNOWN__	__NA__	__NA__	__NA__	__NA__	__NA__	__NA__	__NA__
+családok	család	FN.PL.NOM	NP3NN	compound=n;;hyphenated=n;;stem=család::FN;;morphemes=ZERO::NOM ok::PL;;mboundary=család+ok	CBCBCBC	3	CBCBC	2	Faládok	Falád
+<g/>
+,	,	WPUNCT	__WPUNCT__	__NA__	__NA__	__NA__	__NA__	__NA__	__NA__	__NA__
+barmok	barom	FN.PL.NOM	NP3NN	compound=n;;hyphenated=n;;stem=barom::FN;;stemvar=barm::FN;;morphemes=ZERO::NOM ok::PL;;mboundary=barm+ok	CBCCBC	2	CBCBC	2	barmok	barom
+</l>
+<l>
+lehelletét	lehellet	FN.PSe3.ACC	NS3NAS3	compound=n;;hyphenated=n;;stem=lehelet::FN;;morphemes=e::PSe3 t::ACC;;mboundary=lehelet+é+t	CNCNCCNCNC	4	CNCNCCNC	3	lehelletét	lehellet
+<g/>
+,	,	WPUNCT	__WPUNCT__	__NA__	__NA__	__NA__	__NA__	__NA__	__NA__	__NA__
+ha	ha	KOT	C	compound=n;;hyphenated=n;;stem=ha::KOT;;mboundary=ha	CB	1	CB	1	ha	ha
+üres	üres	MN.NOM	AS_A	compound=n;;hyphenated=n;;stem=üres::MN;;morphemes=ZERO::NOM;;mboundary=üres	FCNC	2	FCNC	2	üres	üres
+</l>
+<l>
+éjszakába	éjszaka	FN.ILL	NS3NX	compound=n;;hyphenated=n;;stem=éjszaka::FN;;stemvar=éjszaká::FN;;morphemes=ba::ILL;;mboundary=éjszaká+ba	NCCBCBCB	4	NCCBCB	3	éjSakába	éjSaka
+veszne	veszik	IGE.Fe3	VS3CI	compound=n;;hyphenated=n;;stem=veszik::IGE;;stemvar=vesz::IGE;;morphemes=ne::Fe3;;mboundary=vesz+ne	CNCCN	2	CNCNC	2	veSne	veSik
+hangod	hang	FN.PSe2.NOM	NS3NNS2	compound=n;;hyphenated=n;;stem=hang::FN;;morphemes=ZERO::NOM od::PSe2;;mboundary=hang+od	CBCCBC	2	CBCC	1	hangod	hang
+<g/>
+,	,	WPUNCT	__WPUNCT__	__NA__	__NA__	__NA__	__NA__	__NA__	__NA__	__NA__
+</l>
+<l>
+hallgass	hallgass	FN.NOM	NS3NN	compound=n;;hyphenated=n;;stem=hallgass::FN;;morphemes=ZERO::NOM;;mboundary=hallgass	CBCCCBCC	2	CBCCCBCC	2	hallgass	hallgass
+árva	árva	MN.NOM	AS_A	compound=n;;hyphenated=n;;stem=árva::MN;;morphemes=ZERO::NOM;;mboundary=árva	BCCB	2	BCCB	2	árva	árva
+énekes	énekes	FN.NOM	NS3NN	compound=n;;hyphenated=n;;stem=ének::FN;;morphemes=ZERO::NOM es::_SFN;;mboundary=ének+es	NCNCNC	3	NCNCNC	3	énekes	énekes
+<g/>
+.	.	SPUNCT	__SPUNCT__	__NA__	__NA__	__NA__	__NA__	__NA__	__NA__	__NA__
+</l>
+</s>
+</lg>
+</poem>
+</div>
+</doc>

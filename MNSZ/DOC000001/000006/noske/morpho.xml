@@ -1,0 +1,600 @@
+<?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<layer docid="lit_er_ambrus_l.s1.clean" version="KorAP-0.4" xmlns="http://ids-mannheim.de/ns/KorAP">
+ <spanList>
+  <span from="0" id="s0" to="7">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       intelem
+      </f>
+      <f name="pos">
+       FN.NOM
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=intelem::FN;;morphemes=ZERO::NOM;;mboundary=intelem
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="8" id="s1" to="14">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       egymás
+      </f>
+      <f name="pos">
+       FN_NM.NOM
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=egymás::FN_NM;;morphemes=ZERO::NOM;;mboundary=egymás
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="15" id="s2" to="21">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       váll
+      </f>
+      <f name="pos">
+       FN.PSe3.SUP
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=váll::FN;;morphemes=n::SUP a::PSe3;;mboundary=váll+á+n
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="22" id="s3" to="30">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       pihen
+      </f>
+      <f name="pos">
+       IGE.t3
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=pihen::IGE;;morphemes=nek::t3;;mboundary=pihen+nek
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="31" id="s4" to="32">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+      <f name="pos">
+       DET
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=a::DET;;mboundary=a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="33" id="s5" to="39">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       kert
+      </f>
+      <f name="pos">
+       FN.PL.NOM
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=kert::FN;;morphemes=ek::PL ZERO::NOM;;mboundary=kert+ek
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="39" id="s6" to="40">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+      <f name="pos">
+       WPUNCT
+      </f>
+      <f name="ana">
+       __NA__
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="41" id="s7" to="45">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       mint
+      </f>
+      <f name="pos">
+       KOT
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=mint::KOT;;mboundary=mint
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="46" id="s8" to="51">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       fehér
+      </f>
+      <f name="pos">
+       MN.NOM
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=fehér::MN;;morphemes=ZERO::NOM;;mboundary=fehér
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="52" id="s9" to="57">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       lap
+      </f>
+      <f name="pos">
+       FN.SUP
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=lap::FN;;morphemes=on::SUP;;mboundary=lap+on
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="57" id="s10" to="58">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+      <f name="pos">
+       WPUNCT
+      </f>
+      <f name="ana">
+       __NA__
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="59" id="s11" to="64">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       terem
+      </f>
+      <f name="pos">
+       IGE.e3
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=terem::IGE;;morphemes=ZERO::e3;;mboundary=terem
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="65" id="s12" to="68">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       itt
+      </f>
+      <f name="pos">
+       HA_NM
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=itt::HA_NM;;mboundary=itt
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="69" id="s13" to="70">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+      <f name="pos">
+       DET
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=a::DET;;mboundary=a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="71" id="s14" to="76">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       vétek
+      </f>
+      <f name="pos">
+       FN.NOM
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=vétek::FN;;morphemes=ZERO::NOM;;mboundary=vétek
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="76" id="s15" to="77">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+      <f name="pos">
+       WPUNCT
+      </f>
+      <f name="ana">
+       __NA__
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="78" id="s16" to="82">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       mert
+      </f>
+      <f name="pos">
+       KOT
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=mert::KOT;;mboundary=mert
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="83" id="s17" to="85">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ha
+      </f>
+      <f name="pos">
+       KOT
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=ha::KOT;;mboundary=ha
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="86" id="s18" to="89">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       egy
+      </f>
+      <f name="pos">
+       SZN.NOM
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=egy::SZN;;morphemes=ZERO::NOM;;mboundary=egy
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="90" id="s19" to="94">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szép
+      </f>
+      <f name="pos">
+       MN.NOM
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=szép::MN;;morphemes=ZERO::NOM;;mboundary=szép
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="95" id="s20" to="98">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       fa
+      </f>
+      <f name="pos">
+       FN.ACC
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=fa::FN;;stemvar=fá::FN;;morphemes=t::ACC;;mboundary=fá+t
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="99" id="s21" to="107">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       megindít
+      </f>
+      <f name="pos">
+       IK.IGE.e3
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=ind::MN;;morphemes=ít::_FAK ZERO::e3 meg::IK;;mboundary=meg+ind+ít
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="108" id="s22" to="110">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       az
+      </f>
+      <f name="pos">
+       DET
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=az::DET;;mboundary=az
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="111" id="s23" to="115">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ének
+      </f>
+      <f name="pos">
+       FN.NOM
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=ének::FN;;morphemes=ZERO::NOM;;mboundary=ének
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="115" id="s24" to="116">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+      <f name="pos">
+       WPUNCT
+      </f>
+      <f name="ana">
+       __NA__
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="117" id="s25" to="125">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       törvény
+      </f>
+      <f name="pos">
+       FN.ACC
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=törvény::FN;;morphemes=t::ACC;;mboundary=törvény+t
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="126" id="s26" to="128">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ül
+      </f>
+      <f name="pos">
+       IGE.e3
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=ül::IGE;;morphemes=ZERO::e3;;mboundary=ül
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="129" id="s27" to="136">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       felett
+      </f>
+      <f name="pos">
+       NU.e3
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=ő::FN_NM felett::NU;;morphemes=e::e3;;mboundary=+felett+e
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="137" id="s28" to="138">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+      <f name="pos">
+       DET
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=a::DET;;mboundary=a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="139" id="s29" to="146">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       feldúl
+      </f>
+      <f name="pos">
+       IK.IGE._MIB.NOM
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=dúl::IGE;;morphemes=t::_MIB fel::IK ZERO::NOM;;mboundary=fel+dúl+t
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="147" id="s30" to="159">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       darázsfészek
+      </f>
+      <f name="pos">
+       FN.NOM
+      </f>
+      <f name="ana">
+       compound=y;;hyphenated=n;;stem=fészek::FN darázs::FN;;morphemes=ZERO::NOM;;mboundary=darázs+fészek
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="159" id="s31" to="160">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       .
+      </f>
+      <f name="pos">
+       SPUNCT
+      </f>
+      <f name="ana">
+       __NA__
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="161" id="s32" to="167">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       Ambrus
+      </f>
+      <f name="pos">
+       FN.NOM
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=Ambrus::FN;;morphemes=ZERO::NOM;;mboundary=ambrus
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="168" id="s33" to="173">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       Lajos
+      </f>
+      <f name="pos">
+       FN.NOM
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=Lajos::FN;;morphemes=ZERO::NOM;;mboundary=lajos
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="174" id="s34" to="180">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       vers
+      </f>
+      <f name="pos">
+       FN.PSe3i.NOM
+      </f>
+      <f name="ana">
+       compound=n;;hyphenated=n;;stem=vers::FN;;morphemes=ZERO::NOM ei::PSe3i;;mboundary=vers+ei
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+ </spanList>
+</layer>

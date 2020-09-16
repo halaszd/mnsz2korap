@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="iso-8859-2" standalone="no"?>
+<!DOCTYPE cesDoc SYSTEM "/home/projects/mnsz2/dtd/hncxml.dtd"
+[]>
+<cesDoc type="text" version="1.0" TEIform="TEI.2">
+  <cesHeader type="text" status="new" version="1.0" TEIform="teiHeader">
+    <fileDesc>
+      <titleStmt>
+          <h.title>Magyar Nemzeti Szövegtár: Rézerdő</h.title>
+      </titleStmt>
+      <publicationStmt>
+ <distributor>MTA NYTI</distributor>
+ <pubAddress>Bp.</pubAddress>
+ <availability region="world" status="unknown">Szabad</availability>
+ <pubDate>2003/01/29</pubDate>
+      </publicationStmt>
+      <sourceDesc Default="n">
+        <biblFull>
+          <titleStmt>
+            <h.title>
+                Rézerdő
+            </h.title>
+     <respStmt>
+       <respName>Mittelholcz Iván</respName>
+       <respType>xml conversion</respType>
+     </respStmt>
+           </titleStmt>
+   <publicationStmt>
+     <distributor></distributor>
+     <pubAddress></pubAddress>
+     <availability region="world" status="unknown"></availability>
+     <pubDate></pubDate>
+   </publicationStmt>
+   <sourceDesc Default="n">
+     <biblStruct Default="n">
+       <monogr>
+              <h.title>Rézerdő</h.title>
+              <h.author>Ágh István</h.author>
+  <imprint>
+            <pubDate>1968</pubDate>
+  </imprint>
+       </monogr>
+     </biblStruct>
+   </sourceDesc>
+ </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <langUsage>
+ <language id="hu" iso639="hu">Hungarian</language>
+ <language id="foreign" iso639="none">Unidentified but not Hungarian</language>
+      </langUsage>
+    </profileDesc>
+  </cesHeader>
+  <text complete="y">
+    <body lang="hu">
+      <!--beginning of orig-->
+      <div type="dummy">
+            
+<poem>
+
+<head>Most az ünnepre ne gondolj</head>
+
+<lg>
+<l>Most az ünnepre ne gondolj,</l>
+<l>szállásodra ne eressz</l>
+<l>pásztorokat, szakálluktól</l>
+<l>megijedsz és meggebedsz,</l></lg>
+
+<lg>
+<l>ne kivánd családok, barmok</l>
+<l>lehelletét, ha üres</l>
+<l>éjszakába veszne hangod,</l>
+<l>hallgass árva énekes.</l></lg>
+</poem>
+      </div>
+      <!--end of orig-->
+  </body>
+  </text>
+</cesDoc>

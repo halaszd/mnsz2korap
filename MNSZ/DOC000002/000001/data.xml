@@ -1,0 +1,8 @@
+<?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<raw_text docid="DOC000002.000001" xmlns="http://ids-mannheim.de/ns/KorAP">
+ <metadata file="metadata.xml">
+ </metadata>
+ <text>
+  Most az ünnepre ne gondolj Most az ünnepre ne gondolj, szállásodra ne eressz pásztorokat, szakálluktól megijedsz és meggebedsz, ne kivánd családok, barmok lehelletét, ha üres éjszakába veszne hangod, hallgass árva énekes.
+ </text>
+</raw_text>

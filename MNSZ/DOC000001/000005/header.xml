@@ -1,0 +1,32 @@
+<?xml-model href="header.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE idsCorpus PUBLIC "-//IDS//DTD IDS-XCES 1.0//EN" "http://corpora.ids-mannheim.de/idsxces1/DTD/ids.xcesdoc.dtd">
+<idsHeader type="text">
+ <fileDesc>
+  <titleStmt>
+   <textSigle>
+    DOC000001.000005
+   </textSigle>
+   <t.title>
+    KERÁMIA (Ii)
+   </t.title>
+  </titleStmt>
+  <publicationStmt>
+  </publicationStmt>
+  <sourceDesc>
+   <biblStruct>
+    <analytic>
+     <h.author>
+     </h.author>
+    </analytic>
+   </biblStruct>
+  </sourceDesc>
+ </fileDesc>
+ <encodingDesc>
+ </encodingDesc>
+ <profilDesc>
+  <creation>
+   <creatDate>
+   </creatDate>
+  </creation>
+ </profilDesc>
+</idsHeader>

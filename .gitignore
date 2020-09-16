@@ -2,10 +2,10 @@
 TODO.txt
 hncxml.dtd
 .idea/
-sample_input/other_noske
-sample_input/other_clean
+sample_input/*
+inputs/noske
+inputs/xml_clean
 sample_to_reproduce
-inputs
 scripts/old_mnsz2korap.py
 scripts/test.py
 mnsz2_noske_tabsep_oszlopok.README

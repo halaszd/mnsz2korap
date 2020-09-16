@@ -1,0 +1,7 @@
+<?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<layer docid="lit_hu_dia_Agh_Istvan-Rezerdo" version="KorAP-0.4" xmlns="http://ids-mannheim.de/ns/KorAP">
+ <spanList>
+  <span from="0" to="221">
+  </span>
+ </spanList>
+</layer>

@@ -92,11 +92,14 @@ RAW_TEXT_ATTRS = {'docid': '',
 
 PAT_CES_HEADER = re.compile(r'<cesHeader.+?(</cesHeader>)', re.DOTALL | re.MULTILINE)
 
+PAT_SPLITTED_FILES = re.compile(r'(.*?)(?:_\d{3})(\.clean)?')
 
-def read(files):
-    for fl in files:
-        with open(fl, encoding="iso-8859-2") as f:
-            yield os.path.basename(fl), f.read()
+
+def read(noske_clean_files_dict):
+    for noske_file, clean_file in noske_clean_files_dict.items():
+        with open(noske_file, encoding="iso-8859-2") as f:
+            # a kimeneti listát lehet, tuple-re kéne változtatni
+            yield os.path.basename(noske_file), clean_file, f.read()
 
 
 def gen_header_xml(header_type, corpora_dir=None, parent_dir=None, clean_xml=None, div=None, docid=None):
@@ -120,14 +123,20 @@ def gen_header_xml(header_type, corpora_dir=None, parent_dir=None, clean_xml=Non
 
         with open(os.path.join(corpora_dir, parent_dir, 'header.xml'), 'w', encoding='utf-8') as outpf:
             print('<?xml version="1.0" encoding="UTF-8"?>',
-                  '<?xml-model href="header.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>',
-                  '<!DOCTYPE idsCorpus PUBLIC "-//IDS//DTD IDS-XCES 1.0//EN" "http://corpora.ids-mannheim.de/idsxces1/DTD/ids.xcesdoc.dtd">',
+                  '<?xml-model href="header.rng" '
+                  'type="application/xml" '
+                  'schematypens="http://relaxng.org/ns/structure/1.0"?>',
+                  '<!DOCTYPE idsCorpus PUBLIC "-//IDS//DTD IDS-XCES 1.0//EN" '
+                  '"http://corpora.ids-mannheim.de/idsxces1/DTD/ids.xcesdoc.dtd">',
                   ces_header.group().replace('cesHeader', 'idsHeader'), sep='\n', file=outpf)
         return
 
     soup = BeautifulSoup(
-        '<?xml-model href="header.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>'
-        '<!DOCTYPE idsCorpus PUBLIC "-//IDS//DTD IDS-XCES 1.0//EN" "http://corpora.ids-mannheim.de/idsxces1/DTD/ids.xcesdoc.dtd">',
+        '<?xml-model href="header.rng" '
+        'type="application/xml" '
+        'schematypens="http://relaxng.org/ns/structure/1.0"?>'
+        '<!DOCTYPE idsCorpus PUBLIC "-//IDS//DTD IDS-XCES 1.0//EN" '
+        '"http://corpora.ids-mannheim.de/idsxces1/DTD/ids.xcesdoc.dtd">',
         features='lxml')
 
     if header_type == '3rd_level_header':
@@ -182,8 +191,10 @@ def gen_header_xml(header_type, corpora_dir=None, parent_dir=None, clean_xml=Non
 
 def gen_data_xml(data, parent_id, child_id):
     soup = BeautifulSoup(
-        '<?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>',
+        '<?xml-model href="span.rng" type="application/xml" '
+        'schematypens="http://relaxng.org/ns/structure/1.0"?>',
         features='lxml')
+
     txt = soup.new_tag('text')
     txt.string = data
     meta = soup.new_tag('metadata', file='metadata.xml')
@@ -197,8 +208,10 @@ def gen_data_xml(data, parent_id, child_id):
 
 def gen_annotated_xml(annot_types, fname, annotations_per_line, opt):
     soup = BeautifulSoup(
-        '<?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>',
+        '<?xml-model href="span.rng" type="application/xml" '
+        'schematypens="http://relaxng.org/ns/structure/1.0"?>',
         features='lxml')
+
     from_index_sp = 0
     from_index = 0
     to_index = 0
@@ -303,9 +316,12 @@ def gen_docname(num_of_doc, i):
 def get_data(div):
     data = []
     txt = div.text
+
     for line in txt.split('\n'):
         line = line.strip()
-        if line != '':
+
+        if len(line) > 0:
+
             if line == '###NOSPACE###':
                 data.append('NoSpace')
             else:
@@ -314,129 +330,111 @@ def get_data(div):
     return PAT_CUT_SPACE.sub('', ' '.join(data))
 
 
-def get_meta_file_path(clean_inps, fname_wo_ext):
-    clean_xml = ''
+def get_annotations(tag_to_iterate, annotations_per_line):
+    for tag in tag_to_iterate:
 
-    for meta_file_path, meta_file_fname in clean_inps:
-        # NoSkE vs. clean megfeleltetés
-        if fname_wo_ext == meta_file_fname[:-4]:
-            clean_xml = open(os.path.join(meta_file_path, meta_file_fname), encoding='iso-8859-2').read()
-            clean_xml = clean_xml.replace('<poem>', '</div>\n<div>')
+        if tag.name == 'div' or tag.name == 'sp':
+            get_annotations(tag, annotations_per_line)
+            return
 
-    return clean_xml
-
-
-def teszt_write_out(dirname, fname, txt):
-    os.makedirs(dirname, exist_ok=True)
-    with open(os.path.join(dirname, f'{fname}.xml'), 'w', encoding='utf-8') as f:
-        print(txt.replace(
-            '<g/>', '###NOSPACE###').replace(
-            '<poem>', '</div>\n<div>').replace('</poem>', '').replace('<div>\n</div>', ''), file=f)
-
-
-def get_annotations_with_paragraph(tag_to_iterate, annotations_per_line):
-    for p_tag in tag_to_iterate.find_all('p'):
-        get_annotatons_with_sentence(p_tag, annotations_per_line)
-
-
-def get_annotatons_with_sentence(tag_to_iterate, annotations_per_line):
-    for s_tag in tag_to_iterate.find_all('s'):
-        is_space = True
-        txt = s_tag.text.strip().split('\n')
-
-        for line in txt:
-            line = line.strip()
-
-            if line == '':
-                continue
-
-            if line == '###NOSPACE###':
-                is_space = False
-                continue
-
-            annotations = {}
-            annotation_count = 0
-
-            for k, annotation_type in enumerate(line.split('\t')):
-                annotation_count = k
-                annotations[ANNOTATION_TYPES_ORDERED[k]] = annotation_type
-
-            if annotation_count < 10:
-                # No-ske: néha nincsen annyi tabok száma -1, amennyi hely az elemzésfajtákhoz kell:
-                start = 11 - (10 - annotation_count)
-                for n in range(start, len(ANNOTATION_TYPES_ORDERED)):
-                    annotations[ANNOTATION_TYPES_ORDERED[n]] = '__NA__'
-
-            annotations_per_line.append((is_space, annotations))
-
-            if not is_space:
+        elif tag.name is not None:
+            for s_tag in tag.find_all('s'):
                 is_space = True
+                txt = s_tag.text.strip().split('\n')
 
-        annotations_per_line.append((True, 'SSTOP'))
-    annotations_per_line.append((True, 'PSTOP'))
+                for line in txt:
+                    line = line.strip()
+
+                    if len(line) == 0:
+                        continue
+
+                    if line == '###NOSPACE###':
+                        is_space = False
+                        continue
+
+                    annotations = {}
+                    annotation_count = 0
+
+                    for k, annotation_type in enumerate(line.split('\t')):
+                        annotation_count = k
+                        annotations[ANNOTATION_TYPES_ORDERED[k]] = annotation_type
+
+                    if annotation_count < 10:
+                        # No-ske: néha nincsen annyi tabok száma -1, amennyi hely az elemzésfajtákhoz kell:
+                        start = 11 - (10 - annotation_count)
+                        for n in range(start, len(ANNOTATION_TYPES_ORDERED)):
+                            annotations[ANNOTATION_TYPES_ORDERED[n]] = '__NA__'
+
+                    annotations_per_line.append((is_space, annotations))
+
+                    if not is_space:
+                        is_space = True
+
+                annotations_per_line.append((True, 'SSTOP'))
+
+            if tag.name == 'p':
+                annotations_per_line.append((True, 'PSTOP'))
+
+    if tag_to_iterate.find('p') is None:
+        annotations_per_line.append((True, 'PSTOP'))
 
 
-def process_documents(noske_inps, clean_inps, corpora_dir):
+def process_documents(noske_inps, corpora_dir):
     parent_folder_name = 'DOC'
     parent_folder_number = '000000'
+    last_clean_xml_path = ''
+    last_len_of_divs = 0
+    start_div_number = 0
+    clean_divs = []
 
-    for i, noske_inp in enumerate(noske_inps):
-        get_annotations = get_annotations_with_paragraph
-
-        # inp[0] --> fájlnév, noske_inp[1] szöveg
-        parent_folder_number = gen_docname(parent_folder_number, i)
+    for i, (noske_fname, clean_xml_path, noske_xml) in enumerate(noske_inps):
+        parent_folder_number = gen_docname(parent_folder_number, i+1)
         child_folder_name = '000000'
 
         # NoSkE soup létrehozása
-        noske_soup = BeautifulSoup(noske_inp[1].replace('<g/>', '###NOSPACE###').
-                                   replace('<poem>', '</div>\n<div>').
-                                   replace('</poem>', '').replace('<div>\n</div>', ''),
-                                   'xml')
+        noske_soup = BeautifulSoup(noske_xml.replace('<g/>', '###NOSPACE###'), 'xml')
 
         # doc tagen belüli fájlnév --> <doc file="lit_er_ambrus_l.s1.clean" ...>
         noske_doc = noske_soup.find('doc')
         fname_wo_ext = noske_doc['file']
 
-        teszt_write_out('teszt_outputs', fname_wo_ext, noske_inp[1])
-
-        # a NoSkE formátumban lévő fájlok clean megfelelője (metaadatokhoz, tehát header-ekhez)
-        clean_xml = get_meta_file_path(clean_inps, fname_wo_ext)
-        clean_soup = BeautifulSoup(clean_xml, 'html.parser')
+        print(fname_wo_ext)
 
         # NoSkE div tag-listájának létrehozása. Egy div egyenlő egy dokumentummal
         noske_divs = noske_soup.find_all('div')
-        # clean div tag-listájának létrehozása.
-        clean_divs = clean_soup.find_all('div')
-
-        if len(noske_divs[0].find_all('div')) > 1:
-            noske_divs = noske_divs[0:1]
-            clean_divs = clean_divs[0:1]
-
-        print(fname_wo_ext)
-
-        # Az egész bemeneti XML metaadatának (header-jének) legenerálása és kiírása
-        gen_header_xml('2nd_level_header', corpora_dir=corpora_dir,
-                       parent_dir=f'{parent_folder_name}{parent_folder_number}', clean_xml=clean_xml)
 
         child_folder_number = 0
 
-        for j, div in enumerate(noske_divs):
+        if clean_xml_path == last_clean_xml_path:
+            start_div_number += last_len_of_divs
+        else:
+            start_div_number = 0
 
-            if div.text.strip() == '':
+            # a NoSkE formátumban lévő fájlok clean megfelelője (metaadatokhoz, tehát header.xml-ekhez)
+            if len(clean_xml_path) > 1:
+                clean_xml = open(clean_xml_path, encoding='iso-8859-2').read()
+                clean_soup = BeautifulSoup(clean_xml, 'html.parser')
+            else:
                 continue
 
-            child_folder_number += 1
+            # clean div tag-listájának létrehozása.
+            clean_divs = clean_soup.find_all('div')
 
-            clean_div = clean_divs[j]
+        if len(noske_divs[0].find_all('div')) > 0:
+            noske_divs = noske_divs[0:1]
+            clean_divs = clean_divs[0:1]
+
+        # Az egész bemeneti XML metaadatának (header-jének) legenerálása és kiírása
+        gen_header_xml('2nd_level_header', corpora_dir=corpora_dir,
+                       parent_dir=f'{parent_folder_name}{parent_folder_number}',
+                       clean_xml=clean_xml)
+
+        for j, div in enumerate(noske_divs):
+            child_folder_number += 1
+            clean_div = clean_divs[j+start_div_number]
             child_folder_name = gen_docname(child_folder_name, child_folder_number)
             annotations_per_line = []
             data = get_data(div)
-            paragraphs = div.find_all('p')
-
-            # Ha nincsen <p> tag a diven belül, akkor div-re állítódik az értéke, hogy lehessen benne iterálni a s-ket
-
-            if len(paragraphs) == 0:
-                get_annotations = get_annotatons_with_sentence
 
             # A szövegrész elemzésének hozzáadása az annotations listához
             get_annotations(div, annotations_per_line)
@@ -447,6 +445,9 @@ def process_documents(noske_inps, clean_inps, corpora_dir):
 
             for opt in OPTS:
                 yield gen_xml(meta_dict, opt), meta_dict['parent_folder_name'], meta_dict['child_folder_name']
+
+        last_clean_xml_path = clean_xml_path
+        last_len_of_divs = len(noske_divs)
 
 
 def get_args():
@@ -463,13 +464,28 @@ def get_args():
 
     args = parser.parse_args()
 
-    input_clean_files = []
+    input_clean_files = {os.path.splitext(os.path.basename(clean_filepath))[0]: clean_filepath
+                         for clean_filepath in iglob(args.input_clean_iglob_filepath, recursive=True)}
+    input_noske_files = {}
 
-    for input_clean_file in iglob(args.input_clean_iglob_filepath, recursive=True):
-        fname = os.path.basename(input_clean_file)
-        input_clean_files.append((input_clean_file.replace(fname, ''), fname))
+    for noske_file in args.input_noske_filepath:
+        noske_to_clean_fname_wo_ext = os.path.splitext(os.path.basename(noske_file))[0][7:]
+        clean_file = input_clean_files.get(noske_to_clean_fname_wo_ext, '')
 
-    args.input_clean_iglob_filepath = input_clean_files
+        if len(clean_file) == 0:
+            # Searching for files which were originally one file in clean xml but later splitted in noske
+            search_and_match = PAT_SPLITTED_FILES.search(noske_to_clean_fname_wo_ext)
+
+            if search_and_match:
+                group_2 = search_and_match.group(2) or ''
+                clean_file = f'{search_and_match.group(1)}{group_2}'
+
+                if clean_file in input_clean_files:
+                    clean_file = input_clean_files[clean_file]
+
+        input_noske_files[noske_file] = clean_file
+
+    args.input_noske_filepath = input_noske_files
 
     return vars(args)
 
@@ -481,7 +497,7 @@ def main():
     # noske fájlok az annotációk kinyeréséhez
     noske_inp = read(args['input_noske_filepath'])
     # clean fájlok a metaadatok kinyeréséhez (headerek)
-    outp = process_documents(noske_inp, args['input_clean_iglob_filepath'], corpora_dir)
+    outp = process_documents(noske_inp, corpora_dir)
 
     for outpf in outp:
         parent_dir = ''.join(outpf[1])
@@ -491,7 +507,7 @@ def main():
         # print(os.path.join(corpora_dir, parent_dir, child_dir, annot_folder))
         with open(os.path.join(corpora_dir, parent_dir, child_dir,
                                annot_folder, os.path.splitext(outpf[0]['output_xmlname'])[0] + '.xml'),
-                  "w", encoding="utf-8", newline="\n") as f:
+                  "w", encoding="utf-8") as f:
             f.write(outpf[0]['output_xml'].prettify())
 
 

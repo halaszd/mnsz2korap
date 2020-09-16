@@ -1,0 +1,81 @@
+<?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<layer docid="lit_hu_dia_Agh_Istvan-Rezerdo" version="KorAP-0.4" xmlns="http://ids-mannheim.de/ns/KorAP">
+ <spanList>
+  <span from="0" id="s0" to="4">
+  </span>
+  <span from="5" id="s1" to="7">
+  </span>
+  <span from="8" id="s2" to="15">
+  </span>
+  <span from="16" id="s3" to="18">
+  </span>
+  <span from="19" id="s4" to="26">
+  </span>
+  <span from="27" id="s5" to="31">
+  </span>
+  <span from="32" id="s6" to="34">
+  </span>
+  <span from="35" id="s7" to="42">
+  </span>
+  <span from="43" id="s8" to="45">
+  </span>
+  <span from="46" id="s9" to="53">
+  </span>
+  <span from="53" id="s10" to="54">
+  </span>
+  <span from="55" id="s11" to="66">
+  </span>
+  <span from="67" id="s12" to="69">
+  </span>
+  <span from="70" id="s13" to="76">
+  </span>
+  <span from="77" id="s14" to="88">
+  </span>
+  <span from="88" id="s15" to="89">
+  </span>
+  <span from="90" id="s16" to="102">
+  </span>
+  <span from="103" id="s17" to="112">
+  </span>
+  <span from="113" id="s18" to="115">
+  </span>
+  <span from="116" id="s19" to="126">
+  </span>
+  <span from="126" id="s20" to="127">
+  </span>
+  <span from="128" id="s21" to="130">
+  </span>
+  <span from="131" id="s22" to="137">
+  </span>
+  <span from="138" id="s23" to="146">
+  </span>
+  <span from="146" id="s24" to="147">
+  </span>
+  <span from="148" id="s25" to="154">
+  </span>
+  <span from="155" id="s26" to="165">
+  </span>
+  <span from="165" id="s27" to="166">
+  </span>
+  <span from="167" id="s28" to="169">
+  </span>
+  <span from="170" id="s29" to="174">
+  </span>
+  <span from="175" id="s30" to="184">
+  </span>
+  <span from="185" id="s31" to="191">
+  </span>
+  <span from="192" id="s32" to="198">
+  </span>
+  <span from="198" id="s33" to="199">
+  </span>
+  <span from="200" id="s34" to="208">
+  </span>
+  <span from="209" id="s35" to="213">
+  </span>
+  <span from="214" id="s36" to="220">
+  </span>
+  <span from="220" id="s37" to="221">
+  </span>
+ </spanList>
+</layer>
