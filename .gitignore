@@ -1,6 +1,8 @@
 # Dávid
 TODO.txt
 hncxml.dtd
+mnsz2korap.txt
+multi_divs_mnsz_files.txt
 .idea/
 sample_input/*
 inputs/noske
@@ -8,4 +10,6 @@ inputs/xml_clean
 sample_to_reproduce
 scripts/old_mnsz2korap.py
 scripts/test.py
+scripts/backup.txt
+MNSZ2_teszt_output
 mnsz2_noske_tabsep_oszlopok.README

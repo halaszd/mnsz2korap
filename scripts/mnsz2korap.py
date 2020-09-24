@@ -2,6 +2,7 @@
 
 from bs4 import BeautifulSoup
 import os
+import shutil
 import argparse
 from glob import iglob
 import re
@@ -95,8 +96,42 @@ PAT_CES_HEADER = re.compile(r'<cesHeader.+?(</cesHeader>)', re.DOTALL | re.MULTI
 PAT_SPLITTED_FILES = re.compile(r'(.*?)(?:_\d{3})(\.clean)?')
 
 
-def read(noske_clean_files_dict):
-    for noske_file, clean_file in noske_clean_files_dict.items():
+def writing_backup_file(backup_filepath, create_new_backup_file, last_file_infos=None):
+    if create_new_backup_file:
+        with open(backup_filepath, 'w', encoding='utf-8') as outpf:
+            pass
+    else:
+        with open(backup_filepath, 'a', encoding='utf-8') as outpf:
+            print('\t'.join(last_file_infos), file=outpf)
+
+
+def loading_backup_file(backup_filepath, create_new):
+    # filenév, id, child id
+    if create_new:
+        writing_backup_file(backup_filepath, create_new)
+        return 0, 0
+
+    try:
+        with open(backup_filepath, encoding='utf-8') as f:
+            line = ''
+            for line in f:
+                pass
+            if len(line.strip()) > 0:
+                return int(line.split()[1])-1, int(line.split()[2])
+
+    except FileNotFoundError:
+        print('FileNotFound: creating new backup file.')
+        writing_backup_file(backup_filepath, True)
+
+    return 0, 0
+
+
+def read(noske_clean_files_dict, last_file_index):
+    for i, (noske_file, clean_file) in enumerate(noske_clean_files_dict.items()):
+        print(i, last_file_index)
+        if i < last_file_index:
+            continue
+
         with open(noske_file, encoding="iso-8859-2") as f:
             # a kimeneti listát lehet, tuple-re kéne változtatni
             yield os.path.basename(noske_file), clean_file, f.read()
@@ -335,7 +370,6 @@ def get_annotations(tag_to_iterate, annotations_per_line):
 
         if tag.name == 'div' or tag.name == 'sp':
             get_annotations(tag, annotations_per_line)
-            return
 
         elif tag.name is not None:
             for s_tag in tag.find_all('s'):
@@ -379,7 +413,7 @@ def get_annotations(tag_to_iterate, annotations_per_line):
         annotations_per_line.append((True, 'PSTOP'))
 
 
-def process_documents(noske_inps, corpora_dir):
+def process_documents(noske_inps, corpora_dir, last_parent_folder_number, last_child_folder_number, backup_filepath):
     parent_folder_name = 'DOC'
     parent_folder_number = '000000'
     last_clean_xml_path = ''
@@ -387,14 +421,14 @@ def process_documents(noske_inps, corpora_dir):
     start_div_number = 0
     clean_divs = []
 
-    for i, (noske_fname, clean_xml_path, noske_xml) in enumerate(noske_inps):
-        parent_folder_number = gen_docname(parent_folder_number, i+1)
+    for i, (noske_fname, clean_xml_path, noske_xml) in enumerate(noske_inps, start=last_parent_folder_number+1):
+        parent_folder_number = gen_docname(parent_folder_number, i)
         child_folder_name = '000000'
 
         # NoSkE soup létrehozása
         noske_soup = BeautifulSoup(noske_xml.replace('<g/>', '###NOSPACE###'), 'xml')
 
-        # doc tagen belüli fájlnév --> <doc file="lit_er_ambrus_l.s1.clean" ...>
+        # A doc tagen belüli fájlnév --> <doc file="lit_er_ambrus_l.s1.clean" ...>
         noske_doc = noske_soup.find('doc')
         fname_wo_ext = noske_doc['file']
 
@@ -403,14 +437,12 @@ def process_documents(noske_inps, corpora_dir):
         # NoSkE div tag-listájának létrehozása. Egy div egyenlő egy dokumentummal
         noske_divs = noske_soup.find_all('div')
 
-        child_folder_number = 0
-
         if clean_xml_path == last_clean_xml_path:
             start_div_number += last_len_of_divs
         else:
             start_div_number = 0
 
-            # a NoSkE formátumban lévő fájlok clean megfelelője (metaadatokhoz, tehát header.xml-ekhez)
+            # A NoSkE formátumban lévő fájlok clean megfelelője (metaadatokhoz, tehát header.xml-ekhez)
             if len(clean_xml_path) > 1:
                 clean_xml = open(clean_xml_path, encoding='iso-8859-2').read()
                 clean_soup = BeautifulSoup(clean_xml, 'html.parser')
@@ -425,12 +457,15 @@ def process_documents(noske_inps, corpora_dir):
             clean_divs = clean_divs[0:1]
 
         # Az egész bemeneti XML metaadatának (header-jének) legenerálása és kiírása
-        gen_header_xml('2nd_level_header', corpora_dir=corpora_dir,
-                       parent_dir=f'{parent_folder_name}{parent_folder_number}',
-                       clean_xml=clean_xml)
+        if last_child_folder_number == 0:
+            gen_header_xml('2nd_level_header', corpora_dir=corpora_dir,
+                           parent_dir=f'{parent_folder_name}{parent_folder_number}',
+                           clean_xml=clean_xml)
 
         for j, div in enumerate(noske_divs):
-            child_folder_number += 1
+            if j < last_child_folder_number:
+                continue
+            child_folder_number = j + 1
             clean_div = clean_divs[j+start_div_number]
             child_folder_name = gen_docname(child_folder_name, child_folder_number)
             annotations_per_line = []
@@ -444,10 +479,30 @@ def process_documents(noske_inps, corpora_dir):
                          'child_folder_name': child_folder_name}
 
             for opt in OPTS:
-                yield gen_xml(meta_dict, opt), meta_dict['parent_folder_name'], meta_dict['child_folder_name']
+                yield gen_xml(meta_dict, opt), \
+                      meta_dict['parent_folder_name'], \
+                      meta_dict['child_folder_name']
+
+            writing_backup_file(backup_filepath, False, (fname_wo_ext, f'{i}', f'{child_folder_number}'))
 
         last_clean_xml_path = clean_xml_path
         last_len_of_divs = len(noske_divs)
+        last_child_folder_number = 0
+
+
+def str2bool(v):
+    """
+    Eldönti, hogy az argumentum Igaz, vagy Hamis értéket képvisel
+    :param v: argumentum értéke
+    """
+    if isinstance(v, bool):
+        return v
+    if v.lower() in ('yes', 'true', 't', 'y', '1'):
+        return True
+    elif v.lower() in ('no', 'false', 'f', 'n', '0'):
+        return False
+    else:
+        raise argparse.ArgumentTypeError('Boolean value expected.')
 
 
 def get_args():
@@ -457,10 +512,17 @@ def get_args():
     """
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('input_noske_filepath', help='Path to file', nargs="+")
+    parser.add_argument('input_noske_filepath', help='Path to file.', nargs="+")
     parser.add_argument('-d', '--output_dir', help='Path to output directory', nargs='?')
-    parser.add_argument('-m', '--input_clean_iglob_filepath', help='Path to root folder for iglob module',
-                        nargs="?")
+    parser.add_argument('-m', '--input_clean_iglob_filepath', help='Path to root folder for iglob module.', nargs="?")
+    parser.add_argument('-b', '--backup_filepath',
+                        help='Path of backup file which contains informations about processed files.',
+                        nargs='?', default='./backup.txt')
+    parser.add_argument('-c', '--create_new',
+                        help='Create whole new output. In case of one would start to convert '
+                             'the MNSZ to KorAp format from the beginning.',
+                        nargs='?',
+                        type=str2bool, const=True, default=False)
 
     args = parser.parse_args()
 
@@ -496,12 +558,20 @@ def get_args():
 
 def main():
     args = get_args()
+
+    if args['create_new']:
+        shutil.rmtree(args['output_dir'])
+
+    # Az legutóbbi kovertálás során keletkezett legutolsó fájl sorszámának betöltése
+    last_parent_folder_number, last_child_folder_number = loading_backup_file(args['backup_filepath'], args['create_new'])
+
     corpora_dir = args['output_dir']
 
-    # noske fájlok az annotációk kinyeréséhez
-    noske_inp = read(args['input_noske_filepath'])
-    # clean fájlok a metaadatok kinyeréséhez (headerek)
-    outp = process_documents(noske_inp, corpora_dir)
+    # Noske fájlok az annotációk kinyeréséhez
+    noske_inp = read(args['input_noske_filepath'], last_parent_folder_number)
+
+    # Clean fájlok a metaadatok kinyeréséhez (headerek)
+    outp = process_documents(noske_inp, corpora_dir, last_parent_folder_number, last_child_folder_number, args['backup_filepath'])
 
     for outpf in outp:
         parent_dir = ''.join(outpf[1])
