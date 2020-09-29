@@ -58,7 +58,7 @@ OPT_DICT = {'header': (None, 'header', ''),
             'word': (None, 'tokens', 'noske'),
             'lemma': (('lemma',), 'lemmas', 'noske'),
             'pos': (('word', 'lemma', 'pos'), 'part-of-speech', 'noske'),
-            'ana': (('lemma', 'pos', 'ana'), 'morpho', 'noske'),
+            'ana': (('lemma', ' pos', 'ana'), 'morpho', 'noske'),
             'word_cv': (('word', 'word_cv'), 'word_cv', 'noske'),
             'word_syll': (('word', 'word_syll'), 'word_syll', 'noske'),
             'lemma_cv': (('lemma', 'lemma_cv'), 'lemma_cv', 'noske'),
@@ -552,7 +552,7 @@ def get_args():
                 group_2 = search_and_match.group(2) or ''
 
                 if f'{search_and_match.group(1)}{group_2}' in input_clean_files:
-                    clean_file = input_clean_files[clean_file]
+                    clean_file = input_clean_files[f'{search_and_match.group(1)}{group_2}']
 
             if len(clean_file) == 0:
                 print(f'Failed to find MNSZ clean file for metadata for {noske_to_clean_fname}')
