@@ -4,6 +4,8 @@
 
 - It is a script which converts MNSZ NoSkE (for annotation) and clean (for metadata) XML files into [KorAP XML files](https://github.com/KorAP/KorAP-XML-Krill#about-korap-xml)
 
+***
+
 ## Usage
 
 ```bash
