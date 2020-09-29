@@ -93,7 +93,7 @@ RAW_TEXT_ATTRS = {'docid': '',
 
 PAT_CES_HEADER = re.compile(r'<cesHeader.+?(</cesHeader>)', re.DOTALL | re.MULTILINE)
 
-PAT_SPLITTED_FILES = re.compile(r'(.*?)(?:_\d{3})(\.clean)?')
+PAT_SPLITTED_FILES = re.compile(r'(.*?)(?:_\d{3})(\.clean)?\.mxml')
 
 
 def writing_backup_file(backup_filepath, create_new_backup_file, last_file_infos=None):
@@ -128,7 +128,6 @@ def loading_backup_file(backup_filepath, create_new):
 
 def read(noske_clean_files_dict, last_file_index):
     for i, (noske_file, clean_file) in enumerate(noske_clean_files_dict.items()):
-        print(i, last_file_index)
         if i < last_file_index:
             continue
 
@@ -167,6 +166,7 @@ def gen_header_xml(header_type, corpora_dir=None, parent_dir=None, clean_xml=Non
         return
 
     soup = BeautifulSoup(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<?xml-model href="header.rng" '
         'type="application/xml" '
         'schematypens="http://relaxng.org/ns/structure/1.0"?>'
@@ -224,8 +224,9 @@ def gen_header_xml(header_type, corpora_dir=None, parent_dir=None, clean_xml=Non
     return soup
 
 
-def gen_data_xml(data, parent_id, child_id):
+def gen_data_xml(data, docid):
     soup = BeautifulSoup(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<?xml-model href="span.rng" type="application/xml" '
         'schematypens="http://relaxng.org/ns/structure/1.0"?>',
         features='lxml')
@@ -233,7 +234,7 @@ def gen_data_xml(data, parent_id, child_id):
     txt = soup.new_tag('text')
     txt.string = data
     meta = soup.new_tag('metadata', file='metadata.xml')
-    RAW_TEXT_ATTRS['docid'] = f'{parent_id}.{child_id}'
+    RAW_TEXT_ATTRS['docid'] = docid
     raw_text = soup.new_tag('raw_text', attrs=RAW_TEXT_ATTRS)
     raw_text.append(meta)
     raw_text.append(txt)
@@ -241,8 +242,9 @@ def gen_data_xml(data, parent_id, child_id):
     return soup
 
 
-def gen_annotated_xml(annot_types, fname, annotations_per_line, opt):
+def gen_annotated_xml(annot_types, docid, annotations_per_line, opt):
     soup = BeautifulSoup(
+        '<?xml version="1.0" encoding="UTF-8"?>\n'
         '<?xml-model href="span.rng" type="application/xml" '
         'schematypens="http://relaxng.org/ns/structure/1.0"?>',
         features='lxml')
@@ -251,7 +253,7 @@ def gen_annotated_xml(annot_types, fname, annotations_per_line, opt):
     from_index = 0
     to_index = 0
     iden = 0
-    LAYER_ATTRS['docid'] = fname
+    LAYER_ATTRS['docid'] = docid
     soup.append(soup.new_tag('layer', attrs=LAYER_ATTRS))
     span_list = soup.new_tag('spanList')
 
@@ -329,15 +331,20 @@ def gen_xml(meta_dict, opt):
     if opt == 'header':
         output_xml = gen_header_xml(
             '3rd_level_header',
-            docid=f'{meta_dict["parent_folder_name"]}.{meta_dict["child_folder_name"]}',
+            docid=f'{meta_dict["corpora_dir"]}/'
+                  f'{meta_dict["parent_folder_name"]}.{meta_dict["child_folder_name"]}',
             div=meta_dict['clean_div'])
 
     elif opt == 'data':
-        output_xml = gen_data_xml(meta_dict['data'], meta_dict['parent_folder_name'],
-                                  meta_dict['child_folder_name'])
+        output_xml = gen_data_xml(meta_dict['data'],
+                                  f'{meta_dict["corpora_dir"]}_'
+                                  f'{meta_dict["parent_folder_name"]}.{meta_dict["child_folder_name"]}'
+                                  )
 
     else:
-        output_xml = gen_annotated_xml(OPT_DICT[opt][0], meta_dict['fname_wo_ext'],
+        output_xml = gen_annotated_xml(OPT_DICT[opt][0],
+                                       f'{meta_dict["corpora_dir"]}_'
+                                       f'{meta_dict["parent_folder_name"]}.{meta_dict["child_folder_name"]}',
                                        meta_dict['annotations_per_line'], opt)
 
     return {'output_xml': output_xml, 'output_xmlname': output_xmlname, 'annot_folder': annot_folder}
@@ -475,7 +482,8 @@ def process_documents(noske_inps, corpora_dir, last_parent_folder_number, last_c
             get_annotations(div, annotations_per_line)
 
             meta_dict = {'fname_wo_ext': fname_wo_ext, 'annotations_per_line': annotations_per_line, 'data': data,
-                         'clean_div': clean_div, 'parent_folder_name': f'{parent_folder_name}{parent_folder_number}',
+                         'clean_div': clean_div, 'corpora_dir': os.path.basename(corpora_dir),
+                         'parent_folder_name': f'{parent_folder_name}{parent_folder_number}',
                          'child_folder_name': child_folder_name}
 
             for opt in OPTS:
@@ -532,22 +540,23 @@ def get_args():
 
     for noske_file in sorted(args.input_noske_filepath):
         # Noske filenames start with source., this is the part which is cut down from filename
-        noske_to_clean_fname_wo_ext = os.path.splitext(os.path.basename(noske_file))[0][7:]
-        clean_file = input_clean_files.get(noske_to_clean_fname_wo_ext, '')
+        noske_to_clean_fname = os.path.basename(noske_file)[7:]
+        clean_file = input_clean_files.get(os.path.splitext(noske_to_clean_fname)[0], '')
 
         if len(clean_file) == 0:
             # Searching for files which were originally one file in clean xml but later splitted in noske
-            search_and_match = PAT_SPLITTED_FILES.search(noske_to_clean_fname_wo_ext)
+            search_and_match = PAT_SPLITTED_FILES.search(noske_to_clean_fname)
+            # PAT_SPLITTED_FILES = re.compile(r'(.*?)(?:_\d{3})(\.clean)?\.mxml')
 
             if search_and_match:
                 group_2 = search_and_match.group(2) or ''
-                clean_file = f'{search_and_match.group(1)}{group_2}'
 
-                if clean_file in input_clean_files:
+                if f'{search_and_match.group(1)}{group_2}' in input_clean_files:
                     clean_file = input_clean_files[clean_file]
-                else:
-                    print('Failed to find MNSZ clean file for metadata', noske_to_clean_fname_wo_ext)
-                    continue
+
+            if len(clean_file) == 0:
+                print(f'Failed to find MNSZ clean file for metadata for {noske_to_clean_fname}')
+                continue
 
         input_noske_files[noske_file] = clean_file
 
@@ -560,7 +569,10 @@ def main():
     args = get_args()
 
     if args['create_new']:
-        shutil.rmtree(args['output_dir'])
+        try:
+            shutil.rmtree(args['output_dir'])
+        except FileNotFoundError:
+            pass
 
     # Az legutóbbi kovertálás során keletkezett legutolsó fájl sorszámának betöltése
     last_parent_folder_number, last_child_folder_number = loading_backup_file(args['backup_filepath'], args['create_new'])

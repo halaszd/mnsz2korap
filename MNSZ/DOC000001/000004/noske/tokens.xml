@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
-<layer docid="lit_er_ambrus_l.s1.clean" version="KorAP-0.4" xmlns="http://ids-mannheim.de/ns/KorAP">
+<layer docid="MNSZ_DOC000001.000004" version="KorAP-0.4" xmlns="http://ids-mannheim.de/ns/KorAP">
  <spanList>
   <span from="0" id="s0" to="7">
   </span>
