@@ -209,7 +209,7 @@ def gen_header_xml(header_type, corpora_dir=None, parent_dir=None, clean_xml=Non
 
         encoding_desc = soup.new_tag('encodingDesc')  # parent: idsHeader
         ids_header.append(encoding_desc)
-        profile_desc = soup.new_tag('profilDesc')  # parent: idsHeader
+        profile_desc = soup.new_tag('profileDesc')  # parent: idsHeader
         ids_header.append(profile_desc)
         creation = soup.new_tag('creation')  # parent: profileDesc
         profile_desc.append(creation)
