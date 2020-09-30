@@ -8,6 +8,7 @@ sample_input/*
 inputs/noske
 inputs/xml_clean
 sample_to_reproduce
+sample_reproduced
 scripts/old_mnsz2korap.py
 scripts/test.py
 scripts/backup.txt

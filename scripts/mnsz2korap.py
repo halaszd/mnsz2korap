@@ -227,7 +227,7 @@ def gen_header_xml(header_type, corpora_dir=None, parent_dir=None, clean_xml=Non
 def gen_data_xml(data, docid):
     soup = BeautifulSoup(
         '<?xml version="1.0" encoding="UTF-8"?>\n'
-        '<?xml-model href="span.rng" type="application/xml" '
+        '<?xml-model href="text.rng" type="application/xml" '
         'schematypens="http://relaxng.org/ns/structure/1.0"?>',
         features='lxml')
 
