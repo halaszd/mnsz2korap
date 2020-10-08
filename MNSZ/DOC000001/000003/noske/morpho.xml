@@ -12,7 +12,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=koszorú::FN;;morphemes=ZERO::NOM;;mboundary=koszorú
       </f>
      </fs>
@@ -29,7 +29,7 @@
       <f name="pos">
        MN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        Numeral;;ordinal;;-;;singular;;nominative;;digit
       </f>
      </fs>
@@ -46,7 +46,7 @@
       <f name="pos">
        IK.IGE.TMe3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=kész::MN;;morphemes=ít::_FAK ette::TMe3 el::IK;;mboundary=el+kész+ít+ette
       </f>
      </fs>
@@ -63,7 +63,7 @@
       <f name="pos">
        MN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=szép::MN;;morphemes=ZERO::NOM;;mboundary=szép
       </f>
      </fs>
@@ -80,7 +80,7 @@
       <f name="pos">
        UNKNOWN
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -97,7 +97,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=a::FN_BETU;;morphemes=ZERO::NOM;;mboundary=a
       </f>
      </fs>
@@ -114,7 +114,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=rend::FN;;morphemes=ZERO::NOM;;mboundary=rend
       </f>
      </fs>
@@ -131,7 +131,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -148,7 +148,7 @@
       <f name="pos">
        FN.INE
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=csokor::FN;;morphemes=ban::INE;;mboundary=csokor+ban
       </f>
      </fs>
@@ -165,7 +165,7 @@
       <f name="pos">
        HA
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=mind::HA;;mboundary=mind
       </f>
      </fs>
@@ -182,7 +182,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -199,7 +199,7 @@
       <f name="pos">
        FN_NM.DEL|MN_NM.DEL|FN_NM.DEL
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=mi::FN_NM_Int;;morphemes=ről::DEL;;mboundary=mi+ről|compound=n;;hyphenated=n;;stem=mi::MN_NM;;morphemes=ről::DEL;;mboundary=mi+ről|compound=n;;hyphenated=n;;stem=ami::FN_NM_Rel;;stemvar=mi::FN_NM_Rel;;morphemes=ről::DEL;;mboundary=mi+ről
       </f>
      </fs>
@@ -216,7 +216,7 @@
       <f name="pos">
        IGE.Me2
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=álmodik::IGE;;stemvar=álmod::IGE;;morphemes=tál::Me2;;mboundary=álmod+tál
       </f>
      </fs>
@@ -233,7 +233,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -250,7 +250,7 @@
       <f name="pos">
        FN.ACC
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=y;;stem=tilalom::FN;;morphemes=ZERO::NOM;;mboundary=tilalom--compound=n;;hyphenated=y;;stem=palást::FN;;morphemes=ot::ACC;;mboundary=palást+ot
       </f>
      </fs>
@@ -267,7 +267,7 @@
       <f name="pos">
        IGE.Me3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=köt::IGE;;morphemes=ött::Me3;;mboundary=köt+ött
       </f>
      </fs>
@@ -284,7 +284,7 @@
       <f name="pos">
        NU.e2
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=te::FN_NM köré::NU;;morphemes=d::e2;;mboundary=+köré+d
       </f>
      </fs>
@@ -301,7 +301,7 @@
       <f name="pos">
        DET
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=a::DET;;mboundary=a
       </f>
      </fs>
@@ -318,7 +318,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=csend::FN;;morphemes=ZERO::NOM;;mboundary=csend
       </f>
      </fs>
@@ -335,7 +335,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -352,7 +352,7 @@
       <f name="pos">
        DET
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=a::DET;;mboundary=a
       </f>
      </fs>
@@ -369,7 +369,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=y;;hyphenated=n;;stem=méh::FN raj::FN;;morphemes=ZERO::NOM;;mboundary=méh+raj
       </f>
      </fs>
@@ -386,7 +386,7 @@
       <f name="pos">
        MN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=sudár::MN;;morphemes=ZERO::NOM;;mboundary=sudár
       </f>
      </fs>
@@ -403,7 +403,7 @@
       <f name="pos">
        FN.SUB
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=jegenye::FN;;stemvar=jegenyé::FN;;morphemes=re::SUB;;mboundary=jegenyé+re
       </f>
      </fs>
@@ -420,7 +420,7 @@
       <f name="pos">
        IGE.e3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=száll::IGE;;morphemes=ZERO::e3;;mboundary=száll
       </f>
      </fs>
@@ -437,7 +437,7 @@
       <f name="pos">
        SPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -454,7 +454,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=tornác::FN;;morphemes=ZERO::NOM;;mboundary=tornác
       </f>
      </fs>
@@ -471,7 +471,7 @@
       <f name="pos">
        NU
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=alatt::NU;;mboundary=alatt
       </f>
      </fs>
@@ -488,7 +488,7 @@
       <f name="pos">
        DET
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=a::DET;;mboundary=a
       </f>
      </fs>
@@ -505,7 +505,7 @@
       <f name="pos">
        MN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=harsány::MN;;morphemes=ZERO::NOM;;mboundary=harsány
       </f>
      </fs>
@@ -522,7 +522,7 @@
       <f name="pos">
        FN.PL.ABL
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=illat::FN;;morphemes=tól::ABL ok::PL;;mboundary=illat+ok+tól
       </f>
      </fs>
@@ -539,7 +539,7 @@
       <f name="pos">
        IK.IGE._MIB.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=barnul::IGE;;morphemes=meg::IK ZERO::NOM t::_MIB;;mboundary=meg+barnul+t
       </f>
      </fs>
@@ -556,7 +556,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=a::FN_BETU;;morphemes=ZERO::NOM;;mboundary=a
       </f>
      </fs>
@@ -573,7 +573,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=y;;stem=szerelem::FN;;morphemes=ZERO::NOM;;mboundary=szerelem--compound=n;;hyphenated=y;;stem=patak::FN;;morphemes=ZERO::NOM;;mboundary=patak
       </f>
      </fs>
@@ -590,7 +590,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -607,7 +607,7 @@
       <f name="pos">
        KOT
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=és::KOT;;mboundary=és
       </f>
      </fs>
@@ -624,7 +624,7 @@
       <f name="pos">
        FN_NM.e2.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=te::FN_NM;;morphemes=ZERO::NOM##e2;;mboundary=te
       </f>
      </fs>
@@ -641,7 +641,7 @@
       <f name="pos">
        HA
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=fura::MN;;stemvar=furá::MN;;morphemes=n::_ESSMOD;;mboundary=furá+n
       </f>
      </fs>
@@ -658,7 +658,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -675,7 +675,7 @@
       <f name="pos">
        KOT
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=hogy::KOT;;mboundary=hogy
       </f>
      </fs>
@@ -692,7 +692,7 @@
       <f name="pos">
        IGE.Pe2
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=menekül::IGE;;morphemes=j::Pe2;;mboundary=menekül+j
       </f>
      </fs>
@@ -709,7 +709,7 @@
       <f name="pos">
        DET
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=a::DET;;mboundary=a
       </f>
      </fs>
@@ -726,7 +726,7 @@
       <f name="pos">
        FN.ABL
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=sár::FN;;morphemes=tól::ABL;;mboundary=sár+tól
       </f>
      </fs>
@@ -743,7 +743,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -760,7 +760,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=y;;hyphenated=n;;stem=fél::FN él::FN tett::FN;;morphemes=ZERO::NOM;;mboundary=fél+tett+él
       </f>
      </fs>
@@ -777,7 +777,7 @@
       <f name="pos">
        FN_NM.e1.ACC
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=én::FN_NM;;stemvar=eng::FN_NM;;morphemes=ZERO::ACC em::e1;;mboundary=eng+em
       </f>
      </fs>
@@ -794,7 +794,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -811,7 +811,7 @@
       <f name="pos">
        KOT
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=s::KOT;;mboundary=s
       </f>
      </fs>
@@ -828,7 +828,7 @@
       <f name="pos">
        IGE.TMe2
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=vádol::IGE;;morphemes=tad::TMe2;;mboundary=vádol+tad
       </f>
      </fs>
@@ -845,7 +845,7 @@
       <f name="pos">
        FN_NM.e2.ACC|FN_NM.e2.ACC
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=te::FN_NM;;stemvar=mag::FN_NM;;morphemes=ZERO::e2##ACC;;mboundary=mag+=ad|compound=n;;hyphenated=n;;stem=maga::FN_NM;;stemvar=mag::FN_NM;;morphemes=ad::e2 ZERO::ACC;;mboundary=mag+ad
       </f>
      </fs>
@@ -862,7 +862,7 @@
       <f name="pos">
        SPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -879,7 +879,7 @@
       <f name="pos">
        FN_NM.NOM|FN_NM.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=mi::FN_NM_Int;;morphemes=ZERO::NOM;;mboundary=mi|compound=n;;hyphenated=n;;stem=ami::FN_NM_Rel;;stemvar=mi::FN_NM_Rel;;morphemes=ZERO::NOM;;mboundary=mi
       </f>
      </fs>
@@ -896,7 +896,7 @@
       <f name="pos">
        IGE.e3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=lesz::IGE;;morphemes=ZERO::e3;;mboundary=lesz
       </f>
      </fs>
@@ -913,7 +913,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -930,7 +930,7 @@
       <f name="pos">
        KOT
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=ha::KOT;;mboundary=ha
       </f>
      </fs>
@@ -947,7 +947,7 @@
       <f name="pos">
        DET_NM.TEM|FN_NM.TEM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=az::DET_NM;;stemvar=ak::DET_NM;;morphemes=kor::TEM;;mboundary=ak+kor|compound=n;;hyphenated=n;;stem=az::FN_NM;;stemvar=ak::FN_NM;;morphemes=kor::TEM;;mboundary=ak+kor
       </f>
      </fs>
@@ -964,7 +964,7 @@
       <f name="pos">
        IGE.e1
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=hallgat::IGE;;morphemes=ok::e1;;mboundary=hallgat+ok
       </f>
      </fs>
@@ -981,7 +981,7 @@
       <f name="pos">
        FN_NM.SUB.e2
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=te::FN_NM;;morphemes=reá::SUB d::e2;;mboundary=+reá+d
       </f>
      </fs>
@@ -998,7 +998,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -1015,7 +1015,7 @@
       <f name="pos">
        FN.INE
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=y;;hyphenated=n;;stem=öböl::FN virág::FN;;morphemes=ben::INE;;mboundary=virág+öböl+ben
       </f>
      </fs>
@@ -1032,7 +1032,7 @@
       <f name="pos">
        FN.FAC
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=dac::FN;;morphemes=cá::FAC;;mboundary=dac+cá
       </f>
      </fs>
@@ -1049,7 +1049,7 @@
       <f name="pos">
        IGE.e3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=nő::IGE;;morphemes=ZERO::e3;;mboundary=nő
       </f>
      </fs>
@@ -1066,7 +1066,7 @@
       <f name="pos">
        DET
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=a::DET;;mboundary=a
       </f>
      </fs>
@@ -1083,7 +1083,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=vád::FN;;morphemes=ZERO::NOM;;mboundary=vád
       </f>
      </fs>
@@ -1100,7 +1100,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -1117,7 +1117,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=y;;hyphenated=n;;stem=játék::FN szer::FN;;morphemes=ZERO::NOM;;mboundary=játék+szer
       </f>
      </fs>
@@ -1134,7 +1134,7 @@
       <f name="pos">
        IGE.e2
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=lesz::IGE;;morphemes=el::e2;;mboundary=lesz+el
       </f>
      </fs>
@@ -1151,7 +1151,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -1168,7 +1168,7 @@
       <f name="pos">
        HA_NM|HA_NM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=mint::HA_NM;;mboundary=mint|compound=n;;hyphenated=n;;stem=amint::HA_NM;;stemvar=mint::HA_NM;;mboundary=mint
       </f>
      </fs>
@@ -1185,7 +1185,7 @@
       <f name="pos">
        FN.SUP
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=rét::FN;;morphemes=en::SUP;;mboundary=rét+en
       </f>
      </fs>
@@ -1202,7 +1202,7 @@
       <f name="pos">
        DET
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=a::DET;;mboundary=a
       </f>
      </fs>
@@ -1219,7 +1219,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=szél::FN;;morphemes=ZERO::NOM;;mboundary=szél
       </f>
      </fs>
@@ -1236,7 +1236,7 @@
       <f name="pos">
        SPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -1253,7 +1253,7 @@
       <f name="pos">
        FN_NM.NOM|FN_NM.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=ki::FN_NM##FN_NM_Int;;morphemes=ZERO::NOM;;mboundary=ki|compound=n;;hyphenated=n;;stem=aki::FN_NM_Rel;;stemvar=ki::FN_NM_Rel;;morphemes=ZERO::NOM;;mboundary=ki
       </f>
      </fs>
@@ -1270,7 +1270,7 @@
       <f name="pos">
        MN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=saját::MN;;morphemes=ZERO::NOM;;mboundary=saját
       </f>
      </fs>
@@ -1287,7 +1287,7 @@
       <f name="pos">
        FN.PSe3.ABL
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=hang::FN;;morphemes=ja::PSe3 tól::ABL;;mboundary=hang+já+tól
       </f>
      </fs>
@@ -1304,7 +1304,7 @@
       <f name="pos">
        HA
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=bódul::IGE;;morphemes=an::_ESSMOD t::_MIB;;mboundary=bódul+t+an
       </f>
      </fs>
@@ -1321,7 +1321,7 @@
       <f name="pos">
        IGE.e3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=rohan::IGE;;morphemes=ZERO::e3;;mboundary=rohan
       </f>
      </fs>
@@ -1338,7 +1338,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -1355,7 +1355,7 @@
       <f name="pos">
        KOT
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=és::KOT;;mboundary=és
       </f>
      </fs>
@@ -1372,7 +1372,7 @@
       <f name="pos">
        FN.PSe3.ACC
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=illat::FN;;morphemes=a::PSe3 t::ACC;;mboundary=illat+á+t
       </f>
      </fs>
@@ -1389,7 +1389,7 @@
       <f name="pos">
        IGE._HIN
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=veszt::IGE;;morphemes=ve::_HIN;;mboundary=veszt+ve
       </f>
      </fs>
@@ -1406,7 +1406,7 @@
       <f name="pos">
        HA
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=egyre::HA;;mboundary=egyre
       </f>
      </fs>
@@ -1423,7 +1423,7 @@
       <f name="pos">
        MN._FOK.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=boldog::MN;;morphemes=abb::_FOK ZERO::NOM;;mboundary=boldog+abb
       </f>
      </fs>
@@ -1440,7 +1440,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -1457,7 +1457,7 @@
       <f name="pos">
        KOT
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=mert::KOT;;mboundary=mert
       </f>
      </fs>
@@ -1474,7 +1474,7 @@
       <f name="pos">
        DET_NM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=a::DET_NM;;mboundary=a
       </f>
      </fs>
@@ -1491,7 +1491,7 @@
       <f name="pos">
        FN.PSe3.ELA
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=múlt::FN;;morphemes=ja::PSe3 ból::ELA;;mboundary=múlt+já+ból
       </f>
      </fs>
@@ -1508,7 +1508,7 @@
       <f name="pos">
        FN_NM.e3.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=ő::FN_NM;;morphemes=ZERO::NOM##e3;;mboundary=ő
       </f>
      </fs>
@@ -1525,7 +1525,7 @@
       <f name="pos">
        HA
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=is::HA;;mboundary=is
       </f>
      </fs>
@@ -1542,7 +1542,7 @@
       <f name="pos">
        IK.IGE.e3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=él::IGE;;morphemes=ZERO::e3 meg::IK;;mboundary=meg+él
       </f>
      </fs>
@@ -1559,7 +1559,7 @@
       <f name="pos">
        SPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -1576,7 +1576,7 @@
       <f name="pos">
        MN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        Numeral;;ordinal;;-;;singular;;nominative;;digit
       </f>
      </fs>
@@ -1593,7 +1593,7 @@
       <f name="pos">
        IK.IGE.TMe2
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=ad::IGE;;morphemes=el::IK tad::TMe2;;mboundary=el+ad+tad
       </f>
      </fs>
@@ -1610,7 +1610,7 @@
       <f name="pos">
        MN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=fény::FN;;stemvar=fény::FN;;morphemes=ZERO::NOM es::_SKEP;;mboundary=fény+es
       </f>
      </fs>
@@ -1627,7 +1627,7 @@
       <f name="pos">
        FN.PSe2i.ACC
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=hegy::FN;;morphemes=eid::PSe2i et::ACC;;mboundary=hegy+eid+et
       </f>
      </fs>
@@ -1644,7 +1644,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -1661,7 +1661,7 @@
       <f name="pos">
        MN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=szer::FN;;morphemes=es::_SKEP ZERO::NOM;;mboundary=szer+es
       </f>
      </fs>
@@ -1678,7 +1678,7 @@
       <f name="pos">
        FN.PSe2.ACC
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=pásztor::FN;;morphemes=od::PSe2 ZERO::ACC;;mboundary=pásztor+od
       </f>
      </fs>
@@ -1695,7 +1695,7 @@
       <f name="pos">
        DET
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=a::DET;;mboundary=a
       </f>
      </fs>
@@ -1712,7 +1712,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=hold::FN;;morphemes=ZERO::NOM;;mboundary=hold
       </f>
      </fs>
@@ -1729,7 +1729,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -1746,7 +1746,7 @@
       <f name="pos">
        MN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=boldog::MN;;morphemes=ZERO::NOM;;mboundary=boldog
       </f>
      </fs>
@@ -1763,7 +1763,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -1780,7 +1780,7 @@
       <f name="pos">
        KOT
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=hogy::KOT;;mboundary=hogy
       </f>
      </fs>
@@ -1797,7 +1797,7 @@
       <f name="pos">
        HA
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=vak::MN;;morphemes=on::_ESSMOD;;mboundary=vak+on
       </f>
      </fs>
@@ -1814,7 +1814,7 @@
       <f name="pos">
        HA
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=is::HA;;mboundary=is
       </f>
      </fs>
@@ -1831,7 +1831,7 @@
       <f name="pos">
        MN_NM.ACC|FN_NM.ACC
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=más::MN_NM;;morphemes=t::ACC;;mboundary=más+t|compound=n;;hyphenated=n;;stem=más::FN_NM;;morphemes=t::ACC;;mboundary=más+t
       </f>
      </fs>
@@ -1848,7 +1848,7 @@
       <f name="pos">
        IGE.e3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=vezet::IGE;;morphemes=ZERO::e3;;mboundary=vezet
       </f>
      </fs>
@@ -1865,7 +1865,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -1882,7 +1882,7 @@
       <f name="pos">
        FN_NM.e3.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=ő::FN_NM;;morphemes=ZERO::e3##NOM;;mboundary=ő
       </f>
      </fs>
@@ -1899,7 +1899,7 @@
       <f name="pos">
        DET
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=az::DET;;mboundary=az
       </f>
      </fs>
@@ -1916,7 +1916,7 @@
       <f name="pos">
        FN.INE
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=éj::FN;;morphemes=ben::INE;;mboundary=éj+ben
       </f>
      </fs>
@@ -1933,7 +1933,7 @@
       <f name="pos">
        MN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=drága::MN;;morphemes=ZERO::NOM;;mboundary=drága
       </f>
      </fs>
@@ -1950,7 +1950,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=folt::FN;;morphemes=ZERO::NOM;;mboundary=folt
       </f>
      </fs>
@@ -1967,7 +1967,7 @@
       <f name="pos">
        SPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -1984,7 +1984,7 @@
       <f name="pos">
        DET
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=az::DET;;mboundary=az
       </f>
      </fs>
@@ -2001,7 +2001,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=öröm::FN;;morphemes=ZERO::NOM;;mboundary=öröm
       </f>
      </fs>
@@ -2018,7 +2018,7 @@
       <f name="pos">
        HA_NM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=azóta::HA_NM;;mboundary=azóta
       </f>
      </fs>
@@ -2035,7 +2035,7 @@
       <f name="pos">
        FN.INE
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=barka::FN;;stemvar=barká::FN;;morphemes=ban::INE;;mboundary=barká+ban
       </f>
      </fs>
@@ -2052,7 +2052,7 @@
       <f name="pos">
        IGE.e3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=leng::IGE;;morphemes=ZERO::e3;;mboundary=leng
       </f>
      </fs>
@@ -2069,7 +2069,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -2086,7 +2086,7 @@
       <f name="pos">
        IGE.Te2
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=ért::IGE;;morphemes=ed::Te2;;mboundary=ért+ed
       </f>
      </fs>
@@ -2103,7 +2103,7 @@
       <f name="pos">
        IK.IGE.e3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=hajol::IGE;;morphemes=meg::IK ZERO::e3;;mboundary=meg+hajol
       </f>
      </fs>
@@ -2120,7 +2120,7 @@
       <f name="pos">
        DET
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=az::DET;;mboundary=az
       </f>
      </fs>
@@ -2137,7 +2137,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=ág::FN;;morphemes=ZERO::NOM;;mboundary=ág
       </f>
      </fs>
@@ -2154,7 +2154,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -2171,7 +2171,7 @@
       <f name="pos">
        FN.ACC
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=bársony::FN;;morphemes=t::ACC;;mboundary=bársony+t
       </f>
      </fs>
@@ -2188,7 +2188,7 @@
       <f name="pos">
        IGE.e3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=sző::IGE;;morphemes=ZERO::e3;;mboundary=sző
       </f>
      </fs>
@@ -2205,7 +2205,7 @@
       <f name="pos">
        DET
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=az::DET;;mboundary=az
       </f>
      </fs>
@@ -2222,7 +2222,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=út::FN;;morphemes=ZERO::NOM;;mboundary=út
       </f>
      </fs>
@@ -2239,7 +2239,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -2256,7 +2256,7 @@
       <f name="pos">
        KOT
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=ha::KOT;;mboundary=ha
       </f>
      </fs>
@@ -2273,7 +2273,7 @@
       <f name="pos">
        IK.IGE.e2
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=mereng::IGE;;morphemes=sz::e2 el::IK;;mboundary=el+mereng+sz
       </f>
      </fs>
@@ -2290,7 +2290,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -2307,7 +2307,7 @@
       <f name="pos">
        IK.IGE.e3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=zárkózik::IGE;;stemvar=zárkóz::IGE;;morphemes=be::IK ik::e3;;mboundary=be+zárkóz+ik
       </f>
      </fs>
@@ -2324,7 +2324,7 @@
       <f name="pos">
        DET
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=a::DET;;mboundary=a
       </f>
      </fs>
@@ -2341,7 +2341,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=virág::FN;;morphemes=ZERO::NOM;;mboundary=virág
       </f>
      </fs>
@@ -2358,7 +2358,7 @@
       <f name="pos">
        SPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -2375,7 +2375,7 @@
       <f name="pos">
        PREP
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=;;morphemes=mint::PREP;;mboundary=mint
       </f>
      </fs>
@@ -2392,7 +2392,7 @@
       <f name="pos">
        FN.PSe3.ABL
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=fa::FN;;stemvar=fá::FN;;morphemes=ja::PSe3 tól::ABL;;mboundary=fá+já+tól
       </f>
      </fs>
@@ -2409,7 +2409,7 @@
       <f name="pos">
        IGE._OKEP.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=búcsúzik::IGE;;stemvar=búcsúz::IGE;;morphemes=ZERO::NOM ó::_OKEP;;mboundary=búcsúz+ó
       </f>
      </fs>
@@ -2426,7 +2426,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=levél::FN;;morphemes=ZERO::NOM;;mboundary=levél
       </f>
      </fs>
@@ -2443,7 +2443,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -2460,7 +2460,7 @@
       <f name="pos">
        IK
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=ki::IK;;mboundary=ki
       </f>
      </fs>
@@ -2477,7 +2477,7 @@
       <f name="pos">
        IGE.e3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=vérzik::IGE;;stemvar=vérz::IGE;;morphemes=ik::e3;;mboundary=vérz+ik
       </f>
      </fs>
@@ -2494,7 +2494,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -2511,7 +2511,7 @@
       <f name="pos">
        KOT
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=ha::KOT;;mboundary=ha
       </f>
      </fs>
@@ -2528,7 +2528,7 @@
       <f name="pos">
        HA_NM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=itt::HA_NM;;mboundary=itt
       </f>
      </fs>
@@ -2545,7 +2545,7 @@
       <f name="pos">
        FN.SUB
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=tarló::FN;;morphemes=ra::SUB;;mboundary=tarló+ra
       </f>
      </fs>
@@ -2562,7 +2562,7 @@
       <f name="pos">
        IGE.e3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=lép::IGE;;morphemes=ZERO::e3;;mboundary=lép
       </f>
      </fs>
@@ -2579,7 +2579,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -2596,7 +2596,7 @@
       <f name="pos">
        IK.IGE.e2
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=áll::IGE;;morphemes=meg::IK sz::e2;;mboundary=meg+áll+sz
       </f>
      </fs>
@@ -2613,7 +2613,7 @@
       <f name="pos">
        FN_NM.e2.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=te::FN_NM;;morphemes=ZERO::NOM##e2;;mboundary=te
       </f>
      </fs>
@@ -2630,7 +2630,7 @@
       <f name="pos">
        HA
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=is::HA;;mboundary=is
       </f>
      </fs>
@@ -2647,7 +2647,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -2664,7 +2664,7 @@
       <f name="pos">
        DET
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=a::DET;;mboundary=a
       </f>
      </fs>
@@ -2681,7 +2681,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=fogoly::FN;;morphemes=ZERO::NOM;;mboundary=fogoly
       </f>
      </fs>
@@ -2698,7 +2698,7 @@
       <f name="pos">
        SPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -2715,7 +2715,7 @@
       <f name="pos">
        MN_NM.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=ilyen::MN_NM;;morphemes=ZERO::NOM;;mboundary=ilyen
       </f>
      </fs>
@@ -2732,7 +2732,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=a::FN_BETU;;morphemes=ZERO::NOM;;mboundary=a
       </f>
      </fs>
@@ -2749,7 +2749,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=kép::FN;;morphemes=ZERO::NOM;;mboundary=kép
       </f>
      </fs>
@@ -2766,7 +2766,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -2783,7 +2783,7 @@
       <f name="pos">
        FN_NM.ACC
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=amely::FN_NM_Rel;;stemvar=mely::FN_NM_Rel;;morphemes=et::ACC;;mboundary=mely+et
       </f>
      </fs>
@@ -2800,7 +2800,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=völgy::FN;;morphemes=ZERO::NOM;;mboundary=völgy
       </f>
      </fs>
@@ -2817,7 +2817,7 @@
       <f name="pos">
        IGE.e3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=ölel::IGE;;morphemes=ZERO::e3;;mboundary=ölel
       </f>
      </fs>
@@ -2834,7 +2834,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -2851,7 +2851,7 @@
       <f name="pos">
        IGE.Te3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=fest::IGE;;morphemes=i::Te3;;mboundary=fest+i
       </f>
      </fs>
@@ -2868,7 +2868,7 @@
       <f name="pos">
        DET
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=a::DET;;mboundary=a
       </f>
      </fs>
@@ -2885,7 +2885,7 @@
       <f name="pos">
        IGE._MIB.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=múlik::IGE;;stemvar=múl::IGE;;morphemes=t::_MIB ZERO::NOM;;mboundary=múl+t
       </f>
      </fs>
@@ -2902,7 +2902,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -2919,7 +2919,7 @@
       <f name="pos">
        FN.PSe2.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=mosoly::FN;;morphemes=od::PSe2 ZERO::NOM;;mboundary=mosoly+od
       </f>
      </fs>
@@ -2936,7 +2936,7 @@
       <f name="pos">
        IK.IGE.e3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=emel::IGE;;morphemes=fel::IK ZERO::e3;;mboundary=fel+emel
       </f>
      </fs>
@@ -2953,7 +2953,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -2970,7 +2970,7 @@
       <f name="pos">
        KOT
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=s::KOT;;mboundary=s
       </f>
      </fs>
@@ -2987,7 +2987,7 @@
       <f name="pos">
        FN_NM.INS.e2
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=te::FN_NM;;morphemes=ed::e2 vele::INS;;mboundary=+vel+ed
       </f>
      </fs>
@@ -3004,7 +3004,7 @@
       <f name="pos">
        IGE.e3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=virraszt::IGE;;morphemes=ZERO::e3;;mboundary=virraszt
       </f>
      </fs>
@@ -3021,7 +3021,7 @@
       <f name="pos">
        SZN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=egy::SZN;;morphemes=ZERO::NOM;;mboundary=egy
       </f>
      </fs>
@@ -3038,7 +3038,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=bagoly::FN;;morphemes=ZERO::NOM;;mboundary=bagoly
       </f>
      </fs>
@@ -3055,7 +3055,7 @@
       <f name="pos">
        SPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -3072,7 +3072,7 @@
       <f name="pos">
        MN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        Numeral;;ordinal;;-;;singular;;nominative;;digit
       </f>
      </fs>
@@ -3089,7 +3089,7 @@
       <f name="pos">
        HA_NM|HA_NM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=mint::HA_NM;;mboundary=mint|compound=n;;hyphenated=n;;stem=amint::HA_NM;;stemvar=mint::HA_NM;;mboundary=mint
       </f>
      </fs>
@@ -3106,7 +3106,7 @@
       <f name="pos">
        IGE.TMt3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=y;;stem=volt::MN;;morphemes=ZERO::NOM;;mboundary=volt--compound=n;;hyphenated=y;;stem=esik::IGE;;stemvar=es::IGE;;morphemes=ték::TMt3;;mboundary=es+ték
       </f>
      </fs>
@@ -3123,7 +3123,7 @@
       <f name="pos">
        MN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=andalgó::MN;;morphemes=ZERO::NOM;;mboundary=andalgó
       </f>
      </fs>
@@ -3140,7 +3140,7 @@
       <f name="pos">
        FN.PSe3.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=telehold::FN;;morphemes=ja::PSe3 ZERO::NOM;;mboundary=telehold+ja
       </f>
      </fs>
@@ -3157,7 +3157,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -3174,7 +3174,7 @@
       <f name="pos">
        FN_NM.NOM|FN_NM.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=aki::FN_NM_Rel;;stemvar=ki::FN_NM_Rel;;morphemes=ZERO::NOM;;mboundary=ki|compound=n;;hyphenated=n;;stem=ki::FN_NM##FN_NM_Int;;morphemes=ZERO::NOM;;mboundary=ki
       </f>
      </fs>
@@ -3191,7 +3191,7 @@
       <f name="pos">
        FN_NM.e3.INE
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=maga::FN_NM;;stemvar=mag::FN_NM;;morphemes=á::e3 ban::INE;;mboundary=mag+á+ban
       </f>
      </fs>
@@ -3208,7 +3208,7 @@
       <f name="pos">
        IGE.e3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=hord::IGE;;morphemes=ZERO::e3;;mboundary=hord
       </f>
      </fs>
@@ -3225,7 +3225,7 @@
       <f name="pos">
        SZN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=tengernyi::SZN;;morphemes=ZERO::NOM;;mboundary=tengernyi
       </f>
      </fs>
@@ -3242,7 +3242,7 @@
       <f name="pos">
        FN.ACC
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=y;;stem=holt::FN##MN;;morphemes=ZERO::NOM;;mboundary=holt--compound=n;;hyphenated=y;;stem=kő::FN;;stemvar=köv::FN;;morphemes=et::ACC;;mboundary=köv+et
       </f>
      </fs>
@@ -3259,7 +3259,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -3276,7 +3276,7 @@
       <f name="pos">
        FN.SUB
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=nagy::ELO böjt::FN;;morphemes=re::SUB;;mboundary=nagy+böjt+re
       </f>
      </fs>
@@ -3293,7 +3293,7 @@
       <f name="pos">
        IGE.e2
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=kész::MN;;morphemes=sz::e2 ül::_MI;;mboundary=kész+ül+sz
       </f>
      </fs>
@@ -3310,7 +3310,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -3327,7 +3327,7 @@
       <f name="pos">
        KOT
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=bár::KOT;;mboundary=bár
       </f>
      </fs>
@@ -3344,7 +3344,7 @@
       <f name="pos">
        FN_NM.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=ami::FN_NM_Rel;;morphemes=ZERO::NOM;;mboundary=ami
       </f>
      </fs>
@@ -3361,7 +3361,7 @@
       <f name="pos">
        IGE.Te3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=tagad::IGE;;morphemes=ja::Te3;;mboundary=tagad+ja
       </f>
      </fs>
@@ -3378,7 +3378,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -3395,7 +3395,7 @@
       <f name="pos">
        FN.PL.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=y;;hyphenated=n;;stem=szak::FN év::FN;;morphemes=ZERO::NOM ok::PL;;mboundary=év+szak+ok
       </f>
      </fs>
@@ -3412,7 +3412,7 @@
       <f name="pos">
        FN.PSe3.SUP
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=határ::FN;;morphemes=n::SUP a::PSe3;;mboundary=határ+á+n
       </f>
      </fs>
@@ -3429,7 +3429,7 @@
       <f name="pos">
        HA
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=csupán::HA;;mboundary=csupán
       </f>
      </fs>
@@ -3446,7 +3446,7 @@
       <f name="pos">
        IGE.e3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=követ::IGE;;morphemes=ZERO::e3;;mboundary=követ
       </f>
      </fs>
@@ -3463,7 +3463,7 @@
       <f name="pos">
        SPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -3480,7 +3480,7 @@
       <f name="pos">
        FN.PSe2.ACC
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=lel::IGE;;morphemes=ed::PSe2 te::_IF=tA meg::IK ZERO::ACC;;mboundary=meg+lel+t+ed
       </f>
      </fs>
@@ -3497,7 +3497,7 @@
       <f name="pos">
        FN.PSe2.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=ház::FN;;morphemes=ad::PSe2 ZERO::NOM;;mboundary=ház+ad
       </f>
      </fs>
@@ -3514,7 +3514,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -3531,7 +3531,7 @@
       <f name="pos">
        FN.PSe2.SUP
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=y;;hyphenated=n;;stem=tűz::FN hely::FN;;morphemes=ed::PSe2 en::SUP;;mboundary=tűz+hely+ed+en
       </f>
      </fs>
@@ -3548,7 +3548,7 @@
       <f name="pos">
        HA
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=már::HA;;mboundary=már
       </f>
      </fs>
@@ -3565,7 +3565,7 @@
       <f name="pos">
        DET
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=a::DET;;mboundary=a
       </f>
      </fs>
@@ -3582,7 +3582,7 @@
       <f name="pos">
        MN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=kis::MN;;morphemes=ZERO::NOM;;mboundary=kis
       </f>
      </fs>
@@ -3599,7 +3599,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=láb::FN;;morphemes=ZERO::NOM as::_SFN;;mboundary=láb+as
       </f>
      </fs>
@@ -3616,7 +3616,7 @@
       <f name="pos">
        HA
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=csak::HA;;mboundary=csak
       </f>
      </fs>
@@ -3633,7 +3633,7 @@
       <f name="pos">
        IGE._OKEP.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=duzzog::IGE;;morphemes=ó::_OKEP ZERO::NOM;;mboundary=duzzog+ó
       </f>
      </fs>
@@ -3650,7 +3650,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=y;;hyphenated=n;;stem=fészek::FN pletyka::FN;;morphemes=ZERO::NOM;;mboundary=pletyka+fészek
       </f>
      </fs>
@@ -3667,7 +3667,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -3684,7 +3684,7 @@
       <f name="pos">
        MN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=alvó::MN;;morphemes=ZERO::NOM;;mboundary=alvó
       </f>
      </fs>
@@ -3701,7 +3701,7 @@
       <f name="pos">
        FN.ACC
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=vulkán::FN;;morphemes=t::ACC;;mboundary=vulkán+t
       </f>
      </fs>
@@ -3718,7 +3718,7 @@
       <f name="pos">
        IGE.e3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=rajzol::IGE;;morphemes=ZERO::e3;;mboundary=rajzol
       </f>
      </fs>
@@ -3735,7 +3735,7 @@
       <f name="pos">
        IK
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=fel::IK;;mboundary=fel
       </f>
      </fs>
@@ -3752,7 +3752,7 @@
       <f name="pos">
        DET_NM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=a::DET_NM;;mboundary=a
       </f>
      </fs>
@@ -3769,7 +3769,7 @@
       <f name="pos">
        FN.SUB
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=pá::FN;;morphemes=ra::SUB;;mboundary=pá+ra
       </f>
      </fs>
@@ -3786,7 +3786,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -3803,7 +3803,7 @@
       <f name="pos">
        IK.IGE.TMe3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=ad::IGE;;morphemes=ta::TMe3 el::IK;;mboundary=el+ad+ta
       </f>
      </fs>
@@ -3820,7 +3820,7 @@
       <f name="pos">
        HA
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=régi::MN;;stemvar=rég::MN;;morphemes=en::_ESSMOD;;mboundary=rég+en
       </f>
      </fs>
@@ -3837,7 +3837,7 @@
       <f name="pos">
        FN.PSe3.ACC
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=ing::FN kis::ELO;;morphemes=e::PSe3 t::ACC;;mboundary=kis+ing+é+t
       </f>
      </fs>
@@ -3854,7 +3854,7 @@
       <f name="pos">
        DET
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=a::DET;;mboundary=a
       </f>
      </fs>
@@ -3871,7 +3871,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=szeg::FN;;morphemes=ZERO::NOM;;mboundary=szeg
       </f>
      </fs>
@@ -3888,7 +3888,7 @@
       <f name="pos">
        SPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -3905,7 +3905,7 @@
       <f name="pos">
        KOT
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=és::KOT;;mboundary=és
       </f>
      </fs>
@@ -3922,7 +3922,7 @@
       <f name="pos">
        FN.ACC
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=fog::FN;;morphemes=at::ACC;;mboundary=fog+at
       </f>
      </fs>
@@ -3939,7 +3939,7 @@
       <f name="pos">
        IGE.Me3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=válik::IGE;;stemvar=vál::IGE;;morphemes=t::Me3;;mboundary=vál+t
       </f>
      </fs>
@@ -3956,7 +3956,7 @@
       <f name="pos">
        DET
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=a::DET;;mboundary=a
       </f>
      </fs>
@@ -3973,7 +3973,7 @@
       <f name="pos">
        MN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=bolond::FN;;morphemes=os::_SKEP ZERO::NOM;;mboundary=bolond+os
       </f>
      </fs>
@@ -3990,7 +3990,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=április::FN;;morphemes=ZERO::NOM;;mboundary=április
       </f>
      </fs>
@@ -4007,7 +4007,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -4024,7 +4024,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=ibolya::FN;;morphemes=ZERO::NOM;;mboundary=ibolya
       </f>
      </fs>
@@ -4041,7 +4041,7 @@
       <f name="pos">
        NU
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=helyett::NU;;mboundary=helyett
       </f>
      </fs>
@@ -4058,7 +4058,7 @@
       <f name="pos">
        HA
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=majd::HA;;mboundary=majd
       </f>
      </fs>
@@ -4075,7 +4075,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=kikerics::FN;;morphemes=ZERO::NOM;;mboundary=kikerics
       </f>
      </fs>
@@ -4092,7 +4092,7 @@
       <f name="pos">
        IGE.e3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=virít::IGE;;morphemes=ZERO::e3;;mboundary=virít
       </f>
      </fs>
@@ -4109,7 +4109,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -4126,7 +4126,7 @@
       <f name="pos">
        MN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=görcs::FN;;morphemes=ZERO::NOM ös::_SKEP;;mboundary=görcs+ös
       </f>
      </fs>
@@ -4143,7 +4143,7 @@
       <f name="pos">
        FN.INE
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=guzsaly::FN;;morphemes=ban::INE;;mboundary=guzsaly+ban
       </f>
      </fs>
@@ -4160,7 +4160,7 @@
       <f name="pos">
        IGE.e3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=álmodik::IGE;;stemvar=álmod::IGE;;morphemes=ik::e3;;mboundary=álmod+ik
       </f>
      </fs>
@@ -4177,7 +4177,7 @@
       <f name="pos">
        DET
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=a::DET;;mboundary=a
       </f>
      </fs>
@@ -4194,7 +4194,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=szú::FN;;morphemes=ZERO::NOM;;mboundary=szú
       </f>
      </fs>
@@ -4211,7 +4211,7 @@
       <f name="pos">
        SPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -4228,7 +4228,7 @@
       <f name="pos">
        NU.e2
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=te::FN_NM köré::NU;;morphemes=d::e2;;mboundary=+köré+d
       </f>
      </fs>
@@ -4245,7 +4245,7 @@
       <f name="pos">
        UNKNOWN
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -4262,7 +4262,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=a::FN_BETU;;morphemes=ZERO::NOM;;mboundary=a
       </f>
      </fs>
@@ -4279,7 +4279,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=csend::FN;;morphemes=ZERO::NOM;;mboundary=csend
       </f>
      </fs>
@@ -4296,7 +4296,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -4313,7 +4313,7 @@
       <f name="pos">
        KOT
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=s::KOT;;mboundary=s
       </f>
      </fs>
@@ -4330,7 +4330,7 @@
       <f name="pos">
        FN_NM.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=a::FN_NM_(NU);;morphemes=ZERO::NOM;;mboundary=a
       </f>
      </fs>
@@ -4347,7 +4347,7 @@
       <f name="pos">
        IGE.Me3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=y;;stem=hajdan::HA;;mboundary=hajdan--compound=n;;hyphenated=y;;stem=van::IGE;;stemvar=vol::IGE;;morphemes=t::Me3;;mboundary=vol+t
       </f>
      </fs>
@@ -4364,7 +4364,7 @@
       <f name="pos">
        FN.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=kacaj::FN;;morphemes=ZERO::NOM;;mboundary=kacaj
       </f>
      </fs>
@@ -4381,7 +4381,7 @@
       <f name="pos">
        FN.PSe2.SUB
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=arc::FN;;morphemes=od::PSe2 ra::SUB;;mboundary=arc+od+ra
       </f>
      </fs>
@@ -4398,7 +4398,7 @@
       <f name="pos">
        IGE.e3
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=fest::IGE;;morphemes=ZERO::e3;;mboundary=fest
       </f>
      </fs>
@@ -4415,7 +4415,7 @@
       <f name="pos">
        HA
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=majd::HA;;mboundary=majd
       </f>
      </fs>
@@ -4432,7 +4432,7 @@
       <f name="pos">
        IGE._OKEP.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=hullik::IGE;;stemvar=hull::IGE;;morphemes=ZERO::NOM ó::_OKEP;;mboundary=hull+ó
       </f>
      </fs>
@@ -4449,7 +4449,7 @@
       <f name="pos">
        FN.PL.ACC
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=ránc::FN;;morphemes=ok::PL at::ACC;;mboundary=ránc+ok+at
       </f>
      </fs>
@@ -4466,7 +4466,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -4483,7 +4483,7 @@
       <f name="pos">
        IGE._OKEP.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=él::IGE;;morphemes=ZERO::NOM ő::_OKEP;;mboundary=él+ő
       </f>
      </fs>
@@ -4500,7 +4500,7 @@
       <f name="pos">
        FN.ACC
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=n;;stem=ék::FN;;morphemes=et::ACC;;mboundary=ék+et
       </f>
      </fs>
@@ -4517,7 +4517,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -4534,7 +4534,7 @@
       <f name="pos">
        FN.ACC
       </f>
-      <f name="ana">
+      <f name="msd">
        compound=n;;hyphenated=y;;stem=szeretet::FN;;morphemes=ZERO::NOM;;mboundary=szeretet--compound=n;;hyphenated=y;;stem=koszorú::FN;;morphemes=t::ACC;;mboundary=koszorú+t
       </f>
      </fs>
@@ -4551,7 +4551,7 @@
       <f name="pos">
        SPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -4568,7 +4568,7 @@
       <f name="pos">
        WPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>
@@ -4585,7 +4585,7 @@
       <f name="pos">
        SZN_DIGIT.NOM
       </f>
-      <f name="ana">
+      <f name="msd">
        Numeral;;cardinal;;-;;singular;;nominative;;digit
       </f>
      </fs>
@@ -4602,7 +4602,7 @@
       <f name="pos">
        SPUNCT
       </f>
-      <f name="ana">
+      <f name="msd">
        __NA__
       </f>
      </fs>

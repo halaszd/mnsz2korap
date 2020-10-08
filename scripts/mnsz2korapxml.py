@@ -27,7 +27,7 @@ ANNOTATION_TYPES_ORDERED = (
     'lemma',
     'pos',
     'ctag',
-    'ana',
+    'msd',  # which is ana but it has to be called msd
     'word_cv',
     'word_syll',
     'lemma_cv',
@@ -43,7 +43,7 @@ OPTS = (
     'word',
     'lemma',
     'pos',
-    'ana',
+    'msd',
     'word_cv',
     'word_syll',
     'lemma_cv',
@@ -56,9 +56,9 @@ OPT_DICT = {'header': (None, 'header', ''),
             'sentences': (None, 'sentences', 'base'),
             'paragraphs': (None, 'paragraphs', 'base'),
             'word': (None, 'tokens', 'noske'),
-            'lemma': (('lemma',), 'lemmas', 'noske'),
+            'lemma': (('lemma',), 'lemma', 'noske'),
             'pos': (('word', 'lemma', 'pos'), 'part-of-speech', 'noske'),
-            'ana': (('lemma', 'pos', 'ana'), 'morpho', 'noske'),
+            'msd': (('lemma', 'pos', 'msd'), 'morpho', 'noske'),
             'word_cv': (('word', 'word_cv'), 'word_cv', 'noske'),
             'word_syll': (('word', 'word_syll'), 'word_syll', 'noske'),
             'lemma_cv': (('lemma', 'lemma_cv'), 'lemma_cv', 'noske'),
@@ -257,13 +257,13 @@ def gen_annotated_xml(annot_types, docid, annotations_per_line, opt):
     soup.append(soup.new_tag('layer', attrs=LAYER_ATTRS))
     span_list = soup.new_tag('spanList')
 
-    for i, (is_space, word) in enumerate(annotations_per_line):
+    for i, (is_space, annotations) in enumerate(annotations_per_line):
 
         if i != 0 and annotations_per_line[i - 1][1] not in STOPS and not is_space:
             from_index -= 1
 
-        if word == 'SSTOP' or word == 'PSTOP':
-            if (word == 'SSTOP' and opt == 'sentences') or (word == 'PSTOP' and opt == 'paragraphs'):
+        if annotations == 'SSTOP' or annotations == 'PSTOP':
+            if (annotations == 'SSTOP' and opt == 'sentences') or (annotations == 'PSTOP' and opt == 'paragraphs'):
                 BASE_SPAN_ATTRS['from'] = f'{from_index_sp}'
                 BASE_SPAN_ATTRS['to'] = f'{to_index}'
                 span = soup.new_tag('span', attrs=BASE_SPAN_ATTRS)
@@ -271,7 +271,7 @@ def gen_annotated_xml(annot_types, docid, annotations_per_line, opt):
                 from_index_sp = to_index + 1
             continue
 
-        to_index = from_index + len(word['word'])
+        to_index = from_index + len(annotations['word'])
 
         # tag+number --> lowest the number the higher in hierarchy it is.
         if opt not in BASE:
@@ -292,7 +292,7 @@ def gen_annotated_xml(annot_types, docid, annotations_per_line, opt):
                     # 4.szint: bármennyi következhet egymásután
                     F4_ATTRS['name'] = annot
                     f4 = soup.new_tag('f', attrs=F4_ATTRS)
-                    f4.string = word[annot]
+                    f4.string = annotations[annot]
                     fs3.append(f4)
 
                 span.append(fs1)
@@ -317,7 +317,7 @@ def gen_xml(meta_dict, opt):
         - word: XML of boundaries of words
         - lemma: XML of lemmas
         - pos: XML of lemmas + pos (msd)
-        - ana: XML of lemmas + pos (msd) + ana
+        - msd(originally ana): XML of lemmas + pos (msd) + ana
         - word_cv: XML of lemmas + word_cv
         - word_syll: XML of lemmas + word_syll
         - lemma_cv: XML of lemmas + lemma_cv
@@ -396,9 +396,9 @@ def get_annotations(tag_to_iterate, annotations_per_line):
                     annotations = {}
                     annotation_count = 0
 
-                    for k, annotation_type in enumerate(line.split('\t')):
+                    for k, annotation in enumerate(line.split('\t')):
                         annotation_count = k
-                        annotations[ANNOTATION_TYPES_ORDERED[k]] = annotation_type
+                        annotations[ANNOTATION_TYPES_ORDERED[k]] = annotation
 
                     if annotation_count < 10:
                         # No-ske: néha nincsen annyi tabok száma -1, amennyi hely az elemzésfajtákhoz kell:
