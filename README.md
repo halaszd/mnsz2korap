@@ -9,10 +9,10 @@
 ## Usage
 
 ```bash
-python3 mnsz2korap.py <input NoSkE filepath> -m <XML clean root folder/\**/\*.xml> -d <output folder> -b <backup filepath> -c <start a new conversion>
+python3 mnsz2korapxml.py <input NoSkE filepath> -m <XML clean root folder/\**/\*.xml> -d <output folder> -b <backup filepath> -c <start a new conversion>
 ```
 
 - Example:
 ```bash
-python3 mnsz2korap.py ../inputs/noske/*.mxml -m ../inputs/xml_clean/\**/\*.xml -d ../MNSZ -b ./backup.txt -c
+python3 mnsz2korapxml.py ../inputs/noske/*.mxml -m ../inputs/xml_clean/\**/\*.xml -d ../MNSZ -b ./backup.txt -c
 ```
