@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="iso-8859-2" standalone="no"?>
+<!DOCTYPE cesDoc SYSTEM "/home/projects/mnsz2/dtd/hncxml.dtd">
+<cesDoc type="text" version="1.0" TEIform="TEI.2">
+  <cesHeader lang="hu" type="text" status="new" version="1.0" TEIform="teiHeader">
+    <fileDesc>
+      <titleStmt>
+        <h.title>MNSZ hivatalos korpusz: Wikipédia cikkek</h.title>
+        <respStmt>
+          <respName>Váradi Tamás</respName>
+          <respType>projektvezető</respType>
+          <respName>Oravecz Csaba</respName>
+          <respType>projektvezető</respType>
+          <respName>Benyeda Ivett</respName>
+          <respType>XML konverzió</respType>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+       Magyar Nemzeti Szövegtár 2. változat - XML formátum
+      </editionStmt>
+      <extent>
+        <wordCount>D_WCOUNT</wordCount>
+        <byteCount units="kb">D_BCOUNT</byteCount>
+      </extent>
+      <publicationStmt>
+        <distributor>MTA Nyelvtudományi Intézet</distributor>
+        <pubAddress>1068 Budapest, Benczúr u. 33.</pubAddress>
+        <eAddress type="www">http://www.nytud.hu</eAddress>
+        <availability region="Europe" status="restricted">Kutatási
+        célokra, megállapodás alapján, hozzáférhető</availability>
+        <pubDate>2005/08/16</pubDate>
+      </publicationStmt>
+      <sourceDesc Default="n">
+ <biblFull>
+   <titleStmt>
+     <h.title>Wikipédia cikkek</h.title>
+   </titleStmt>
+   <publicationStmt>
+     <distributor>H_DIST</distributor>
+     <pubAddress>H_ADDR</pubAddress>
+     <availability>Külön megállapodás alapján</availability>
+     <pubDate>2003/07/08-2014/05/03</pubDate>
+   </publicationStmt>
+   <sourceDesc>
+     <biblStruct>
+       <monogr>
+  <h.title>Wikipédia cikkek</h.title>
+  <edition>Írott forrrás nincs azonosítva.</edition>
+  <imprint>
+    <publisher>H_PUBLISHER</publisher>
+    <pubDate>2003/07/08-2014/05/03</pubDate>
+    <pubPlace>H_PUBPLACE</pubPlace>
+  </imprint>
+       </monogr>
+     </biblStruct>
+   </sourceDesc>
+ </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc Default="n">Magyar Nemzeti Szövegtár: sajtónyelvi korpusz</projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+ <language id="hu" iso639="hu">Hungarian</language>
+        <language id="foreign" iso639="none">Unidentified but not Hungarian</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+ <changeDate>2014/07/22</changeDate>
+ <respName>Benyeda Ivett</respName>
+ <h.item>XML konverzió</h.item>
+      </change>
+    </revisionDesc>
+  </cesHeader>
+ <text complete="y">
+   <body>
+      <!--beginning of orig-->
+
+<div type="article">
+<opener>
+<dateline><date ISO8601="2013-03-02T14:36:02Z"></date></dateline>
+</opener>
+<byline>
+<docAuthor>Addbot</docAuthor>
+</byline>
+<!-- http://hu.wikipedia.org/wiki?curid=18-->
+<head rend="BO">GNU Free Documentation License</head>
+<p>A GNU Free Documentation License (GNU FDL vagy GFDL), azaz a GNU szabad dokumentációs licence egy szövegekre vonatkozó szabad licenc, amelyet a Free Software Foundation tervezett a GNU projekthez. A licenc eredetileg a GPL programokhoz tartozó dokumentációk, kezelési útmutatók, tankönyvek és 
+egyéb kiegészítő anyagok számára készült, de bármilyen szöveges műre alkalmazható; mára számos könyv és internetes oldal használja. Korábban a Wikipédia szövege is GFDL alatt volt felhasználható.</p>
+<p>A licenc lényege - más szabad licencekhez hasonlóan -, hogy a mű szabadon terjeszthető (akár pénzért is) és szabadon módosítható, feltéve, hogy feltüntetik az eredeti szerzőt, és a lehetővé teszik mindenkinek a mű - módosítás esetén az új mű - GFDL szerinti felhasználását, módosítását és 
+továbbterjesztését.</p>
+<p rend="2">Másodlagos szakaszok</p>
+<p>Bár a GFDL szövegek rendszerint szabadon módosíthatóak, a szerzők kijelölhetnek a szövegben bizonyos másodlagos szakaszokat (Secondary Sections), amikre különféle korlátozások érvényesülnek. Ezeknek a szakaszoknak a szerzőknek vagy a kiadóknak a műhöz való viszonyáról kell szólniuk, a mű 
+témájával nem foglalkozhatnak. A céljuk, hogy biztosítsák, hogy a korábbi szerzők kilétét, hozzájárulásának mértékét, a művel kapcsolatos üzleti, jogi, politikai, erkölcsi vagy filozófiai álláspontját ne lehessen eltitkolni vagy meghamisítani a későbbi változtatások során.</p>
+<p>A másodlagos szakaszoknak számos változata van: nem változtatható szakaszok (Invariant Sections), amiket a későbbi módosítás során nem lehet megváltoztatni vagy kitörölni, pár soros címlap- és hátlapszövegek (Front Cover Texts, Back Cover Texts), amiket a cím- illetve hátlapon kell 
+megjeleníteni, és meg nem változtatható címek (Entitled XYZ). A GFDL szabályozza azt is, hogy a korábbi szerzők listáját hogyan szabad módosítani.</p>
+<p>A dokumentumot módosító nem változtathatja meg a korábbi szövegek státuszát, de a maga által hozzáadott szöveg egyes részeit tetszés szerinti másodlagos szakasszá nyilváníthatja</p>
+<p rend="2">Transzparens másolat</p>
+<p>Aki a GFDL dokumentumot olyan formátumban terjeszti, ami számítógéppel nem dolgozható fel (ilyen például a nyomtatott szöveg vagy a PDF fájl), az köteles egy transzparens, géppel feldolgozható másolatot is elérhetővé tenni, például letölthetővé tenni a dokumentum nyers szövegét az internetről. 
+(A dokumentumot csak kis példányszámban terjesztőkre ez a megkötés nem vonatkozik.)</p>
+<p rend="2">Kritikák</p>
+<p>A GFDL-t érő egyik fő kritika a licenc rugalmatlansága: mivel a licencet eredetileg felhasználói kézikönyvekhez szánták, számos korlátozása kényelmetlen lehet rövid vagy sűrűn változó szövegek esetén. Például az a követelmény, hogy a több oldalnyi licencszöveget mindig mellékelni kell az 
+eredeti műhöz, közel lehetetlenné teszi GFDL dokumentumok újságban vagy más rövid nyomtatott szövegben való közlését.</p>
+<p>A Debian, az egyik nagy Linux disztribúció fejlesztői a 2003-ban a "nem szabad" kategóriába sorolták a GFDL-t, mivel az szerintük nem kompatibilis a Debian Szabad Szoftver Irányelvekkel; mindenekelőtt a nem változtatható szakaszok létét és a DRM tiltását 
+kifogásolták. A fejlesztők végül 2006-ban megszavazták, hogy a nem változtatható szakaszokat nem tartalmazó GFDL dokumentumok (de csak azok) szabadnak minősülnek.</p>
+<p>Sok problémát okoz a GFDL más szabad licencekkel, mindenekelőtt a Creative Commons Attribution-ShareAlike licenccel való inkompatibilitása is. A GFDL inkompatibilis a GPL licenccel is, így egy GPL alatti kódrészletet nem lehet megjelentetni a programról szóló GFDL alatti könyvben.</p>
+<p rend="2">A licenc fejlődése</p>
+<p>A GFDL vázlatát 1999 végén tették közzé; az első, 1.1-es verziót 2000 márciusában, a jelenlegi, 1.2-est 2002 novemberében publikálták. A tervezett 2-es verzió és a rugalmatlansággal kapcsolatos kritikák megválaszolására szánt GSFDL (GNU Egyszerűbb Szabad Dokumentációs Licenc) vázlatát 2006 
+szeptemberében tették közzé. A GFDL 2-es verziója a tervek szerint könnyebbé teszi a fordítást és a részletek felhasználását, a GSFDL pedig nem tartalmaz cím- és hátlapot, illetve nem módosítható szakaszokat.</p>
+<p rend="2">Lásd még</p>
+<p>GPL</p>
+<p>LGPL</p>
+<p>GSFDL</p>
+<p>Creative Commons</p>
+<p rend="2">Források</p>
+<p>A GFDL szövege</p>
+<p>A GFDL 1.2 nem hivatalos magyar fordítása</p>
+<p>How to Use the Optional Features of the GFDL</p>
+<p>GFDL version 2 draft</p>
+<p rend="2">Hivatkozások</p>
+<p>Szabad licencek</p>
+<p>GNU projektek</p>
+</div>
+
+<div type="article">
+<opener>
+<dateline><date ISO8601="2013-08-03T10:51:11Z"></date></dateline>
+</opener>
+<byline>
+<docAuthor>SamoaBot</docAuthor>
+</byline>
+<!-- http://hu.wikipedia.org/wiki?curid=19-->
+<head rend="BO">GFDL v1.1</head>
+<p>Figyelem!</p>
+<p>Ez a szöveg az eredeti angol változat fordítása. Mivel nem jogászok által készített hiteles fordítás, jogi szempontból csak az eredeti, angol nyelvű licenc a mérvadó.</p>
+<p>Lásd még: GFDL</p>
+<p rend="2">GNU Szabad Dokumentációs Licenc</p>
+<p>Ez az 1.1 változat magyar szövege, azonban a Wikipédia az 1.2-es változat vagy annál újabb alapján licencel. Az eredeti 1.2 változat a http://www.gnu.org/copyleft/fdl.html, a különbség pedig a http://www.gnu.org/licenses/fdl-1.2-diff.txt címen található. Az 1.2-es változat magyar fordítása a A 
+GNU Szabad Dokumentációs Licenc szövege szócikkben olvasható</p>
+<p>1.1 verzió, 2000. március</p>
+<p>Copyright (C) 2000 Free Software Foundation, Inc.</p>
+<p>59 Temple Place, Suite 330, Boston, MA 02111-1307 USA</p>
+<p>Jelen licenc szó szerinti sokszorosítása és terjesztése bárki</p>
+<p>számára megengedett, változtatni rajta ugyanakkor nem lehet.</p>
+<p rend="3">0. Előszó</p>
+<p>Jelen licenc célja egy olyan kézikönyv, tankönyv, vagy effajta írott dokumentum megalkotása, mely a szó szoros értelmében "szabad" : annak érdekében, hogy mindenkinek biztosítsa a szöveg sokszorosításának és terjesztésének teljes szabadságát, módosításokkal, 
+vagy anélkül, akár kereskedelmi, akár nem-kereskedelmi úton. Másfelől, e licenc megőrzi a szerző, vagy kiadó munkája elismeréséhez fűződő jogát, s egyúttal mentesíti őt a mások által beiktatott módosítások következményei alól.</p>
+<p>Jelen licenc egyfajta "etalonnak" tekinthető, ami nem jelent mást, mint hogy a dokumentumból származtatott munkák maguk is szabad minősítést kell, hogy kapjanak. E dokumentum egyben a GNU Általános Felhasználói licenc kiegészítőjeként is szolgál, mely egy a 
+szabad szoftverekre vonatkozó etalon licenc.</p>
+<p>E licencet a szabad szoftverek kézikönyveiben való használatra alkottuk, hiszen a szabad szoftver egyben szabad dokumentációt is igényel: egy szabad programot olyan kézikönyvvel kell ellátni, mely ugyanazon szabadságokat biztosítja, mint maga a program. Jelen licenc, mindazonáltal, nem 
+korlátozódik pusztán kézikönyvekre; feltételei tetszőleges tárgykörű írott dokumentumra alkalmazhatók, függetlenül attól, hogy az könyvformában valaha megjelent-e. Mindamellett e licencet főként olyan munkákhoz ajánljuk, melyek elsődleges célja az útmutatás, vagy a tájékoztatás.</p>
+<p rend="3">1. Alkalmazhatóság és definíciók</p>
+<p>E licenc minden olyan kézikönyvre, vagy más jellegű munkára vonatkozik, melyen megtalálható a szerzői jogtulajdonos által feltüntetett figyelmeztetés, miszerint a dokumentum terjesztése jelen licenc feltételei alapján lehetséges. A "Dokumentum" alább bármely 
+ilyen jellegű kézikönyvre, vagy egyéb munkára vonatkozik. A lakosság minden tagja potenciális licenctulajdonosnak tekinthető, és mindegyikük megszólítása egyaránt "ön" .</p>
+<p>A Dokumentum "Módosított Változata" bármely olyan munkára vonatkozik, mely tartalmazza a Dokumentumot, vagy annak elemeit akár szó szerint, akár módosításokkal, és/vagy más nyelvre lefordítva.</p>
+<p>A "Másodlagos Szakasz" egy egyedi névvel bíró függelék, esetleg a Dokumentum egy megelőző szakasza, mely kizárólag a kiadóknak, vagy az alkotóknak a Dokumentum átfogó tárgyköréhez (vagy kapcsolódó témákhoz) fűződő viszonyáról szól, és nem tartalmaz semmi 
+olyat, ami közvetlenül ezen átfogó témakör alá eshet. (Ha például a Dokumentum részben egy matematika tankönyv, úgy a Másodlagos Szakaszban nincs lehetőség matematikai tárgyú magyarázatokra). A fenti kapcsolat tárgya lehet a témakörrel, vagy a kapcsolódó témákkal való történelmi viszony, illetve 
+az azokra vonatkozó jogi, kereskedelmi, filozófiai, etikai, vagy politikai felfogás.</p>
+<p>A "Nem Változtatható Szakaszok" olyan speciális Másodlagos Szakasznak számítanak, melyek ilyetén való meghatározását az a közlemény tartalmazza, miszerint a Dokumentum jelen licenc hatálya alatt lett kiadva.</p>
+<p>A "Borítószövegek" olyan rövid szövegrészek, melyek Címlap-szövegként, illetve Hátlap-szövegként kerülnek felsorolásra abban a közleményben, miszerint a Dokumentum jelen licenc hatálya alatt lett kiadva.</p>
+<p>A Dokumentum "Átlátszó" példánya olyan géppel-olvasható változatot jelöl, mely a nyilvánosság számára hozzáférhető formátumban kerül terjesztésre, továbbá melynek tartalma szokványos szövegszerkesztő-programokkal, illetve (pixelekből álló képek esetén) 
+szokványos képmegjelenítő-programokkal, vagy (rajzok esetén) általánosan hozzáférhető rajprogramok segítségével azonnal és közvetlenül megtekinthető, vagy módosítható; továbbá olyan formátumban mely alkalmas a szövegszerkesztőkbe való bevitelre, vagy a szövegszerkesztők által kezelt formátumokba 
+való automatikus átalakításra. Egy olyan, egyébként Átlátszó formátumban készült példány, melynek markupja úgy lett kialakítva, hogy megakadályozza, vagy eltántorítsa az olvasókat minden további módosítástól, nem tekinthető Átlátszónak. A nem "Átlátszó" példányok 
+az "Átlátszatlan" megnevezést kapják.</p>
+<p>Az Átlátszóság kritériumainak megfelelő formátumok között megtalálható például a markup nélküli egyszerű ASCII, a Texinfo beviteli formátum, a LaTeX beviteli formátum, az SGML vagy az XML egy általánosan hozzáférhető DTD használatával, és a standardnak megfelelő, emberi módosításra tervezett 
+egyszerű HTML. Az Átlátszatlan formátumok közé sorolható a PostScript, a PDF, a szabadalmaztatott és csak fizetős szövegszerkesztőkkel olvasható formátumok, az olyan SGML vagy XML, melyhez a szükséges DTD és/vagy egyéb feldolgozó eszközök nem általánosan hozzáférhetők, és az olyan gépileg-generált 
+HTML formátum, melyet egyes szövegszerkesztők hoznak létre, kizárólag kiviteli célra.</p>
+<p>Egy nyomtatott könyv esetében a "Címlap" magát a címlapot, illetve bármely azt kiegészítő további oldalt jelöl, amely a jelen licencben definiált címlap-tartalmak közzétételéhez szükséges. Az olyan formátumú munkáknál, melyek nem rendelkeznek effajta 
+címlappal, a "Címlap" a munka címéhez legközelebb eső, ám a szöveg törzsét megelőző szövegrészeket jelöli.</p>
+<p rend="3">2. Szó szerinti sokszorosítás</p>
+<p>Önnek lehetősége van a dokumentum kereskedelmi, vagy nem-kereskedelmi jellegű sokszorosítására és terjesztésére, bármely médiumon keresztül, feltéve, hogy jelen licenc, a szerzői jogi figyelmeztetés, továbbá a Dokumentumot jelen licenc hatálya alá rendelő közlemény minden példányban egyaránt 
+megjelenik, és hogy e feltételeken kívül semmi mást nem tesz hozzá a szöveghez. Nem alkothat olyan technikai korlátokat, melyek megakadályozhatják, vagy szabályozhatják az ön által terjesztett példányok elolvasását, vagy sokszorosítását. Mindazonáltal elfogadhat bizonyos összeget a másolatok 
+fejében. Amennyiben az ön által terjesztett példányok száma meghalad egy bizonyos mennyiséget, úgy a 3. szakasz feltételeinek is eleget kell tennie.</p>
+<p>A fenti kritériumok alapján kölcsönbe adhat egyes példányokat, de akár nyilvánosan is közzéteheti a szöveget.</p>
+<p rend="3">3. Sokszorosítás nagyobb mennyiségben</p>
+<p>Amennyiben 100-nál több nyomtatott változatot tesz közzé a Dokumentumból, és annak licence feltételül szabja a Borítószövegek meglétét, úgy minden egyes példányt köteles ellátni olyan borítólapokkal, melyeken a következő Borítószövegek tisztán és olvashatóan fel vannak tüntetve: Címlap-szövegek 
+a címlapon, illetve Hátlap-szövegek a hátlapon. Mindkét borítólapra egyértelműen és olvashatóan rá kell vezetnie a kiadó, vagyis jelen esetben az ön nevét. A címlapon a Dokumentum teljes címének jól láthatóan, továbbá minden egyes szónak azonos szedésben kell megjelennie. Ezen felül, belátása 
+szerint, további részleteket is hozzáadhat a borítólapokhoz. Amennyiben az esetleges módosítások kizárólag a borítólapokat érintik, és feltéve, hogy a Dokumentum címe változatlan marad, továbbá a borítólapok megfelelnek minden egyéb követelménynek, úgy a sokszorosítás ettől eltekintve szó szerinti 
+reprodukciónak minősül.</p>
+<p>Abban az esetben, ha a borítólapok bármelyikén megkövetelt szövegrészek túl hosszúnak bizonyulnának az olvasható közzétételhez, úgy csak az elsőként felsoroltakat kell feltüntetnie (amennyi józan belátás szerint elfér) a tényleges borítón, a továbbiak pedig átkerülhetnek a következő 
+oldalakra.</p>
+<p>Amennyiben 100-nál több Átlátszatlan példányt tesz közzé, vagy terjeszt a Dokumentumból, úgy köteles vagy egy géppel-olvasható Átlátszó példányt mellékelni minden egyes Átlátszatlan példányhoz, vagy leírni minden egyes Átlátszatlan példányban egy a módosítatlan Átlátszó példányt tartalmazó 
+nyilvános hozzáférésű számítógép-hálózat elérhetőségét, ahonnan bárki, anonim módon, térítésmentesen letöltheti azt, egy közismert hálózati protokoll használatával. Ha az utóbbi lehetőséget választja, köteles gondoskodni arról, hogy attól a naptól kezdve, amikor az utolsó Átlátszatlan példány is 
+terjesztésre került (akár közvetlenül ön által, akár kiskereskedelmi forgalomban), a fenti helyen közzétett Átlátszó példány még legalább egy évig hozzáférhető legyen a felhasználók számára.</p>
+<p>Megkérjük, ámde nem kötelezzük önt arra, hogy minden esetben, amikor nagyobb példányszámú terjesztésbe kezd, már jóval ezt megelőzően lépjen kapcsolatba a Dokumentum szerzőivel, annak érdekében, hogy megkaphassa tőlük a Dokumentum esetleges felújított változatát.</p>
+<p rend="3">4. Módosítás</p>
+<p>Önnek lehetősége van a Dokumentum Módosított Változatának sokszorosítására és terjesztésére a 2. és 3. szakaszok fenti rendelkezései alapján, feltéve, hogy a Módosított Változatot kizárólag jelen licenc feltételeivel összhangban teszi közzé, ahol a Módosított Változat a Dokumentum szerepét 
+tölti be, ezáltal lehetőséget biztosítva annak terjesztésére és módosítására bárkinek, aki csak hozzájut egy példányához. Mindezen felül, a Módosított Változat az alábbi követelményeknek is meg kell, hogy feleljen:</p>
+<p>A Címlapon (és ha van, a borítókon) tüntessen fel egy a Dokumentumétól, illetve bármely korábbi változatétól eltérő címet (melyeknek, ha vannak, a Dokumentum Előzmények szakaszában kell szerepelniük). Egy korábbi változat címét csak akkor használhatja, ha annak szerzője engedélyezte azt.</p>
+<p>A Címlapon szerzőkként sorolja fel a Módosított Változatban elvégzett változtatásokért felelős személyeket, vagy entitásokat, továbbá a Dokumentum fő szerzői közül legkevesebb ötöt (vagy mindet, ha nincsenek öten).</p>
+<p>A Címlapon a Módosított Változat közzétételéért felelős személyt tüntesse fel kiadóként.</p>
+<p>A Dokumentum összes szerzői jogi figyelmeztetését hagyja érintetlenül.</p>
+<p>Saját módosításaira vonatkozóan is tegyen közzé egy szerzői jogi megjegyzést, a többi ilyen jellegű figyelmeztetés mellett.</p>
+<p>Rögtön a szerzői jogi figyelmeztetéseket követően tüntessen fel egy közleményt, az alábbi Függelék mintájára, melyben engedélyezi a Módosított Változat felhasználását jelen licenc feltételei alapján.</p>
+<p>A fenti közleményben hagyja érintetlenül a Nem Változtatható Szakaszok és a szükséges Borítószövegek jelen Dokumentum licencében előírt teljes listáját.</p>
+<p>Mellékelje jelen licenc egy eredeti példányát.</p>
+<p>Az "Előzmények" szakaszt, illetve annak címét szintén hagyja érintetlenül, emellett adjon hozzá egy új elemet, amely minimálisan tartalmazza a Módosított Változat címét, kiadási évét, továbbá az új szerzők, illetve a kiadó nevét, a Címlapon láthatókhoz 
+hasonlóan. Amennyiben a Dokumentum nem tartalmaz semmiféle "Előzmények" elnevezésű szakaszt, úgy hozzon létre egyet, mely tartalmazza a Dokumentum címét, kiadási évét, továbbá a szerzők, illetve a kiadó nevét, a Címlapon láthatókhoz hasonlóan; majd ezt követően 
+adjon hozzá egy új, a Módosított Változatra vonatkozó elemet, a fentiekkel összhangban.</p>
+<p>Ne tegyen változtatásokat a Dokumentumban megadott Átlátszó példány nyilvános hálózati elérhetőségét (ha van ilyen) illetően, vagy hasonlóképp, a Dokumentum alapjául szolgáló korábbi változatok hálózati helyére vonatkozóan. Ezek az "Előzmények" szakaszban is 
+szerepelhetnek. Csak abban az esetben hagyhatja el egyes korábbi változatok hálózati elérhetőségét, ha azok legkevesebb négy évvel a Dokumentum előtt készültek, vagy ha maga az alkotó engedélyezi azt.</p>
+<p>Bármely "Köszönetnyilvánítás" , vagy "Ajánlások" szakasz címét hagyja érintetlenül, továbbá gondoskodjon arról, hogy azok tartalma és hangvétele az egyes hozzájárulókat, és/vagy az ajánlásokat illetően változatlan 
+maradjon.</p>
+<p>A Dokumentum összes Nem Változtatható Szakaszát hagyja érintetlenül, úgy címüket, mint tartalmukat illetően. A szakaszok számozása, vagy bármely azzal egyenértékű jelölés nem tartozik a szakaszcímek közé.</p>
+<p>Töröljön minden "Jóváhagyás" elnevezésű szakaszt. Effajta szakaszok nem képezhetik részét a Módosított Változatnak.</p>
+<p>Ne nevezzen át semmilyen létező szakaszt "Jóváhagyás" -ra, vagy olyasmire, mely címében a Nem Változtatható Szakaszokkal ütközhet.</p>
+<p>Ha a Módosított Változat új megelőző szakaszokat tartalmaz, vagy olyan függelékeket, melyek Másodlagos Szakasznak minősülnek, ám nem tartalmaznak a Dokumentumból származó anyagot, abban az esetben, belátása szerint, e szakaszok némelyikét, vagy akár az összeset nem változtathatóként sorolhatja 
+be. Ehhez nem kell mást tennie, mint felsorolni a szóban forgó címeket a Módosított Változat licencének Nem Változtatható Szakaszok listájában. E címeknek határozottan el kell különülnie minden egyéb szakaszcímtől.</p>
+<p> "Jóváhagyás" elnevezésű szakaszt csak akkor adhat a Dokumentumhoz, ha az kizárólag a Módosított Változatra utaló megjegyzéseket tartalmaz - például mások recenzióira vonatkozóan, vagy hogy egy szervezet a szöveget egy standard mérvadó definíciójaként ismerte 
+el.</p>
+<p>Címlap-szöveg gyanánt egy legfeljebb öt szóból álló szövegrészt adhat meg, a Hátlap-szöveg esetén pedig 25 szót fűzhet a Módosított Változat Borítószövegeinek végéhez. Bármely entitás csak és kizárólag egy Címlap- és egy Hátlap-szövegrészt adhat (akár közvetítőn keresztül) a Dokumentumhoz. Ha a 
+dokumentum már eleve rendelkezik Borítószöveggel, akár azért, mert azt korábban ön adta hozzá, vagy mert valaki más önön keresztül gondoskodott erről, abban az esetben nincs lehetőség újabb Borítószöveg hozzáadására; a régit mindazonáltal lecserélheti, abban az esetben, ha annak kiadója 
+egyértelműen engedélyezi azt.</p>
+<p>A Dokumentum szerzője/i és kiadója/i jelen licenc alapján nem teszik lehetővé nevük nyilvános felhasználását egyetlen Módosított Változat támogatása, vagy támogatottsága érdekében sem.</p>
+<p rend="3">5. Kombinált dokumentumok</p>
+<p>Önnek lehetősége van a Dokumentum egyéb, e licenc hatálya alatt kiadott dokumentumokkal való kombinálására a 4. szakasz módosított változatokra vonatkozó rendelkezései alapján, feltéve, hogy a kombináció módosítás nélkül tartalmazza az eredeti dokumentumok összes Nem Változtatható Szakaszát, és 
+hogy azok mind Nem Változtatható Szakaszként kerülnek felsorolásra a kombinált munka licencében.</p>
+<p>A kombinált munkának jelen licenc mindössze egy példányát kell tartalmaznia, az egymással átfedésben lévő Nem Változtatható Szakaszok pedig kiválthatók egy összegzett példánnyal. Amennyiben több Nem Változtatható Szakasz szerepelne ugyanazon címmel, ám eltérő tartalommal, úgy alakítsa át minden 
+egyes szakasz címét olyan módon, hogy mögéírja zárójelben az eredeti szerző és kiadó nevét (ha ismeri), vagy egy egyedi sorszámot. Ha szükséges, a Nem Változtatható Szakaszok címeivel is végezze el a fenti módosításokat a kombinált munka licencében.</p>
+<p>A kombinált munkában az eredeti dokumentumok összes "Előzmények" elnevezésű szakaszát össze kell olvasztania, miáltal egy összefüggő "Előzmények" szakasz jön létre; hasonlóképp kell eljárnia a 
+"Köszönetnyilvánítás" , illetve az "Ajánlások" szakaszok tekintetében. Ugyanakkor minden "Jóváhagyás" elnevezésű szakaszt törölnie kell.</p>
+<p rend="3">6. Dokumentumgyűjtemények</p>
+<p>Önnek lehetősége van a Dokumentumból, illetve bármely egyéb, e licenc hatálya alatt kiadott dokumentumból gyűjteményt létrehozni, és az egyes dokumentumokban található licenceket egyetlen példánnyal kiváltani, feltéve, hogy a gyűjteményben szereplő összes dokumentum esetén minden más 
+tekintetben követi jelen licenc feltételeit, azok szó szerinti sokszorosítására vonatkozóan.</p>
+<p>Tetszése szerint ki is emelhet egy meghatározott dokumentumot a gyűjteményből, továbbá terjesztheti azt jelen licenc feltételei alapján, feltéve, hogy a szóban forgó dokumentumhoz mellékeli e licenc egy példányát, és minden egyéb tekintetben betartja jelen licenc előírásait a dokumentum szó 
+szerinti sokszorosítására vonatkozóan.</p>
+<p rend="3">7. Összefűzés független munkákkal</p>
+<p>A Dokumentum és annak származékainak különálló, vagy független dokumentumokkal, illetve munkákkal való összefűzése egy közös tárolási, vagy terjesztési egységen, egészében nem tekinthető a Dokumentum Módosított Változatának, feltéve, hogy az összefűzés nem lesz szerzői jogvédett. Az effajta 
+összefűzés eredményeként "összegzés" jön létre, ám jelen licenc nem érvényes az abban a Dokumentummal együtt szereplő önálló munkákra, hacsak azok nem a Dokumentum származékai.</p>
+<p>Amennyiben a 3. szakasz Borítószövegekre vonatkozó rendelkezései alkalmazhatók a Dokumentum e példányaira, és a Dokumentum a teljes összegzésnek kevesebb, mint egynegyedét teszi ki, úgy a Dokumentum Borítószövegeit olyan módon is el lehet helyezni, hogy azok csak magát a Dokumentumot fogják át. 
+Minden más esetben a teljes összegzés borítólapjain kell feltüntetni a fenti szövegeket.</p>
+<p rend="3">8. Fordítás</p>
+<p>A fordítás egyfajta módosításnak tekinthető, így hát a Dokumentum lefordított példányai a 4. szakasz rendelkezései alapján terjeszthetők. A Nem Változtatható Szakaszok lefordítása külön engedélyt igényel a szerzői jogtulajdonostól, mindazonáltal közzéteheti a lefordított változatokat is abban 
+az esetben, ha az eredeti Nem Változtatható Szakaszokat is belefoglalja a munkába. E licenc lefordítására ugyanezek a feltételek érvényesek, vagyis a lefordított változat csak akkor jelenhet meg, ha mellette ott van az eredeti, angol nyelvű licenc szövege is. Amennyiben eltérés mutatkozna az 
+eredeti változat, illetve a fordítás között, úgy a licenc angol nyelvű eredetije tekintendő mérvadónak.</p>
+<p rend="3">9. Megszűnés</p>
+<p>A jelen licencben egyértelműen kijelölt kereteken kívül tilos a Dokumentum bárminemű sokszorosítása, módosítása, allicencelése, vagy terjesztése. Minden ezzel szembeni sokszorosítási, módosítási, allicencelési, vagy terjesztési kísérlet a jelen licencben meghatározott jogok automatikus 
+megszűnését vonja maga után. Azok a felek, ugyanakkor, akik önön keresztül jutottak másolathoz, vagy jogosultságokhoz, nem veszítik el azokat, amíg maradéktalanul betartják e licenc előírásait.</p>
+<p rend="3">10. Jelen licenc jövőbeni javításai</p>
+<p>Megtörténhet, hogy a Szabad Szoftver Alapítvány időről időre felülvizsgált és/vagy új verziókat bocsát ki a GNU Szabad Dokumentációs Licencből. E verziók szellemisége hasonló lesz jelen változatéhoz, ám részleteikben eltérhetnek, új problémák, új aggályok felmerülése okán. Vö.: 
+http://www.gnu.org/copyleft/</p>
+<p>A licenc minden változata egyedi verziószámmal van ellátva. Ha a Dokumentum jelen licenc egy konkrét, számozott verziójára, "vagy bármely újabb verzióra" hivatkozik, úgy önnek a szóban forgó változat, vagy bármely újabb a Szabad Szoftver Alapítvány által (nem 
+vázlatként) publikált verzió feltételeinek követésére lehetősége van. Ha a Dokumentum nem ad meg semmilyen verziószámot, úgy bármely a Szabad Szoftver Alapítvány által valaha (nem vázlatként) publikált változat megfelel.</p>
+<p rend="3">Függelék: a licenc alkalmazása saját dokumentumaira</p>
+<p>Ha e licencet egy ön által írt dokumentumban kívánja használni, akkor mellékelje hozzá a licenc egy példányát, továbbá vezesse rá az alábbi szerzői jogi és licenc közleményeket, rögtön a címlapot követően:</p>
+<p>Copyright (C) év Az ÖN neve.</p>
+<p>E közlemény felhatalmazást ad önnek jelen dokumentum sokszorosítására, terjesztésére és/vagy módosítására a Szabad Szoftver Alapítvány által kiadott GNU Szabad Dokumentációs Licenc 1.1-es, vagy bármely azt követő verziójának feltételei alapján. A Nem Változtatható Szakaszok neve sorolja fel a 
+címüket, a Címlap-szövegek neve LISTA, a Hátlap-szövegek neve pedig LISTA. E licenc egy példányát a "GNU Szabad Dokumentációs Licenc" elnevezésű szakasz alatt találja.</p>
+<p>Ha a szövegben nincsenek Nem Változtatható Szakaszok, úgy írjon "nincs Nem Változtatható Szakasz" -t, ahelyett, hogy egyenként felsorolná azokat. Ha nincsenek Címlap-szövegek, akkor írjon "nincs Címlap-szöveg" -et, ahelyett, 
+hogy "a Címlap-szövegek neve lista" , és hasonlóképp járjon el a Hátlap-szövegek esetében is.</p>
+<p>Amennyiben a dokumentum haladó programkód-példákat is tartalmaz, úgy azt javasoljuk, hogy e példákat egy választása szerinti szabad szoftver licenc alatt közölje - mint például a GNU Általános Felhasználói licenc -, hogy lehetővé tegye a kódok szabad szoftverekben való alkalmazását.</p>
+<p rend="3">Eredeti változat</p>
+<p>a GNU FDL v1.2 újdonságainak magyar összefoglalása pillanatnyilag készül</p>
+<p>Szabad licencek</p>
+<p>GFDL</p>
+<p>GNU Freie Dokumentationslizenz</p>
+<p>Licencia de documentación libre GNU</p>
+<p>GFDL</p>
+<p>GNU FDL</p>
+<p>GNU Vrije Documentatie Licentie</p>
+<p>GNU FDL</p>
+<p>GNU FDL</p>
+<p>GNU FDL</p>
+</div>
+
+<div type="article">
+<opener>
+<dateline><date ISO8601="2013-03-02T14:36:05Z"></date></dateline>
+</opener>
+<byline>
+<docAuthor>Addbot</docAuthor>
+</byline>
+<!-- http://hu.wikipedia.org/wiki?curid=23-->
+<head rend="BO">Debian társadalmi szerződés</head>
+<p rend="2">Debian társadalmi szerződés</p>
+<p>A Debian, illetve a Debian GNU/Linux rendszer alkotói megalkották a Debian Társadalmi szerződést. A szerződés tartalmazza A Debian szabad szoftverekre vonatkozó irányvelveit (Debian Free Software Guidelines - DFSG), amelyben eredetileg az általunk betartandó elkötelezettségeket akartuk 
+felsorolni, de később a szabad szoftverek közössége is elfogadta a nyílt forrású szoftverek meghatározásának alapjaként.</p>
+<p rend="2"> "Társadalmi szerződés" a Szabad szoftver közösséggel</p>
+<p rend="3">1. A Debian 100%-ig szabad szoftver marad</p>
+<p>Megígérjük, hogy a Debian GNU/Linux disztribúciót megtartjuk teljes egészében szabad szoftvernek. Mivel a szabad szoftver kifejezésnek többféle értelmezése is van, a későbbiekben azt is felvázoljuk, hogy milyen irányelvek segítségével döntjük el a szoftverekről, hogy 
+"szabad" szoftverek-e. Támogatjuk azokat a felhasználókat, akik Debian disztribúción nem szabad szoftvereket fejlesztenek vagy használnak, de a rendszer sohasem fog nem szabad szoftvertől függeni.</p>
+<p rend="3">2. Mindent visszajuttatunk a Szabad szoftver közösségnek</p>
+<p>Ha új összetevőket írunk a Debian rendszerhez, akkor ezeket szabad licenc hatálya alá helyezzük. Mindig a lehető legjobb rendszer létrehozására törekszünk, ezért szabad szoftverek széles körben elterjedhetnek. A hibajavításokat, továbbfejlesztéseket és felhasználói kéréseket eljuttatjuk a 
+rendszerünkben található szoftverek "illetékes" szerzőinek.</p>
+<p rend="3">3. Nem rejtjük el a problémákat</p>
+<p>A teljes hibajelentési adatbázisunk folyamatosan elérhető lesz a nyilvánosság számára. A felhasználók által elektronikusan leadott jelentések azonnal láthatóvá válnak másoknak.</p>
+<p rend="3">4. A prioritást a felhasználóink és a szabad szoftverek jelentik</p>
+<p>A lépéseinket a felhasználóink és a szabad szoftverek közössége fogja irányítani, az ő érdekeiket helyezzük előtérbe. Támogatjuk a felhasználóknak a többféle számítástechnikai környezetben való működéssel kapcsolatos igényeit. Nem akadályozzuk meg, hogy kereskedelmi szoftverek készüljenek a 
+Debian rendszerekre, és azt is engedélyezzük másoknak, hogy a Debianból és további kereskedelmi szoftverekből értéknövelt disztribúciókat hozzanak létre anélkül, hogy ezért fizetniük kelljen. Ezen célok elérése érdekében 100%-ig szabad, kiváló minőségű szoftverekből integrált rendszert nyújtunk 
+bármely olyan jogi korlátozás nélkül, amely megakadályozná a disztribúció ilyen jellegű felhasználását.</p>
+<p rend="3">5. A szabad szoftverekre vonatkozó szabványainknak nem megfelelő programok</p>
+<p>Tudomásul vesszük, hogy bizonyos felhasználóinknak olyan programokra van szükségük, amelyek nem felelnek meg a Debian szabad szoftverekre vonatkozó irányvonalaknak. Az ilyen szoftverek számára hoztuk létre az FTP archívumok "contrib" és 
+"non-free" területeit. Ezen könyvtárakban található szoftverek nem részei a Debian rendszernek, bár be vannak állítva a Debian alatti használathoz. A CD-gyártóknak ajánljuk az itt található szoftvercsomagok licenceinek áttekintését annak meghatározásához, hogy 
+terjeszthetik-e az adott szoftvert az általuk forgalomba hozott CD-ken. Ennek megfelelően, bár a nem szabad szoftverek nem képezik a Debian részét, támogatjuk használatukat, és a nem szabad szoftvercsomagok számára is biztosítunk infrastrukturális hátteret (például a hibakövetési rendszert és 
+különféle levelezési listákat).</p>
+<p rend="2">Forrás</p>
+<p>A Debian társadalmi szerződése</p>
+<p>Linux</p>
+</div>
+
+<div type="article">
+<opener>
+<dateline><date ISO8601="2013-03-02T14:36:07Z"></date></dateline>
+</opener>
+<byline>
+<docAuthor>Addbot</docAuthor>
+</byline>
+<!-- http://hu.wikipedia.org/wiki?curid=24-->
+<head rend="BO">Debian szabad szoftver irányelvek</head>
+<p rend="2">A Debian szabad szoftverekre vonatkozó irányelvek (Debian Free Software Guidelines - DFSG)</p>
+<p rend="3">1. Szabad terjesztés</p>
+<p>A Debian összetevőinek licence senkit sem korlátozhat abban, hogy a szoftvert különböző forrásokból származó programokból felépített szoftver-disztribúciók összetevőjeként eladja vagy továbbadja. Az ilyen jellegű eladásokra vonatkozóan a licenc semmiféle szabadalmi vagy egyéb díj megfizetését 
+nem követelheti meg.</p>
+<p rend="3">2. Forráskód</p>
+<p>A programnak tartalmaznia kell a forráskódot, és a lefordított változat mellett engedélyeznie kell a forráskód terjesztését is.</p>
+<p rend="3">3. Leszármazott munkák</p>
+<p>A licencnek lehetővé kell tennie a módosításokat és leszármazott munkák készítését, és engedélyeznie ezek terjesztését az eredeti szoftver licencével megegyező licenc hatálya alatt.</p>
+<p rend="3">4. A szerző forráskódjának sértetlensége</p>
+<p>A licenc korlátozhatja a forráskód módosított formáinak terjesztését, de csak abban az esetben, ha emellett lehetővé teszi "patch fájlok" együttes terjesztését a forráskóddal, amelynek segítségével a program módosítása elvégezhető a fordítás során. A licencnek 
+kifejezetten engedélyeznie kell a módosított forrásból összeállított szoftver terjesztését. A licenc megkövetelheti, hogy a leszármazott munkák neve vagy verziószáma az eredeti szoftverétől eltérjen. (Ez egy kompromisszum. A Debian csoport arra buzdít minden szerzőt, hogy ne korlátozzák se a 
+forrás-, se a bináris fájlok módosítását.)</p>
+<p rend="3">5. Mentesség a személyekkel vagy csoportokkal szembeni diszkriminációtól</p>
+<p>A licenc semmilyen személlyel vagy csoporttal szemben nem alkalmazhat megkülönböztetést.</p>
+<p rend="3">6. Mentesség a felhasználási területekkel szembeni diszkriminációtól</p>
+<p>A licenc senkit nem korlátozhat abban, hogy a programot egy adott felhasználási területen alkalmazza. Például nem korlátozhatja egy adott program üzleti vagy génkutatásban való felhasználását.</p>
+<p rend="3">7. Licenc terjesztése</p>
+<p>A programra vonatkozó jogoknak úgy kell vonatkoznia mindenkire, akik hozzájutnak a programhoz, hogy ne legyen szükség további licenc elfogadására.</p>
+<p rend="3">8. A licenc nem lehet a Debianra jellemző</p>
+<p>A programra vonatkozó jogok nem függhetnek attól, hogy a program a Debian része vagy sem. Ha a programot a Debian rendszertől elkülönítve használják fel vagy terjesztik, de ez a programlicencnek megfelelő módon történik, akkor a programhoz hozzájutók mindegyikének azonos jogokkal kell 
+rendelkeznie azokhoz képest, akik a Debian rendszerrel együtt jutottak a programhoz.</p>
+<p rend="3">9. A licenc nem érinthet más szoftvereket</p>
+<p>A licenc nem tartalmazhat a licenc szoftverrel együtt szállított szoftverekre vonatkozó korlátozásokat. Például a licenc nem határozhatja meg, hogy a vele azonos adathordozón található programok mindegyikének szabad szoftvernek kell lennie.</p>
+<p rend="3">10. Példalicencek</p>
+<p>A "GPL" , a "BSD" és az "Artistic" licenceket "szabad" licencnek tekintjük.</p>
+<p>Linux</p>
+<p>Nyílt forráskódú licencek</p>
+</div>
+
+<div type="article">
+<opener>
+<dateline><date ISO8601="2013-06-21T20:54:32Z"></date></dateline>
+</opener>
+<byline>
+<docAuthor>FoBeBot</docAuthor>
+</byline>
+<!-- http://hu.wikipedia.org/wiki?curid=25-->
+<head rend="BO">Debian</head>
+<p>A Debian elnevezés egy gyűjtőfogalom.</p>
+<p>A többség azonban a népszerű Linux-disztribúciót érti alatta, melynek a megnevezése helyesen Debian GNU/Linux, ezzel is jelezve, hogy az adott rendszer a Linux kernelt és a GNU szoftverek együttesét használja.</p>
+<p>Legfőbb jellemzői:</p>
+<p>teljesen ingyenes és megfelel a Debian szabad szoftver irányelveknek, tehát szabad szoftver;</p>
+<p>számtalan résztvevő tartja karban;</p>
+<p>fejlett csomagkezelő rendszerrel rendelkezik, ami könnyűvé teszi a programok frissítését, telepítését és eltávolítását.</p>
+<p>A felhasználókkal való kapcsolatot a Debian társadalmi szerződés írja le.</p>
+<p rend="2">A név eredete</p>
+<p>A Debian elnevezés Ian Murdock (a projekt alapítója) és Deborah (Ian kedvese) nevének összevonásából állt össze.</p>
+<p rend="2">Debian GNU/Linux</p>
+<p rend="3">Története</p>
+<p>Ian Murdock indította útnak a világ (talán) legnagyobb nem kereskedelmi Linux terjesztését, a Debiant.</p>
+<p>Az indulás Ian levelével kezdődött, amelyet 1993. augusztus 16-án postázott a comp.os.linux.development hírcsoportba.</p>
+<p>Akkoriban még csak néhány tízezer rajongó használt Linuxot, nagy részük valamilyen saját összeállítású ( "homebrew" ) rendszert, vagy Peter MacDonald nevével fémjelzett SLS-t (Softlanding Linux System) használt.</p>
+<p>Ian 1993 januárjától használt Linuxot. Egy idő után azonban elégedetlen lett. Mint a legtöbb Linux felhasználó, ő sem a Linuxszal kapcsolatban volt elégedetlen, hanem a körülötte formálódó közösséggel.</p>
+<p>Akkoriban a Linux fejlesztések teljesen logikátlanok voltak. Az emberek különösebb tervek nélkül, a világ minden pontján elszórva, különböző nyelveket beszélve, fizetés nélkül hogyan akarhattak volna komplett operációs rendszert fejleszteni?</p>
+<p>Ezt felismerve Ian 1993 közepén megfogalmazta célját: egy szépen csomagolt Linux terjesztést kell létrehozni.</p>
+<p>Abban az időben néhány más terjesztés is létezett. Ilyenek voltak az MCC Interim a Manchester Computing Centre-től, vagy a TAMU a Texas A&amp;M Egyetemtől, de ezek a fejlesztések szép csendben eltűntek. 1993 elején kétségtelenül az SLS volt a király.</p>
+<p>Minek köszönhette az SLS a népszerűségét?</p>
+<p>Annak, hogy a legtöbb disztribúció akkoriban nem tartalmazott mást, mint a Linux kernelt, az alaprendszert és a fejlesztéshez használt alapvető programokat (toolchain). Az SLS volt az első olyan disztribúció, amely Linuxot szállított a szélesebb közönségnek, és nem csak a fejlesztőknek. A SLS 
+tartalmazott ablakozó rendszert, dokumentum formázó programokat, játékokat és más olyan programokat amelyet a szélesebb felhasználói réteg igényelt.</p>
+<p>Ennek ellenére az SLS számos dologban hiányt szenvedett, és ezt ismerte fel Ian Murdock. Összeszedte az SLS hiányosságait, kijavította azokat, különböző patcheket készített az SLS-hez, amelyek később a Debian alapját képezték. Ekkortájt született a cikk elején említett levél.</p>
+<p>Aztán néhány "majdnem kész" levél után Ian rájött, hogy ezt egyedül nem tudja csinálni. Úgy gondolta, hogy itt az ideje annak, hogy elővegye a korai elképzeléseit, és implementálja a nyílt fejlesztési modellt a munkájában.</p>
+<p>1993. augusztus 27-én megszületett az a levél, amelynek a subject-jében már a Debian szó szerepelt, és amely már egy hivatalos státuszjelentés volt a projekt állásáról.</p>
+<p>Ian Murdock azóta megpróbálkozott saját cégén keresztül egy Debian-ra alapozott üzleti disztibúció értékesítésével, amely sikertelen próbálkozásnak bizonyult. Azóta a Sun Microsystems alkalmazásában a Project Indiana nevű projekten dolgozik, amelynek érdekessége, hogy openSolaris alapra 
+helyezett, a modern Linux disztribúciók vetélytársának szánt operációs rendszert fejleszt.</p>
+<p rend="3">Debian kiadások</p>
+<p>A Debian mindig legalább három verziót tart fenn: "stable" -t (stabilt), "testing" -et (teszt verziót) és "unstable" -t (instabilt).</p>
+<p>A "stable" az aktuális ajánlott verzió, legtöbbször csak biztonsági frissítések jelennek meg hozzá. Mivel az új Debian verziók megjelenése jelenleg hosszas ellenőrzési procedúrát igényel, ezért a stabil változat gyakran régebbi programokat tartalmaz.</p>
+<p>A "testing" a váróterem a következő "stable" előtt, először ide kerülnek azok a csomagok az "unstable" -ből, melyeknél egy adott idő alatt nem került elő hiba; végül ebből fejlődik majd ki a 
+következő stabil kiadás.</p>
+<p>A "unstable" változat a legfrissebb programokat tartalmazza, azonban mivel ezeket még a közösség nem tesztelte alaposan, semmi garancia nincs arra, hogy a csomagok működnek egyáltalán, nemhogy helyesen. Csak bátraknak és tapasztaltaknak ajánlott, hiszen 
+előfordulhat, hogy egy hibás csomag után a rendszerben kézzel kell javításokat végezni ahhoz, hogy működőképes maradjon. Az ilyen szoftvert, vagy szoftvercsomagot szokás a "bleeding-edge" jelzővel illetni.</p>
+<p rend="3">Név szerinti kiadások</p>
+<p>Ezek a kódnevek a Pixar nagy sikerű animációs filmjéből, a Toy Story-ból valók.</p>
+<p>Debian 1.0 kiadás (nem volt kódneve),</p>
+<p>Debian 1.1 (kiadás: 1996. június 17.), kódneve "Buzz" - Buzz Lightyear volt a (z)űrhajós,</p>
+<p>Debian 1.2 (kiadás: 1996. december 12.), kódneve "Rex" - Rex volt a tyrannosaurus,</p>
+<p>Debian 1.3 (kiadás: 1997. június 5.), kódneve "Bo" - Bo Peep volt a pásztorlány,</p>
+<p>Debian 2.0 (kiadás: 1998. július 24.), kódneve "Hamm" - Ő volt a malac,</p>
+<p>Debian 2.1 (kiadás: 1999. március 9.), kódneve "Slink" - Slinky Dog volt a játékkutya,</p>
+<p>Debian 2.2 (kiadás: 2000. augusztus 15.), kódneve "Potato" - volt Mr. Potato (Krumplifej Uraság),</p>
+<p>Debian 3.0 (kiadás: 2002. július 19.), kódneve "Woody" - volt a cowboy,</p>
+<p>Debian 3.1 (kiadás: 2005. június 6.), kódneve "Sarge" - ő a műanyagkatona (eredetileg: Army Men).</p>
+<p>Debian 4.0 (kiadás: 2007. április 8.), kódneve "Etch" - ő a mágneses rajztábla.</p>
+<p>Debian 5.0 (kiadás: 2009. február 14.), kódneve "Lenny" - ő a kis, lábakon járó távcső</p>
+<p>Debian 6.0 (kiadás: 2011. február 6., kódneve "Squeeze" - zöld, háromszemű gumiűrlény a Toy Story 2.-ből</p>
+<p>Debian 7.0 (kiadás: 2013. május 4., kódneve "Wheezy" - egy piros csokornyakkendőt viselő gumipingvin a Toy Story 3.-ból</p>
+<p>Érdekesség, hogy a Debiannak soha nem jelent meg az 1.0-s verziója: Az InfoMagic CD forgalmazó egy félreértés miatt a fejlesztői verziót adta ki CD-n, és nevezte el 1.0-s kiadásnak. A Debian fejlesztői és az InfoMagic az eset után közös nyilatkozatban ismerték el a hibát, és visszavonták ezt a 
+változatot.</p>
+<p>Az instabil kiadás neve mindig Sid - ugyanígy hívták a szomszéd rossz gyereket, aki kínozta a játékait. A név egyúttal egy szójáték, a Still in Development - Fejlesztés alatt rövidítése.</p>
+<p rend="3">A Debianra épülő disztribúciók</p>
+<p>Ubuntu és a sok származéka: Kubuntu, Xubuntu, Fluxbuntu, Edubuntu; Linux Mint, ...</p>
+<p>Aptosid, egy Sid-re épülő terjesztés asztali rendszerekre, friss alkalmazásokkal</p>
+<p>Knoppix egy Live CD, valamint ennek sok származéka (Damn Small Linux, Kanotix, Morphix, KnoppMyth, Sulix és még több).</p>
+<p>Linspire és Freespire - ezek és származékaik főként kevésbé hozzáértő felhasználók számára készülnek otthoni, vagy irodai használatra.</p>
+<p>CrunchBang Linux, újabban Ubuntu helyett Debian alapokra épülő "pehelysúlyú" disztribúció, alapértelmezetten Openbox környezettel; a tapasztaltabb felhasználók számára.</p>
+<p>LMDE: Linux Mint Debian Edition. Az elsődlegesen Ubuntura épülő Linux Mint disztribúció fejlesztői újabban egy közvetlenül Debian-alapú rendszert is fejlesztenek.</p>
+<p>MEPIS - egy Live CD kezdőknek, ami telepíthető is.</p>
+<p>Elive - Enlightenment ablakkezelőre épülő disztribúció.</p>
+<p>Illetve számos, azóta eltűnt terjesztés, mint például a Storm Linux.</p>
+<p rend="2">Debian GNU/Hurd</p>
+<p>Folyamatban van a Debian fejlesztése más kernelekre is, elsősorban a Hurdra. A Hurd szerverprogramok gyűjteménye, amelyek egy mikrokernel (mint például a Mach) felett futnak, és különböző funkciókat implementálnak. A Hurd szabad szoftver, és a GNU projekt eredménye. Innen ered a Debian GNU/Hurd 
+elnevezés.</p>
+<p rend="2">Debian GNU/kFreeBSD</p>
+<p>Az első nem Linux-alapú - FreeBSD kernelre épülő - port a Debian 6.0 "Squeeze" verzióban debütált technológiai újdonságként.</p>
+<p rend="2">Nem támogatott Debian változatok</p>
+<p>Debian GNU/Darwin: Egy csoport tervezte a kiadását is, mely a Mac OS X Darwin nevű kernelére épült volna, de a projekt tagjai jelenleg leállították/szüneteltetik tevékenységüket. Mivel a Darwin kernel BSD licenc alatt érhető el, a Debian Projekt nem támogatja.</p>
+<p>Nexenta: Egy, az Ubuntu -ra (így közvetetten a Debianra) épülő komplett operációs rendszer, amely az openSolaris kernelt, GNU eszközkészletet, X11-et, asztali programokat szállít.</p>
+<p rend="2">Hivatkozások</p>
+<p rend="2">Külső hivatkozások</p>
+<p>debian.org </p>
+<p>debian.hu</p>
+<p>debian.lap.hu</p>
+<p>HUPWiki Debian leírás, Debian segítségek</p>
+<p>Debian-felhasználók levelező-listája (magyar nyelvű rendszer-támogatás)</p>
+<p>Linux alapok, gyakorlati segítség kezdőknek</p>
+<p>Linux-disztribúciók</p>
+<p>GNU projektek</p>
+</div>
+   </body>
+ </text>
+</cesDoc>

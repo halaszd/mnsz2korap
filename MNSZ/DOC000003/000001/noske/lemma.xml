@@ -1,0 +1,7396 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<layer docid="MNSZ_DOC000003.000001" version="KorAP-0.4" xmlns="http://ids-mannheim.de/ns/KorAP">
+ <spanList>
+  <span from="0" id="s0" to="6">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       Addbot
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="7" id="s1" to="10">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GNU
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="11" id="s2" to="15">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       free
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="16" id="s3" to="29">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       documentation
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="30" id="s4" to="37">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       License
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="38" id="s5" to="39">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="40" id="s6" to="43">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GNU
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="44" id="s7" to="48">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       free
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="49" id="s8" to="62">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       documentation
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="63" id="s9" to="70">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       License
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="71" id="s10" to="72">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       (
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="72" id="s11" to="75">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GNU
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="76" id="s12" to="79">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       FDL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="80" id="s13" to="84">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       vagy
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="85" id="s14" to="89">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GFDL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="89" id="s15" to="90">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       )
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="90" id="s16" to="91">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="92" id="s17" to="96">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       azaz
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="97" id="s18" to="98">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="99" id="s19" to="102">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GNU
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="103" id="s20" to="109">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szabad
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="110" id="s21" to="123">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       dokumentációs
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="124" id="s22" to="131">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       licenc
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="132" id="s23" to="135">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       egy
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="136" id="s24" to="146">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szöveg
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="147" id="s25" to="156">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       vonatkozik
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="157" id="s26" to="163">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szabad
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="164" id="s27" to="170">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       licenc
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="170" id="s28" to="171">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="172" id="s29" to="179">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       amely
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="180" id="s30" to="181">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="182" id="s31" to="186">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       free
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="187" id="s32" to="195">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       software
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="196" id="s33" to="206">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       Foundation
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="207" id="s34" to="216">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       tervez
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="217" id="s35" to="218">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="219" id="s36" to="222">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GNU
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="223" id="s37" to="233">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       projekt
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="233" id="s38" to="234">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       .
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="235" id="s39" to="236">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="237" id="s40" to="243">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       licenc
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="244" id="s41" to="254">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       eredetileg
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="255" id="s42" to="256">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="257" id="s43" to="260">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GPL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="261" id="s44" to="273">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       program
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="274" id="s45" to="281">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       tartozik
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="282" id="s46" to="295">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       dokumentáció
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="295" id="s47" to="296">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="297" id="s48" to="305">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       kezelési
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="306" id="s49" to="315">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       útmutató
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="315" id="s50" to="316">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="317" id="s51" to="327">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       tankönyv
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="328" id="s52" to="330">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       és
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="331" id="s53" to="336">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       egyéb
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="337" id="s54" to="347">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       kiegészít
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="348" id="s55" to="355">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       anyag
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="356" id="s56" to="363">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       számára
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="364" id="s57" to="371">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       készül
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="371" id="s58" to="372">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="373" id="s59" to="375">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       de
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="376" id="s60" to="385">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       bármilyen
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="386" id="s61" to="394">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szöveges
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="395" id="s62" to="399">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       mű
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="400" id="s63" to="412">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       alkalmazható
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="412" id="s64" to="413">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ;
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="414" id="s65" to="418">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ma
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="419" id="s66" to="425">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       számos
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="426" id="s67" to="431">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       könyv
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="432" id="s68" to="434">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       és
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="435" id="s69" to="445">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       internetes
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="446" id="s70" to="451">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       oldal
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="452" id="s71" to="461">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       használ
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="461" id="s72" to="462">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       .
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="463" id="s73" to="471">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       korábban
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="472" id="s74" to="473">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="474" id="s75" to="483">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       Wikipédia
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="484" id="s76" to="491">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szöveg
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="492" id="s77" to="494">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       is
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="495" id="s78" to="499">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GFDL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="500" id="s79" to="505">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       alatt
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="506" id="s80" to="510">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       van
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="511" id="s81" to="525">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       felhasználható
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="525" id="s82" to="526">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       .
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="527" id="s83" to="528">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="529" id="s84" to="535">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       licenc
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="536" id="s85" to="543">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       lényeg
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="544" id="s86" to="545">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       -
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="546" id="s87" to="549">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       más
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="550" id="s88" to="556">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szabad
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="557" id="s89" to="568">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       licenc
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="569" id="s90" to="578">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       hasonlóan
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="579" id="s91" to="581">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       -,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="582" id="s92" to="586">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       hogy
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="587" id="s93" to="588">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="589" id="s94" to="591">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       mű
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="592" id="s95" to="600">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szabadon
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="601" id="s96" to="613">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       terjeszthető
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="614" id="s97" to="615">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       (
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="615" id="s98" to="619">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       akár
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="620" id="s99" to="627">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       pénz
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="628" id="s100" to="630">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       is
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="630" id="s101" to="631">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       )
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="632" id="s102" to="634">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       és
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="635" id="s103" to="643">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szabadon
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="644" id="s104" to="655">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       módosítható
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="655" id="s105" to="656">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="657" id="s106" to="664">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       feltéve
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="664" id="s107" to="665">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="666" id="s108" to="670">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       hogy
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="671" id="s109" to="682">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       feltüntet
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="683" id="s110" to="685">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       az
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="686" id="s111" to="693">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       eredeti
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="694" id="s112" to="701">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szerző
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="701" id="s113" to="702">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="703" id="s114" to="705">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       és
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="706" id="s115" to="707">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="708" id="s116" to="716">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       lehető
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="717" id="s117" to="723">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       tesz
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="724" id="s118" to="735">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       mindenki
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="736" id="s119" to="737">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="738" id="s120" to="740">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       mű
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="741" id="s121" to="742">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       -
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="743" id="s122" to="752">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       módosítás
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="753" id="s123" to="759">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       esetén
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="760" id="s124" to="762">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       az
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="763" id="s125" to="765">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       új
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="766" id="s126" to="768">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       mű
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="769" id="s127" to="770">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       -
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="771" id="s128" to="775">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GFDL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="776" id="s129" to="784">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szerinti
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="785" id="s130" to="799">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       felhasználás
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="799" id="s131" to="800">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="801" id="s132" to="812">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       módosítás
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="813" id="s133" to="815">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       és
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="816" id="s134" to="834">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       továbbterjesztés
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="834" id="s135" to="835">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       .
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="836" id="s136" to="846">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       másodlagos
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="847" id="s137" to="856">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szakasz
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="857" id="s138" to="860">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       bár
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="861" id="s139" to="862">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="863" id="s140" to="867">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GFDL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="868" id="s141" to="876">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szöveg
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="877" id="s142" to="888">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       rendszerint
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="889" id="s143" to="897">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szabadon
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="898" id="s144" to="911">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       módosítható
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="911" id="s145" to="912">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="913" id="s146" to="914">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="915" id="s147" to="922">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szerző
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="923" id="s148" to="936">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       kijelölhet
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="937" id="s149" to="938">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="939" id="s150" to="948">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szöveg
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="949" id="s151" to="957">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       bizonyos
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="958" id="s152" to="968">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       másodlagos
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="969" id="s153" to="980">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szakasz
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="981" id="s154" to="982">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       (
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="982" id="s155" to="991">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       secondary
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="992" id="s156" to="1000">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       Sections
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1000" id="s157" to="1001">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       )
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1001" id="s158" to="1002">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1003" id="s159" to="1009">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ami
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1010" id="s160" to="1019">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       különféle
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1020" id="s161" to="1032">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       korlátozás
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1033" id="s162" to="1046">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       érvényesül
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1046" id="s163" to="1047">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       .
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1048" id="s164" to="1055">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ez|ez
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1056" id="s165" to="1057">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1058" id="s166" to="1070">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szakasz
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1071" id="s167" to="1072">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1073" id="s168" to="1083">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szerző
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1084" id="s169" to="1088">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       vagy
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1089" id="s170" to="1090">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1091" id="s171" to="1100">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       kiadó
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1101" id="s172" to="1102">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1103" id="s173" to="1108">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       mű
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1109" id="s174" to="1113">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       való
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1114" id="s175" to="1125">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       viszony
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1126" id="s176" to="1130">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       kell
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1131" id="s177" to="1139">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szól
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1139" id="s178" to="1140">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1141" id="s179" to="1142">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1143" id="s180" to="1145">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       mű
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1146" id="s181" to="1155">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       téma
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1156" id="s182" to="1159">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       nem
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1160" id="s183" to="1175">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       foglalkozhat
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1175" id="s184" to="1176">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       .
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1177" id="s185" to="1178">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1179" id="s186" to="1185">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       cél
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1185" id="s187" to="1186">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1187" id="s188" to="1191">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       hogy
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1192" id="s189" to="1203">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       biztosít
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1203" id="s190" to="1204">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1205" id="s191" to="1209">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       hogy
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1210" id="s192" to="1211">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1212" id="s193" to="1219">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       korábbi
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1220" id="s194" to="1227">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szerző
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1228" id="s195" to="1235">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       kilét
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1235" id="s196" to="1236">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1237" id="s197" to="1253">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       hozzájárulás
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1254" id="s198" to="1262">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       mérték
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1262" id="s199" to="1263">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1264" id="s200" to="1265">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1266" id="s201" to="1271">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       művel
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1272" id="s202" to="1283">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       kapcsolatos
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1284" id="s203" to="1290">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       üzleti
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1290" id="s204" to="1291">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1292" id="s205" to="1296">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       jogi
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1296" id="s206" to="1297">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1298" id="s207" to="1307">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       politikai
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1307" id="s208" to="1308">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1309" id="s209" to="1317">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       erkölcsi
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1318" id="s210" to="1322">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       vagy
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1323" id="s211" to="1333">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       filozófiai
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1334" id="s212" to="1346">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       álláspont
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1347" id="s213" to="1349">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ne
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1350" id="s214" to="1358">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       lehet
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1359" id="s215" to="1369">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       eltitkol
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1370" id="s216" to="1374">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       vagy
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1375" id="s217" to="1388">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       meghamisít
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1389" id="s218" to="1390">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1391" id="s219" to="1398">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       későbbi
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1399" id="s220" to="1412">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       változtatás
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1413" id="s221" to="1418">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       során
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1418" id="s222" to="1419">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       .
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1420" id="s223" to="1421">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1422" id="s224" to="1432">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       másodlagos
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1433" id="s225" to="1445">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szakasz
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1446" id="s226" to="1452">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       számos
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1453" id="s227" to="1462">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       változat
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1463" id="s228" to="1466">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       van
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1466" id="s229" to="1467">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       :
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1468" id="s230" to="1471">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       nem
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1472" id="s231" to="1485">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       változtatható
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1486" id="s232" to="1495">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szakasz
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1496" id="s233" to="1497">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       (
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1497" id="s234" to="1506">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       Invariant
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1507" id="s235" to="1515">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       Sections
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1515" id="s236" to="1516">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       )
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1516" id="s237" to="1517">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1518" id="s238" to="1524">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ami
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1525" id="s239" to="1526">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1527" id="s240" to="1534">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       későbbi
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1535" id="s241" to="1544">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       módosítás
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1545" id="s242" to="1550">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       során
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1551" id="s243" to="1554">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       nem
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1555" id="s244" to="1560">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       lehet
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1561" id="s245" to="1575">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       megváltoztat
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1576" id="s246" to="1580">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       vagy
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1581" id="s247" to="1590">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       kitöröl
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1590" id="s248" to="1591">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1592" id="s249" to="1595">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       pár
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1596" id="s250" to="1601">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       soros
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1602" id="s251" to="1609">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       címlap
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1610" id="s252" to="1612">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       és
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1613" id="s253" to="1627">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       hátlapszöveg
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1628" id="s254" to="1629">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       (
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1629" id="s255" to="1634">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       front
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1635" id="s256" to="1640">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       Cover
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1641" id="s257" to="1646">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       Texts
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1646" id="s258" to="1647">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1648" id="s259" to="1652">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       back
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1653" id="s260" to="1658">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       Cover
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1659" id="s261" to="1664">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       Texts
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1664" id="s262" to="1665">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       )
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1665" id="s263" to="1666">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1667" id="s264" to="1673">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ami
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1674" id="s265" to="1675">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1676" id="s266" to="1680">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       cím
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1681" id="s267" to="1688">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       illetve
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1689" id="s268" to="1697">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       hátlap
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1698" id="s269" to="1702">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       kell
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1703" id="s270" to="1716">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       megjelenít
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1716" id="s271" to="1717">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1718" id="s272" to="1720">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       és
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1721" id="s273" to="1724">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       meg
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1725" id="s274" to="1728">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       nem
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1729" id="s275" to="1742">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       változtatható
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1743" id="s276" to="1748">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       cím
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1749" id="s277" to="1750">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       (
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1750" id="s278" to="1758">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       Entitled
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1759" id="s279" to="1762">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       XYZ
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1762" id="s280" to="1763">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       )
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1763" id="s281" to="1764">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       .
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1765" id="s282" to="1766">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a|A
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1767" id="s283" to="1771">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GFDL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1772" id="s284" to="1783">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szabályoz
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1784" id="s285" to="1787">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       az|az
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1788" id="s286" to="1790">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       is
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1790" id="s287" to="1791">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1792" id="s288" to="1796">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       hogy
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1797" id="s289" to="1798">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1799" id="s290" to="1806">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       korábbi
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1807" id="s291" to="1814">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szerző
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1815" id="s292" to="1823">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       lista
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1824" id="s293" to="1830">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       hogyan
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1831" id="s294" to="1837">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szabad
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1838" id="s295" to="1848">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       módosít
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1848" id="s296" to="1849">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       .
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1850" id="s297" to="1851">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1852" id="s298" to="1864">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       dokumentum
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1865" id="s299" to="1873">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       módosít
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1874" id="s300" to="1877">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       nem
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1878" id="s301" to="1892">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       változtathat
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1893" id="s302" to="1896">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       meg
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1897" id="s303" to="1898">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1899" id="s304" to="1906">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       korábbi
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1907" id="s305" to="1915">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szöveg
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1916" id="s306" to="1925">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       státusz
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1925" id="s307" to="1926">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1927" id="s308" to="1929">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       de
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1930" id="s309" to="1931">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1932" id="s310" to="1936">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       maga
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1937" id="s311" to="1942">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       által
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1943" id="s312" to="1953">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       hozzáad
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1954" id="s313" to="1960">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szöveg
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1961" id="s314" to="1966">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       egyes
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1967" id="s315" to="1974">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       rész
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1975" id="s316" to="1982">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       tetszés
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1983" id="s317" to="1991">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szerinti
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="1992" id="s318" to="2002">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       másodlagos
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2003" id="s319" to="2012">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szakasz
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2013" id="s320" to="2027">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       nyilváníthat
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2028" id="s321" to="2040">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       transzparens
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2041" id="s322" to="2048">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       másolat
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2049" id="s323" to="2052">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       aki
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2053" id="s324" to="2054">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2055" id="s325" to="2059">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GFDL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2060" id="s326" to="2072">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       dokumentum
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2073" id="s327" to="2078">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       olyan
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2079" id="s328" to="2090">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       formátum
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2091" id="s329" to="2100">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       terjeszt
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2100" id="s330" to="2101">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2102" id="s331" to="2105">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ami
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2106" id="s332" to="2119">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       számítógép
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2120" id="s333" to="2123">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       nem
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2124" id="s334" to="2134">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       dolgozható
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2135" id="s335" to="2138">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       fel
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2139" id="s336" to="2140">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       (
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2140" id="s337" to="2145">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ilyen
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2146" id="s338" to="2153">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       például
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2154" id="s339" to="2155">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2156" id="s340" to="2166">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       nyomtatott
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2167" id="s341" to="2173">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szöveg
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2174" id="s342" to="2178">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       vagy
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2179" id="s343" to="2180">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2181" id="s344" to="2184">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       PDF
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2185" id="s345" to="2189">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       fájl
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2189" id="s346" to="2190">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       )
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2190" id="s347" to="2191">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2192" id="s348" to="2194">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       az
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2195" id="s349" to="2202">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       köteles
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2203" id="s350" to="2206">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       egy
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2207" id="s351" to="2219">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       transzparens
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2219" id="s352" to="2220">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2221" id="s353" to="2227">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       gép
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2228" id="s354" to="2241">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       feldolgozható
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2242" id="s355" to="2251">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       másolat
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2252" id="s356" to="2254">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       is
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2255" id="s357" to="2265">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       elérhető
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2266" id="s358" to="2271">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       tesz
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2271" id="s359" to="2272">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2273" id="s360" to="2280">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       például
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2281" id="s361" to="2293">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       letölthető
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2294" id="s362" to="2299">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       tesz
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2300" id="s363" to="2301">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2302" id="s364" to="2312">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       dokumentum
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2313" id="s365" to="2318">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       nyers
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2319" id="s366" to="2327">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szöveg
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2328" id="s367" to="2330">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       az
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2331" id="s368" to="2342">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       internet
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2342" id="s369" to="2343">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       .
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2344" id="s370" to="2345">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       (
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2345" id="s371" to="2346">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2347" id="s372" to="2359">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       dokumentum
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2360" id="s373" to="2364">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       csak
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2365" id="s374" to="2368">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       kis
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2369" id="s375" to="2383">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       példányszám
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2384" id="s376" to="2396">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       terjesztő
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2397" id="s377" to="2399">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ez
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2400" id="s378" to="2401">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2402" id="s379" to="2410">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       megkötés
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2411" id="s380" to="2414">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       nem
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2415" id="s381" to="2425">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       vonatkozik
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2425" id="s382" to="2426">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       .
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2426" id="s383" to="2427">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       )
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2428" id="s384" to="2436">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       kritika
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2437" id="s385" to="2438">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2439" id="s386" to="2445">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GFDL-t
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2446" id="s387" to="2449">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       érik
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2450" id="s388" to="2455">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       egyik
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2456" id="s389" to="2458">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       fő
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2459" id="s390" to="2466">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       kritika
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2467" id="s391" to="2468">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2469" id="s392" to="2475">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       licenc
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2476" id="s393" to="2491">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       rugalmatlanság
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2491" id="s394" to="2492">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       :
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2493" id="s395" to="2498">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       mivel
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2499" id="s396" to="2500">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2501" id="s397" to="2509">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       licenc
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2510" id="s398" to="2520">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       eredetileg
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2521" id="s399" to="2533">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       felhasználói
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2534" id="s400" to="2548">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       kézikönyv
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2549" id="s401" to="2556">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szán
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2556" id="s402" to="2557">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2558" id="s403" to="2564">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       számos
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2565" id="s404" to="2576">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       korlátozás
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2577" id="s405" to="2589">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       kényelmetlen
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2590" id="s406" to="2595">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       lehet
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2596" id="s407" to="2601">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       rövid
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2602" id="s408" to="2606">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       vagy
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2607" id="s409" to="2612">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       sűrűn
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2613" id="s410" to="2620">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       változó
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2621" id="s411" to="2629">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szöveg
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2630" id="s412" to="2636">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       esetén
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2636" id="s413" to="2637">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       .
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2638" id="s414" to="2645">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       például
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2646" id="s415" to="2648">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       az
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2649" id="s416" to="2650">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2651" id="s417" to="2662">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       követelmény
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2662" id="s418" to="2663">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2664" id="s419" to="2668">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       hogy
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2669" id="s420" to="2670">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2671" id="s421" to="2675">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       sok
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2676" id="s422" to="2684">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       oldalnyi
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2685" id="s423" to="2699">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       licencszöveg
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2700" id="s424" to="2706">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       mindig
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2707" id="s425" to="2717">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       mellékel
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2718" id="s426" to="2722">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       kell
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2723" id="s427" to="2725">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       az
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2726" id="s428" to="2733">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       eredeti
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2734" id="s429" to="2739">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       mű
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2739" id="s430" to="2740">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2741" id="s431" to="2746">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       közel
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2747" id="s432" to="2759">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       lehetetlen
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2760" id="s433" to="2765">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       tesz
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2766" id="s434" to="2770">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GFDL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2771" id="s435" to="2783">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       dokumentum
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2784" id="s436" to="2792">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       újság
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2793" id="s437" to="2797">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       vagy
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2798" id="s438" to="2801">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       más
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2802" id="s439" to="2807">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       rövid
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2808" id="s440" to="2818">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       nyomtatott
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2819" id="s441" to="2828">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szöveg
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2829" id="s442" to="2833">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       való
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2834" id="s443" to="2842">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       közlés
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2842" id="s444" to="2843">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       .
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2844" id="s445" to="2845">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       A|a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2846" id="s446" to="2852">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       Debian
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2852" id="s447" to="2853">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2854" id="s448" to="2856">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       az
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2857" id="s449" to="2862">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       egyik
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2863" id="s450" to="2867">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       nagy
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2868" id="s451" to="2873">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       Linux
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2874" id="s452" to="2886">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       disztribúció
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2887" id="s453" to="2897">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       fejlesztő
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2898" id="s454" to="2899">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2900" id="s455" to="2908">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       2003
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2909" id="s456" to="2910">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2911" id="s457" to="2912">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2913" id="s458" to="2916">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       nem
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2917" id="s459" to="2923">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szabad
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2924" id="s460" to="2925">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2926" id="s461" to="2937">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       kategória
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2938" id="s462" to="2946">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       sorol
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2947" id="s463" to="2948">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2949" id="s464" to="2955">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GFDL-t
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2955" id="s465" to="2956">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2957" id="s466" to="2962">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       mivel
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2963" id="s467" to="2965">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       az
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2966" id="s468" to="2975">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szerint
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2976" id="s469" to="2979">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       nem
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2980" id="s470" to="2992">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       kompatibilis
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2993" id="s471" to="2994">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="2995" id="s472" to="3001">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       Debian
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3002" id="s473" to="3008">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szabad
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3009" id="s474" to="3017">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szoftver
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3018" id="s475" to="3031">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       irányelv
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3031" id="s476" to="3032">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ;
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3033" id="s477" to="3046">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       mindenekelőtt
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3047" id="s478" to="3048">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3049" id="s479" to="3052">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       nem
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3053" id="s480" to="3066">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       változtatható
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3067" id="s481" to="3076">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szakasz
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3077" id="s482" to="3082">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       lét
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3083" id="s483" to="3085">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       és
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3086" id="s484" to="3087">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3088" id="s485" to="3091">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       DRM
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3092" id="s486" to="3100">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       tiltás
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3101" id="s487" to="3113">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       kifogásol
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3113" id="s488" to="3114">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       .
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3115" id="s489" to="3116">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3117" id="s490" to="3127">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       fejlesztő
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3128" id="s491" to="3133">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       végül
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3134" id="s492" to="3142">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       2006
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3143" id="s493" to="3155">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       megszavaz
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3155" id="s494" to="3156">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3157" id="s495" to="3161">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       hogy
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3162" id="s496" to="3163">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3164" id="s497" to="3167">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       nem
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3168" id="s498" to="3181">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       változtatható
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3182" id="s499" to="3193">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szakasz
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3194" id="s500" to="3197">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       nem
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3198" id="s501" to="3208">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       tartalmaz
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3209" id="s502" to="3213">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GFDL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3214" id="s503" to="3226">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       dokumentum
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3227" id="s504" to="3228">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       (
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3228" id="s505" to="3230">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       de
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3231" id="s506" to="3235">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       csak
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3236" id="s507" to="3240">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       az|az
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3240" id="s508" to="3241">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       )
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3242" id="s509" to="3251">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szabad
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3252" id="s510" to="3262">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       minősül
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3262" id="s511" to="3263">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       .
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3264" id="s512" to="3267">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       sok
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3268" id="s513" to="3277">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       probléma
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3278" id="s514" to="3282">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       okoz
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3283" id="s515" to="3284">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3285" id="s516" to="3289">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GFDL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3290" id="s517" to="3293">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       más
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3294" id="s518" to="3300">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szabad
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3301" id="s519" to="3312">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       licenc
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3312" id="s520" to="3313">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3314" id="s521" to="3327">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       mindenekelőtt
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3328" id="s522" to="3329">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3330" id="s523" to="3338">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       Creative
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3339" id="s524" to="3346">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       Commons
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3347" id="s525" to="3369">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       Attribution-ShareAlike
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3370" id="s526" to="3379">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       licenc
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3380" id="s527" to="3384">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       való
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3385" id="s528" to="3402">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       inkompatibilitás
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3403" id="s529" to="3405">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       is
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3405" id="s530" to="3406">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       .
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3407" id="s531" to="3408">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3409" id="s532" to="3413">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GFDL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3414" id="s533" to="3428">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       inkompatibilis
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3429" id="s534" to="3430">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3431" id="s535" to="3434">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GPL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3435" id="s536" to="3444">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       licenc
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3445" id="s537" to="3447">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       is
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3447" id="s538" to="3448">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3449" id="s539" to="3452">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       így
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3453" id="s540" to="3456">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       egy
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3457" id="s541" to="3460">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GPL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3461" id="s542" to="3467">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       alatti
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3468" id="s543" to="3480">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       kódrészlet
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3481" id="s544" to="3484">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       nem
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3485" id="s545" to="3490">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       lehet
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3491" id="s546" to="3504">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       megjelentet
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3505" id="s547" to="3506">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3507" id="s548" to="3517">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       program
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3518" id="s549" to="3523">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szól
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3524" id="s550" to="3528">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GFDL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3529" id="s551" to="3535">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       alatti
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3536" id="s552" to="3544">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       könyv
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3544" id="s553" to="3545">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       .
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3546" id="s554" to="3547">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3548" id="s555" to="3554">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       licenc
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3555" id="s556" to="3564">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       fejlődés
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3565" id="s557" to="3566">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3567" id="s558" to="3571">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GFDL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3572" id="s559" to="3580">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       vázlat
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3581" id="s560" to="3585">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       1999
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3586" id="s561" to="3591">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       vég
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3592" id="s562" to="3598">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       tesz
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3599" id="s563" to="3604">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       közzé
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3604" id="s564" to="3605">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ;
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3606" id="s565" to="3608">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       az
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3609" id="s566" to="3613">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       első
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3613" id="s567" to="3614">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3615" id="s568" to="3621">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       1.1-es
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3622" id="s569" to="3629">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       verzió
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3630" id="s570" to="3634">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       2000
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3635" id="s571" to="3646">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       március
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3646" id="s572" to="3647">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3648" id="s573" to="3649">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3650" id="s574" to="3659">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       jelenlegi
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3659" id="s575" to="3660">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3661" id="s576" to="3668">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       1.2-es
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3669" id="s577" to="3673">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       2002
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3674" id="s578" to="3686">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       november
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3687" id="s579" to="3698">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       publikál
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3698" id="s580" to="3699">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       .
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3700" id="s581" to="3701">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3702" id="s582" to="3711">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       tervez
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3712" id="s583" to="3716">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       2-es
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3717" id="s584" to="3723">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       verzió
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3724" id="s585" to="3726">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       és
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3727" id="s586" to="3728">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3729" id="s587" to="3746">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       rugalmatlanság
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3747" id="s588" to="3758">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       kapcsolatos
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3759" id="s589" to="3767">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       kritika
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3768" id="s590" to="3784">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       megválaszolás
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3785" id="s591" to="3790">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szán
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3791" id="s592" to="3796">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GSFDL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3797" id="s593" to="3798">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       (
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3798" id="s594" to="3801">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GNU
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3802" id="s595" to="3812">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       egyszerű
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3813" id="s596" to="3819">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szabad
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3820" id="s597" to="3833">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       dokumentációs
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3834" id="s598" to="3840">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       licenc
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3840" id="s599" to="3841">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       )
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3842" id="s600" to="3850">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       vázlat
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3851" id="s601" to="3855">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       2006
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3856" id="s602" to="3870">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szeptember
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3871" id="s603" to="3877">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       tesz
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3878" id="s604" to="3883">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       közzé
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3883" id="s605" to="3884">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       .
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3885" id="s606" to="3886">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3887" id="s607" to="3891">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GFDL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3892" id="s608" to="3896">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       2-es
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3897" id="s609" to="3905">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       verzió
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3906" id="s610" to="3907">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3908" id="s611" to="3914">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       terv
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3915" id="s612" to="3922">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szerint
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3923" id="s613" to="3932">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       könnyű
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3933" id="s614" to="3938">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       tesz
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3939" id="s615" to="3940">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3941" id="s616" to="3950">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       fordítás
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3951" id="s617" to="3953">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       és
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3954" id="s618" to="3955">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3956" id="s619" to="3965">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       részlet
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3966" id="s620" to="3980">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       felhasználás
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3980" id="s621" to="3981">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3982" id="s622" to="3983">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3984" id="s623" to="3989">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GSFDL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3990" id="s624" to="3995">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       pedig
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="3996" id="s625" to="3999">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       nem
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4000" id="s626" to="4009">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       tartalmaz
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4010" id="s627" to="4014">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       cím
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4015" id="s628" to="4017">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       és
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4018" id="s629" to="4026">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       hátlap
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4026" id="s630" to="4027">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       ,
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4028" id="s631" to="4035">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       illetve
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4036" id="s632" to="4039">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       nem
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4040" id="s633" to="4051">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       módosítható
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4052" id="s634" to="4063">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szakasz
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4063" id="s635" to="4064">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       .
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4065" id="s636" to="4069">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       lát
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4070" id="s637" to="4073">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       még
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4074" id="s638" to="4077">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GPL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4078" id="s639" to="4082">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       LGPL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4083" id="s640" to="4088">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GSFDL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4089" id="s641" to="4097">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       Creative
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4098" id="s642" to="4105">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       Commons
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4106" id="s643" to="4114">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       forrás
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4115" id="s644" to="4116">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4117" id="s645" to="4121">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GFDL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4122" id="s646" to="4129">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szöveg
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4130" id="s647" to="4131">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       a
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4132" id="s648" to="4136">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GFDL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4137" id="s649" to="4140">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       1.2
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4141" id="s650" to="4144">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       nem
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4145" id="s651" to="4154">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       hivatalos
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4155" id="s652" to="4161">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       magyar
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4162" id="s653" to="4171">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       fordítás
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4172" id="s654" to="4175">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       how
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4176" id="s655" to="4178">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       to
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4179" id="s656" to="4182">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       use
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4183" id="s657" to="4186">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       the
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4187" id="s658" to="4195">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       optional
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4196" id="s659" to="4204">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       Features
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4205" id="s660" to="4207">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       of
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4208" id="s661" to="4211">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       the
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4212" id="s662" to="4216">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GFDL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4217" id="s663" to="4221">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GFDL
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4222" id="s664" to="4229">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       version
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4230" id="s665" to="4231">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       2
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4232" id="s666" to="4237">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       draft
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4238" id="s667" to="4250">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       hivatkozás
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4251" id="s668" to="4257">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       szabad
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4258" id="s669" to="4266">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       licenc
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4267" id="s670" to="4270">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       GNU
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="4271" id="s671" to="4280">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="lemma">
+       projekt
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+ </spanList>
+</layer>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="header.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<!DOCTYPE idsCorpus PUBLIC "-//IDS//DTD IDS-XCES 1.0//EN" "http://corpora.ids-mannheim.de/idsxces1/DTD/ids.xcesdoc.dtd">
+<idsHeader lang="hu" type="text" status="new" version="1.0" TEIform="teiHeader">
+    <fileDesc>
+      <titleStmt>
+        <h.title>MNSZ hivatalos korpusz: Wikipédia cikkek</h.title>
+        <respStmt>
+          <respName>Váradi Tamás</respName>
+          <respType>projektvezető</respType>
+          <respName>Oravecz Csaba</respName>
+          <respType>projektvezető</respType>
+          <respName>Benyeda Ivett</respName>
+          <respType>XML konverzió</respType>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+       Magyar Nemzeti Szövegtár 2. változat - XML formátum
+      </editionStmt>
+      <extent>
+        <wordCount>D_WCOUNT</wordCount>
+        <byteCount units="kb">D_BCOUNT</byteCount>
+      </extent>
+      <publicationStmt>
+        <distributor>MTA Nyelvtudományi Intézet</distributor>
+        <pubAddress>1068 Budapest, Benczúr u. 33.</pubAddress>
+        <eAddress type="www">http://www.nytud.hu</eAddress>
+        <availability region="Europe" status="restricted">Kutatási
+        célokra, megállapodás alapján, hozzáférhető</availability>
+        <pubDate>2005/08/16</pubDate>
+      </publicationStmt>
+      <sourceDesc Default="n">
+ <biblFull>
+   <titleStmt>
+     <h.title>Wikipédia cikkek</h.title>
+   </titleStmt>
+   <publicationStmt>
+     <distributor>H_DIST</distributor>
+     <pubAddress>H_ADDR</pubAddress>
+     <availability>Külön megállapodás alapján</availability>
+     <pubDate>2003/07/08-2014/05/03</pubDate>
+   </publicationStmt>
+   <sourceDesc>
+     <biblStruct>
+       <monogr>
+  <h.title>Wikipédia cikkek</h.title>
+  <edition>Írott forrrás nincs azonosítva.</edition>
+  <imprint>
+    <publisher>H_PUBLISHER</publisher>
+    <pubDate>2003/07/08-2014/05/03</pubDate>
+    <pubPlace>H_PUBPLACE</pubPlace>
+  </imprint>
+       </monogr>
+     </biblStruct>
+   </sourceDesc>
+ </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc Default="n">Magyar Nemzeti Szövegtár: sajtónyelvi korpusz</projectDesc>
+    </encodingDesc>
+    <profileDesc>
+      <langUsage>
+ <language id="hu" iso639="hu">Hungarian</language>
+        <language id="foreign" iso639="none">Unidentified but not Hungarian</language>
+      </langUsage>
+    </profileDesc>
+    <revisionDesc>
+      <change>
+ <changeDate>2014/07/22</changeDate>
+ <respName>Benyeda Ivett</respName>
+ <h.item>XML konverzió</h.item>
+      </change>
+    </revisionDesc>
+  </idsHeader>

@@ -380,6 +380,8 @@ def get_annotations(tag_to_iterate, annotations_per_line):
 
         elif tag.name is not None:
             for s_tag in tag.find_all('s'):
+                if len(s_tag.text.strip()) == 0:
+                    continue
                 is_space = True
                 txt = s_tag.text.strip().split('\n')
 
