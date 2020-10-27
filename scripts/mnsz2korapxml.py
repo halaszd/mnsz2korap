@@ -59,8 +59,8 @@ OPT_DICT = {'header': (None, 'header', ''),
             'word': (None, 'tokens', 'noske'),
             'lemma': (('lemma',), 'lemma', 'noske'),
             'pos': (('word', 'lemma', 'pos'), 'part-of-speech', 'noske'),
-            'msd': (('lemma', 'pos', 'msd'), 'morpho', 'noske'),
-            # 'msd': (('lemma', 'pos', 'msd'), 'morpho', 'hnc'),
+            # 'msd': (('lemma', 'pos', 'msd'), 'morpho', 'noske'),
+            'msd': (('lemma', 'pos', 'msd'), 'morpho', 'hnc'),
             'word_cv': (('word', 'word_cv'), 'word_cv', 'noske'),
             'word_syll': (('word', 'word_syll'), 'word_syll', 'noske'),
             'lemma_cv': (('lemma', 'lemma_cv'), 'lemma_cv', 'noske'),
@@ -602,7 +602,7 @@ def main():
                 # A prettify() két szóközt és egy entert rak a szöveg elejére, ami később problémát okozott az indexelésnél
                 f.write(f'{outpf[0]["output_xml"]}')
             else:
-                f.write(outpf[0]['output_xml'].prettify())
+                f.write(f'{outpf[0]["output_xml"]}')
 
 
 if __name__ == '__main__':
