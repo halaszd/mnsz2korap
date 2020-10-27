@@ -2,7 +2,7 @@
 <?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <layer docid="MNSZ_DOC000001.000001" version="KorAP-0.4" xmlns="http://ids-mannheim.de/ns/KorAP">
  <spanList>
-  <span from="0" id="s0" to="7">
+  <span from="0" id="s_0" to="7">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -16,7 +16,7 @@
     </f>
    </fs>
   </span>
-  <span from="8" id="s1" to="9">
+  <span from="8" id="s_1" to="9">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -30,7 +30,7 @@
     </f>
    </fs>
   </span>
-  <span from="9" id="s2" to="12">
+  <span from="9" id="s_2" to="12">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -44,7 +44,7 @@
     </f>
    </fs>
   </span>
-  <span from="13" id="s3" to="21">
+  <span from="13" id="s_3" to="21">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -58,7 +58,7 @@
     </f>
    </fs>
   </span>
-  <span from="21" id="s4" to="22">
+  <span from="21" id="s_4" to="22">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -72,7 +72,7 @@
     </f>
    </fs>
   </span>
-  <span from="23" id="s5" to="28">
+  <span from="23" id="s_5" to="28">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -86,7 +86,7 @@
     </f>
    </fs>
   </span>
-  <span from="28" id="s6" to="29">
+  <span from="28" id="s_6" to="29">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -100,7 +100,7 @@
     </f>
    </fs>
   </span>
-  <span from="30" id="s7" to="31">
+  <span from="30" id="s_7" to="31">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -114,7 +114,7 @@
     </f>
    </fs>
   </span>
-  <span from="32" id="s8" to="40">
+  <span from="32" id="s_8" to="40">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -128,7 +128,7 @@
     </f>
    </fs>
   </span>
-  <span from="41" id="s9" to="43">
+  <span from="41" id="s_9" to="43">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -142,7 +142,7 @@
     </f>
    </fs>
   </span>
-  <span from="44" id="s10" to="51">
+  <span from="44" id="s_10" to="51">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -156,7 +156,7 @@
     </f>
    </fs>
   </span>
-  <span from="52" id="s11" to="62">
+  <span from="52" id="s_11" to="62">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -170,7 +170,7 @@
     </f>
    </fs>
   </span>
-  <span from="63" id="s12" to="72">
+  <span from="63" id="s_12" to="72">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -184,7 +184,7 @@
     </f>
    </fs>
   </span>
-  <span from="73" id="s13" to="87">
+  <span from="73" id="s_13" to="87">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -198,7 +198,7 @@
     </f>
    </fs>
   </span>
-  <span from="87" id="s14" to="88">
+  <span from="87" id="s_14" to="88">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -212,7 +212,7 @@
     </f>
    </fs>
   </span>
-  <span from="89" id="s15" to="90">
+  <span from="89" id="s_15" to="90">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -226,7 +226,7 @@
     </f>
    </fs>
   </span>
-  <span from="91" id="s16" to="94">
+  <span from="91" id="s_16" to="94">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -240,7 +240,7 @@
     </f>
    </fs>
   </span>
-  <span from="95" id="s17" to="107">
+  <span from="95" id="s_17" to="107">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -254,7 +254,7 @@
     </f>
    </fs>
   </span>
-  <span from="108" id="s18" to="124">
+  <span from="108" id="s_18" to="124">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -268,7 +268,7 @@
     </f>
    </fs>
   </span>
-  <span from="125" id="s19" to="136">
+  <span from="125" id="s_19" to="136">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -282,7 +282,7 @@
     </f>
    </fs>
   </span>
-  <span from="137" id="s20" to="146">
+  <span from="137" id="s_20" to="146">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -296,7 +296,7 @@
     </f>
    </fs>
   </span>
-  <span from="147" id="s21" to="157">
+  <span from="147" id="s_21" to="157">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -310,7 +310,7 @@
     </f>
    </fs>
   </span>
-  <span from="158" id="s22" to="159">
+  <span from="158" id="s_22" to="159">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -324,7 +324,7 @@
     </f>
    </fs>
   </span>
-  <span from="160" id="s23" to="167">
+  <span from="160" id="s_23" to="167">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -338,7 +338,7 @@
     </f>
    </fs>
   </span>
-  <span from="168" id="s24" to="177">
+  <span from="168" id="s_24" to="177">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -352,7 +352,7 @@
     </f>
    </fs>
   </span>
-  <span from="178" id="s25" to="183">
+  <span from="178" id="s_25" to="183">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -366,7 +366,7 @@
     </f>
    </fs>
   </span>
-  <span from="184" id="s26" to="193">
+  <span from="184" id="s_26" to="193">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -380,7 +380,7 @@
     </f>
    </fs>
   </span>
-  <span from="194" id="s27" to="208">
+  <span from="194" id="s_27" to="208">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -394,7 +394,7 @@
     </f>
    </fs>
   </span>
-  <span from="208" id="s28" to="209">
+  <span from="208" id="s_28" to="209">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -408,7 +408,7 @@
     </f>
    </fs>
   </span>
-  <span from="210" id="s29" to="216">
+  <span from="210" id="s_29" to="216">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -422,7 +422,7 @@
     </f>
    </fs>
   </span>
-  <span from="217" id="s30" to="234">
+  <span from="217" id="s_30" to="234">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -436,7 +436,7 @@
     </f>
    </fs>
   </span>
-  <span from="235" id="s31" to="241">
+  <span from="235" id="s_31" to="241">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>
@@ -450,7 +450,7 @@
     </f>
    </fs>
   </span>
-  <span from="241" id="s32" to="242">
+  <span from="241" id="s_32" to="242">
    <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
     <f name="lex">
      <fs>

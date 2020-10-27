@@ -2,75 +2,75 @@
 <?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <layer docid="MNSZ_DOC000001.000006" version="KorAP-0.4" xmlns="http://ids-mannheim.de/ns/KorAP">
  <spanList>
-  <span from="0" id="s0" to="7">
+  <span from="0" id="s_0" to="7">
   </span>
-  <span from="8" id="s1" to="14">
+  <span from="8" id="s_1" to="14">
   </span>
-  <span from="15" id="s2" to="21">
+  <span from="15" id="s_2" to="21">
   </span>
-  <span from="22" id="s3" to="30">
+  <span from="22" id="s_3" to="30">
   </span>
-  <span from="31" id="s4" to="32">
+  <span from="31" id="s_4" to="32">
   </span>
-  <span from="33" id="s5" to="39">
+  <span from="33" id="s_5" to="39">
   </span>
-  <span from="39" id="s6" to="40">
+  <span from="39" id="s_6" to="40">
   </span>
-  <span from="41" id="s7" to="45">
+  <span from="41" id="s_7" to="45">
   </span>
-  <span from="46" id="s8" to="51">
+  <span from="46" id="s_8" to="51">
   </span>
-  <span from="52" id="s9" to="57">
+  <span from="52" id="s_9" to="57">
   </span>
-  <span from="57" id="s10" to="58">
+  <span from="57" id="s_10" to="58">
   </span>
-  <span from="59" id="s11" to="64">
+  <span from="59" id="s_11" to="64">
   </span>
-  <span from="65" id="s12" to="68">
+  <span from="65" id="s_12" to="68">
   </span>
-  <span from="69" id="s13" to="70">
+  <span from="69" id="s_13" to="70">
   </span>
-  <span from="71" id="s14" to="76">
+  <span from="71" id="s_14" to="76">
   </span>
-  <span from="76" id="s15" to="77">
+  <span from="76" id="s_15" to="77">
   </span>
-  <span from="78" id="s16" to="82">
+  <span from="78" id="s_16" to="82">
   </span>
-  <span from="83" id="s17" to="85">
+  <span from="83" id="s_17" to="85">
   </span>
-  <span from="86" id="s18" to="89">
+  <span from="86" id="s_18" to="89">
   </span>
-  <span from="90" id="s19" to="94">
+  <span from="90" id="s_19" to="94">
   </span>
-  <span from="95" id="s20" to="98">
+  <span from="95" id="s_20" to="98">
   </span>
-  <span from="99" id="s21" to="107">
+  <span from="99" id="s_21" to="107">
   </span>
-  <span from="108" id="s22" to="110">
+  <span from="108" id="s_22" to="110">
   </span>
-  <span from="111" id="s23" to="115">
+  <span from="111" id="s_23" to="115">
   </span>
-  <span from="115" id="s24" to="116">
+  <span from="115" id="s_24" to="116">
   </span>
-  <span from="117" id="s25" to="125">
+  <span from="117" id="s_25" to="125">
   </span>
-  <span from="126" id="s26" to="128">
+  <span from="126" id="s_26" to="128">
   </span>
-  <span from="129" id="s27" to="136">
+  <span from="129" id="s_27" to="136">
   </span>
-  <span from="137" id="s28" to="138">
+  <span from="137" id="s_28" to="138">
   </span>
-  <span from="139" id="s29" to="146">
+  <span from="139" id="s_29" to="146">
   </span>
-  <span from="147" id="s30" to="159">
+  <span from="147" id="s_30" to="159">
   </span>
-  <span from="159" id="s31" to="160">
+  <span from="159" id="s_31" to="160">
   </span>
-  <span from="161" id="s32" to="167">
+  <span from="161" id="s_32" to="167">
   </span>
-  <span from="168" id="s33" to="173">
+  <span from="168" id="s_33" to="173">
   </span>
-  <span from="174" id="s34" to="180">
+  <span from="174" id="s_34" to="180">
   </span>
  </spanList>
 </layer>

@@ -21,6 +21,7 @@ import re
 # 10 word_phon   szóalak fonetikai reprezentációja
 # 11 lemma_phon  szótő fonetikai reprezentációja
 
+# a kimenet még mindig rosszul van indexelve.
 
 ANNOTATION_TYPES_ORDERED = (
     'word',
@@ -59,6 +60,7 @@ OPT_DICT = {'header': (None, 'header', ''),
             'lemma': (('lemma',), 'lemma', 'noske'),
             'pos': (('word', 'lemma', 'pos'), 'part-of-speech', 'noske'),
             'msd': (('lemma', 'pos', 'msd'), 'morpho', 'noske'),
+            # 'msd': (('lemma', 'pos', 'msd'), 'morpho', 'hnc'),
             'word_cv': (('word', 'word_cv'), 'word_cv', 'noske'),
             'word_syll': (('word', 'word_syll'), 'word_syll', 'noske'),
             'lemma_cv': (('lemma', 'lemma_cv'), 'lemma_cv', 'noske'),
@@ -232,6 +234,7 @@ def gen_data_xml(data, docid):
         features='lxml')
 
     txt = soup.new_tag('text')
+    # print(f'"{data}"')
     txt.string = data
     meta = soup.new_tag('metadata', file='metadata.xml')
     RAW_TEXT_ATTRS['docid'] = docid
@@ -259,7 +262,7 @@ def gen_annotated_xml(annot_types, docid, annotations_per_line, opt):
 
     for i, (is_space, annotations) in enumerate(annotations_per_line):
 
-        if i != 0 and annotations_per_line[i - 1][1] not in STOPS and not is_space:
+        if not is_space:  # i != 0 and annotations_per_line[i - 1][1] not in STOPS and not is_space:
             from_index -= 1
 
         if annotations == 'SSTOP' or annotations == 'PSTOP':
@@ -275,7 +278,7 @@ def gen_annotated_xml(annot_types, docid, annotations_per_line, opt):
 
         # tag+number --> lowest the number the higher in hierarchy it is.
         if opt not in BASE:
-            ANNOT_SPAN_ATTRS['id'] = f's{iden}'
+            ANNOT_SPAN_ATTRS['id'] = f's_{iden}'
             ANNOT_SPAN_ATTRS['from'] = f'{from_index}'
             ANNOT_SPAN_ATTRS['to'] = f'{to_index}'
             span = soup.new_tag('span', attrs=ANNOT_SPAN_ATTRS)
@@ -363,7 +366,6 @@ def get_data(div):
         line = line.strip()
 
         if len(line) > 0:
-
             if line == '###NOSPACE###':
                 data.append('NoSpace')
             else:
@@ -596,7 +598,11 @@ def main():
         with open(os.path.join(corpora_dir, parent_dir, child_dir,
                                annot_folder, os.path.splitext(outpf[0]['output_xmlname'])[0] + '.xml'),
                   "w", encoding="utf-8") as f:
-            f.write(outpf[0]['output_xml'].prettify())
+            if 'data' in outpf[0]['output_xmlname']:
+                # A prettify() két szóközt és egy entert rak a szöveg elejére, ami később problémát okozott az indexelésnél
+                f.write(f'{outpf[0]["output_xml"]}')
+            else:
+                f.write(outpf[0]['output_xml'].prettify())
 
 
 if __name__ == '__main__':

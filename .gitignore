@@ -12,5 +12,6 @@ sample_reproduced
 scripts/old_mnsz2korap.py
 scripts/test.py
 scripts/backup.txt
+scripts/check_xml_extraction.py
 MNSZ2_teszt_output
 mnsz2_noske_tabsep_oszlopok.README
