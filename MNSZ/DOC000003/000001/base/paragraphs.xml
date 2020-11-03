@@ -1,1 +1,60 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><layer docid="MNSZ_DOC000003.000001" version="KorAP-0.4" xmlns="http://ids-mannheim.de/ns/KorAP"><spanList><span from="0" to="526"></span><span from="527" to="835"></span><span from="836" to="856"></span><span from="857" to="1419"></span><span from="1420" to="1849"></span><span from="1850" to="2027"></span><span from="2028" to="2048"></span><span from="2049" to="2427"></span><span from="2428" to="2436"></span><span from="2437" to="2843"></span><span from="2844" to="3263"></span><span from="3264" to="3545"></span><span from="3546" to="3564"></span><span from="3565" to="4064"></span><span from="4065" to="4073"></span><span from="4074" to="4077"></span><span from="4078" to="4082"></span><span from="4083" to="4088"></span><span from="4089" to="4105"></span><span from="4106" to="4114"></span><span from="4115" to="4129"></span><span from="4130" to="4171"></span><span from="4172" to="4216"></span><span from="4217" to="4237"></span><span from="4238" to="4250"></span><span from="4251" to="4266"></span><span from="4267" to="4280"></span></spanList></layer>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<layer docid="MNSZ_DOC000003.000001" version="KorAP-0.4" xmlns="http://ids-mannheim.de/ns/KorAP">
+ <spanList>
+  <span from="0" to="526">
+  </span>
+  <span from="527" to="835">
+  </span>
+  <span from="836" to="856">
+  </span>
+  <span from="857" to="1419">
+  </span>
+  <span from="1420" to="1849">
+  </span>
+  <span from="1850" to="2027">
+  </span>
+  <span from="2028" to="2048">
+  </span>
+  <span from="2049" to="2427">
+  </span>
+  <span from="2428" to="2436">
+  </span>
+  <span from="2437" to="2843">
+  </span>
+  <span from="2844" to="3263">
+  </span>
+  <span from="3264" to="3545">
+  </span>
+  <span from="3546" to="3564">
+  </span>
+  <span from="3565" to="4064">
+  </span>
+  <span from="4065" to="4073">
+  </span>
+  <span from="4074" to="4077">
+  </span>
+  <span from="4078" to="4082">
+  </span>
+  <span from="4083" to="4088">
+  </span>
+  <span from="4089" to="4105">
+  </span>
+  <span from="4106" to="4114">
+  </span>
+  <span from="4115" to="4129">
+  </span>
+  <span from="4130" to="4171">
+  </span>
+  <span from="4172" to="4216">
+  </span>
+  <span from="4217" to="4237">
+  </span>
+  <span from="4238" to="4250">
+  </span>
+  <span from="4251" to="4266">
+  </span>
+  <span from="4267" to="4280">
+  </span>
+ </spanList>
+</layer>

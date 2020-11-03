@@ -602,7 +602,7 @@ def main():
                 # A prettify() két szóközt és egy entert rak a szöveg elejére, ami később problémát okozott az indexelésnél
                 f.write(f'{outpf[0]["output_xml"]}')
             else:
-                f.write(f'{outpf[0]["output_xml"]}')
+                f.write(f'{outpf[0]["output_xml"].prettify()}')
 
 
 if __name__ == '__main__':

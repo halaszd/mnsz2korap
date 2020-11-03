@@ -1,1 +1,30 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><layer docid="MNSZ_DOC000001.000003" version="KorAP-0.4" xmlns="http://ids-mannheim.de/ns/KorAP"><spanList><span from="0" to="147"></span><span from="148" to="282"></span><span from="283" to="382"></span><span from="383" to="482"></span><span from="483" to="593"></span><span from="594" to="699"></span><span from="700" to="784"></span><span from="785" to="877"></span><span from="878" to="1023"></span><span from="1024" to="1158"></span><span from="1159" to="1262"></span><span from="1263" to="1374"></span></spanList></layer>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<layer docid="MNSZ_DOC000001.000003" version="KorAP-0.4" xmlns="http://ids-mannheim.de/ns/KorAP">
+ <spanList>
+  <span from="0" to="147">
+  </span>
+  <span from="148" to="282">
+  </span>
+  <span from="283" to="382">
+  </span>
+  <span from="383" to="482">
+  </span>
+  <span from="483" to="593">
+  </span>
+  <span from="594" to="699">
+  </span>
+  <span from="700" to="784">
+  </span>
+  <span from="785" to="877">
+  </span>
+  <span from="878" to="1023">
+  </span>
+  <span from="1024" to="1158">
+  </span>
+  <span from="1159" to="1262">
+  </span>
+  <span from="1263" to="1374">
+  </span>
+ </spanList>
+</layer>

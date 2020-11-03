@@ -1,1 +1,468 @@
-<?xml version="1.0" encoding="UTF-8"?><?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><layer docid="MNSZ_DOC000001.000001" version="KorAP-0.4" xmlns="http://ids-mannheim.de/ns/KorAP"><spanList><span from="0" id="s_0" to="7"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">Roviden</f><f name="word_syll">__NA__</f></fs></f></fs></span><span from="8" id="s_1" to="9"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">(</f><f name="word_syll">__NA__</f></fs></f></fs></span><span from="9" id="s_2" to="12"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">Sz.</f><f name="word_syll">__NA__</f></fs></f></fs></span><span from="13" id="s_3" to="21"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">Korondon</f><f name="word_syll">3</f></fs></f></fs></span><span from="21" id="s_4" to="22"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">)</f><f name="word_syll">__NA__</f></fs></f></fs></span><span from="23" id="s_5" to="28"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">tanár</f><f name="word_syll">2</f></fs></f></fs></span><span from="28" id="s_6" to="29"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">,</f><f name="word_syll">__NA__</f></fs></f></fs></span><span from="30" id="s_7" to="31"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">a</f><f name="word_syll">1</f></fs></f></fs></span><span from="32" id="s_8" to="40"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">Hazanéző</f><f name="word_syll">4</f></fs></f></fs></span><span from="41" id="s_9" to="43"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">c.</f><f name="word_syll">__NA__</f></fs></f></fs></span><span from="44" id="s_10" to="51"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">korondi</f><f name="word_syll">3</f></fs></f></fs></span><span from="52" id="s_11" to="62"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">művelődési</f><f name="word_syll">5</f></fs></f></fs></span><span from="63" id="s_12" to="72"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">folyóirat</f><f name="word_syll">4</f></fs></f></fs></span><span from="73" id="s_13" to="87"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">főszerkesztője</f><f name="word_syll">5</f></fs></f></fs></span><span from="87" id="s_14" to="88"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">,</f><f name="word_syll">__NA__</f></fs></f></fs></span><span from="89" id="s_15" to="90"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">a</f><f name="word_syll">1</f></fs></f></fs></span><span from="91" id="s_16" to="94"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">lap</f><f name="word_syll">1</f></fs></f></fs></span><span from="95" id="s_17" to="107"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">szorgalmazta</f><f name="word_syll">4</f></fs></f></fs></span><span from="108" id="s_18" to="124"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">Hazanéző-könyvek</f><f name="word_syll">6</f></fs></f></fs></span><span from="125" id="s_19" to="136"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">sorozatának</f><f name="word_syll">5</f></fs></f></fs></span><span from="137" id="s_20" to="146"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">gondozója</f><f name="word_syll">4</f></fs></f></fs></span><span from="147" id="s_21" to="157"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">költészete</f><f name="word_syll">4</f></fs></f></fs></span><span from="158" id="s_22" to="159"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">a</f><f name="word_syll">1</f></fs></f></fs></span><span from="160" id="s_23" to="167"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">székely</f><f name="word_syll">2</f></fs></f></fs></span><span from="168" id="s_24" to="177"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">életforma</f><f name="word_syll">4</f></fs></f></fs></span><span from="178" id="s_25" to="183"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">helyi</f><f name="word_syll">2</f></fs></f></fs></span><span from="184" id="s_26" to="193"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">színeinek</f><f name="word_syll">4</f></fs></f></fs></span><span from="194" id="s_27" to="208"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">megtestesítője</f><f name="word_syll">6</f></fs></f></fs></span><span from="208" id="s_28" to="209"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">,</f><f name="word_syll">__NA__</f></fs></f></fs></span><span from="210" id="s_29" to="216"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">nyelvi</f><f name="word_syll">2</f></fs></f></fs></span><span from="217" id="s_30" to="234"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">leleményességének</f><f name="word_syll">7</f></fs></f></fs></span><span from="235" id="s_31" to="241"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">őrzője</f><f name="word_syll">3</f></fs></f></fs></span><span from="241" id="s_32" to="242"><fs type="lex" xmlns="http://www.tei-c.org/ns/1.0"><f name="lex"><fs><f name="word">.</f><f name="word_syll">__NA__</f></fs></f></fs></span></spanList></layer>
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<layer docid="MNSZ_DOC000001.000001" version="KorAP-0.4" xmlns="http://ids-mannheim.de/ns/KorAP">
+ <spanList>
+  <span from="0" id="s_0" to="7">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       Roviden
+      </f>
+      <f name="word_syll">
+       __NA__
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="8" id="s_1" to="9">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       (
+      </f>
+      <f name="word_syll">
+       __NA__
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="9" id="s_2" to="12">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       Sz.
+      </f>
+      <f name="word_syll">
+       __NA__
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="13" id="s_3" to="21">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       Korondon
+      </f>
+      <f name="word_syll">
+       3
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="21" id="s_4" to="22">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       )
+      </f>
+      <f name="word_syll">
+       __NA__
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="23" id="s_5" to="28">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       tanár
+      </f>
+      <f name="word_syll">
+       2
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="28" id="s_6" to="29">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       ,
+      </f>
+      <f name="word_syll">
+       __NA__
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="30" id="s_7" to="31">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       a
+      </f>
+      <f name="word_syll">
+       1
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="32" id="s_8" to="40">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       Hazanéző
+      </f>
+      <f name="word_syll">
+       4
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="41" id="s_9" to="43">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       c.
+      </f>
+      <f name="word_syll">
+       __NA__
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="44" id="s_10" to="51">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       korondi
+      </f>
+      <f name="word_syll">
+       3
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="52" id="s_11" to="62">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       művelődési
+      </f>
+      <f name="word_syll">
+       5
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="63" id="s_12" to="72">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       folyóirat
+      </f>
+      <f name="word_syll">
+       4
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="73" id="s_13" to="87">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       főszerkesztője
+      </f>
+      <f name="word_syll">
+       5
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="87" id="s_14" to="88">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       ,
+      </f>
+      <f name="word_syll">
+       __NA__
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="89" id="s_15" to="90">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       a
+      </f>
+      <f name="word_syll">
+       1
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="91" id="s_16" to="94">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       lap
+      </f>
+      <f name="word_syll">
+       1
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="95" id="s_17" to="107">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       szorgalmazta
+      </f>
+      <f name="word_syll">
+       4
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="108" id="s_18" to="124">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       Hazanéző-könyvek
+      </f>
+      <f name="word_syll">
+       6
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="125" id="s_19" to="136">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       sorozatának
+      </f>
+      <f name="word_syll">
+       5
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="137" id="s_20" to="146">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       gondozója
+      </f>
+      <f name="word_syll">
+       4
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="147" id="s_21" to="157">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       költészete
+      </f>
+      <f name="word_syll">
+       4
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="158" id="s_22" to="159">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       a
+      </f>
+      <f name="word_syll">
+       1
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="160" id="s_23" to="167">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       székely
+      </f>
+      <f name="word_syll">
+       2
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="168" id="s_24" to="177">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       életforma
+      </f>
+      <f name="word_syll">
+       4
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="178" id="s_25" to="183">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       helyi
+      </f>
+      <f name="word_syll">
+       2
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="184" id="s_26" to="193">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       színeinek
+      </f>
+      <f name="word_syll">
+       4
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="194" id="s_27" to="208">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       megtestesítője
+      </f>
+      <f name="word_syll">
+       6
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="208" id="s_28" to="209">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       ,
+      </f>
+      <f name="word_syll">
+       __NA__
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="210" id="s_29" to="216">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       nyelvi
+      </f>
+      <f name="word_syll">
+       2
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="217" id="s_30" to="234">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       leleményességének
+      </f>
+      <f name="word_syll">
+       7
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="235" id="s_31" to="241">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       őrzője
+      </f>
+      <f name="word_syll">
+       3
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+  <span from="241" id="s_32" to="242">
+   <fs type="lex" xmlns="http://www.tei-c.org/ns/1.0">
+    <f name="lex">
+     <fs>
+      <f name="word">
+       .
+      </f>
+      <f name="word_syll">
+       __NA__
+      </f>
+     </fs>
+    </f>
+   </fs>
+  </span>
+ </spanList>
+</layer>

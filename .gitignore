@@ -4,6 +4,7 @@ hncxml.dtd
 mnsz2korap.txt
 multi_divs_mnsz_files.txt
 .idea/
+.venv/
 sample_input/*
 inputs/noske
 inputs/xml_clean
@@ -11,7 +12,7 @@ sample_to_reproduce
 sample_reproduced
 scripts/old_mnsz2korap.py
 scripts/test.py
-scripts/backup.txt
+backup.txt
 scripts/check_xml_extraction.py
 MNSZ2_teszt_output
 mnsz2_noske_tabsep_oszlopok.README
