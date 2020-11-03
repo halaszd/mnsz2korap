@@ -4,7 +4,7 @@ PYTHON3 := .venv/bin/python3
 create_venv:
 	rm -rf .venv
 	python3 -m venv .venv
-	./venv/bin/pip3 install -r requirements.txt
+	./.venv/bin/pip3 install -r requirements.txt
 PHONY: create_venv
 
 # ----- mnsz2korap: Az MNSZ2 NoSkE formátumban lévő XML-jeit átalakítja KorAP formátumra a test input alapján
