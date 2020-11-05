@@ -11,7 +11,7 @@ PHONY: create_venv
 
 # ----- mnsz2korap: Az MNSZ2 NoSkE formátumban lévő XML-jeit átalakítja KorAP formátumra a test input alapján
 test:
-	$(PYTHON3) scripts/mnsz2korapxml.py inputs/noske_test/*.mxml -m inputs/xml_clean_test/\**/\*.xml -d MNSZ -c
+	$(PYTHON3) scripts/mnsz2korapxml.py inputs/noske_test/*.mxml -m inputs/xml_clean_test/\**/\*.xml -d test_MNSZ_KorAP -c
 PHONY: test
 
 # ----- mnsz2korap: Az MNSZ2 NoSkE formátumban lévő XML-jeit átalakítja KorAP formátumra --> éles futtatás az oliphant-on.
