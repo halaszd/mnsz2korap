@@ -111,26 +111,35 @@ def loading_backup_file(backup_filepath, create_new):
     # filenév, id, child id
     if create_new:
         writing_backup_file(backup_filepath, create_new)
-        return 0, 0
+        return 0, 0, None, set()
+
+    line = ''
+    processed_files = set()
 
     try:
         with open(backup_filepath, encoding='utf-8') as f:
-            line = ''
             for line in f:
+                processed_files.add(line.split()[0])
                 pass
-            if len(line.strip()) > 0:
-                return int(line.split()[1])-1, int(line.split()[2])
-
     except FileNotFoundError:
         print('FileNotFound: creating new backup file.')
         writing_backup_file(backup_filepath, True)
+        return 0, 0, None, set()
 
-    return 0, 0
+    line = line.strip()
+    if len(line) > 0:
+        values = line.split()
+        if len(values) == 4:
+            if values[3] == 'False':
+                return int(values[1]) - 1, int(values[2]), values[0], processed_files
+            else:
+                return int(values[1]), 0, values[0], processed_files
 
 
-def read(noske_clean_files_dict, last_file_index):
+def read(noske_clean_files_dict, last_file_index, processed_files):
     for i, (noske_file, clean_file) in enumerate(noske_clean_files_dict.items()):
-        if i < last_file_index:
+        if i < last_file_index and \
+                os.path.splitext(os.path.basename(noske_file.replace('source.', '', 1)))[0] in processed_files:
             continue
 
         with open(noske_file, encoding="iso-8859-2") as f:
@@ -432,7 +441,7 @@ def process_documents(noske_inps, corpora_dir, last_parent_folder_number, last_c
     start_div_number = 0
     clean_divs = []
 
-    for i, (noske_fname, clean_xml_path, noske_xml) in enumerate(noske_inps, start=last_parent_folder_number+1):
+    for i, (noske_fname, clean_xml_path, noske_xml) in enumerate(noske_inps, start=last_parent_folder_number + 1):
         parent_folder_number = gen_docname(parent_folder_number, i)
         child_folder_name = '000000'
 
@@ -477,7 +486,7 @@ def process_documents(noske_inps, corpora_dir, last_parent_folder_number, last_c
             if j < last_child_folder_number:
                 continue
             child_folder_number = j + 1
-            clean_div = clean_divs[j+start_div_number]
+            clean_div = clean_divs[j + start_div_number]
             child_folder_name = gen_docname(child_folder_name, child_folder_number)
             annotations_per_line = []
             data = get_data(div)
@@ -495,7 +504,9 @@ def process_documents(noske_inps, corpora_dir, last_parent_folder_number, last_c
                       meta_dict['parent_folder_name'], \
                       meta_dict['child_folder_name']
 
-            writing_backup_file(backup_filepath, False, (fname_wo_ext, f'{i}', f'{child_folder_number}'))
+            is_last_subfile = True if j == len(noske_divs) - 1 else False
+            writing_backup_file(backup_filepath, False,
+                                (fname_wo_ext, f'{i}', f'{child_folder_number}', f'{is_last_subfile}'))
 
         last_clean_xml_path = clean_xml_path
         last_len_of_divs = len(noske_divs)
@@ -579,15 +590,18 @@ def main():
             pass
 
     # Az legutóbbi kovertálás során keletkezett legutolsó fájl sorszámának betöltése
-    last_parent_folder_number, last_child_folder_number = loading_backup_file(args['backup_filepath'], args['create_new'])
-
+    last_parent_folder_number, \
+        last_child_folder_number, \
+        last_documentum_name, \
+        processed_documents = loading_backup_file(args['backup_filepath'], args['create_new'])
     corpora_dir = args['output_dir']
 
     # Noske fájlok az annotációk kinyeréséhez
-    noske_inp = read(args['input_noske_filepath'], last_parent_folder_number)
+    noske_inp = read(args['input_noske_filepath'], last_parent_folder_number, processed_documents)
 
     # Clean fájlok a metaadatok kinyeréséhez (headerek)
-    outp = process_documents(noske_inp, corpora_dir, last_parent_folder_number, last_child_folder_number, args['backup_filepath'])
+    outp = process_documents(noske_inp, corpora_dir, last_parent_folder_number, last_child_folder_number,
+                             args['backup_filepath'])
 
     for outpf in outp:
         parent_dir = ''.join(outpf[1])
