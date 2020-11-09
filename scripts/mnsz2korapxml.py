@@ -230,7 +230,11 @@ def gen_header_xml(header_type, corpora_dir=None, parent_dir=None, clean_xml=Non
         # <date ISO8601="2013-03-02T14:36:02Z"></date>
         content = div.find('date')
         if content:
-            creat_date.string = content['iso8601']
+            if isinstance(content, dict) and 'iso8601' in content.keys():
+                creat_date.string = content['iso8601']
+            else:
+                creat_date.string= content.text
+
 
     return soup
 
