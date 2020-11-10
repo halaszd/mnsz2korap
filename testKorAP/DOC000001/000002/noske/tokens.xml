@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="span.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<layer docid="testKorAP_DOC000001.000002" version="KorAP-0.4" xmlns="http://ids-mannheim.de/ns/KorAP">
+ <spanList>
+  <span from="0" id="s_0" to="6">
+  </span>
+  <span from="7" id="s_1" to="13">
+  </span>
+  <span from="14" id="s_2" to="19">
+  </span>
+  <span from="20" id="s_3" to="26">
+  </span>
+  <span from="26" id="s_4" to="27">
+  </span>
+  <span from="28" id="s_5" to="37">
+  </span>
+  <span from="37" id="s_6" to="38">
+  </span>
+  <span from="39" id="s_7" to="47">
+  </span>
+  <span from="48" id="s_8" to="55">
+  </span>
+  <span from="56" id="s_9" to="62">
+  </span>
+  <span from="63" id="s_10" to="66">
+  </span>
+  <span from="66" id="s_11" to="67">
+  </span>
+  <span from="68" id="s_12" to="72">
+  </span>
+  <span from="73" id="s_13" to="76">
+  </span>
+  <span from="77" id="s_14" to="90">
+  </span>
+  <span from="91" id="s_15" to="100">
+  </span>
+  <span from="101" id="s_16" to="109">
+  </span>
+  <span from="110" id="s_17" to="111">
+  </span>
+  <span from="112" id="s_18" to="117">
+  </span>
+  <span from="118" id="s_19" to="126">
+  </span>
+  <span from="126" id="s_20" to="127">
+  </span>
+  <span from="128" id="s_21" to="142">
+  </span>
+  <span from="142" id="s_22" to="143">
+  </span>
+  <span from="144" id="s_23" to="151">
+  </span>
+  <span from="152" id="s_24" to="157">
+  </span>
+  <span from="158" id="s_25" to="166">
+  </span>
+  <span from="167" id="s_26" to="168">
+  </span>
+  <span from="169" id="s_27" to="174">
+  </span>
+  <span from="175" id="s_28" to="178">
+  </span>
+  <span from="179" id="s_29" to="180">
+  </span>
+  <span from="181" id="s_30" to="191">
+  </span>
+  <span from="191" id="s_31" to="192">
+  </span>
+  <span from="193" id="s_32" to="201">
+  </span>
+  <span from="202" id="s_33" to="206">
+  </span>
+  <span from="207" id="s_34" to="211">
+  </span>
+  <span from="212" id="s_35" to="217">
+  </span>
+  <span from="218" id="s_36" to="225">
+  </span>
+  <span from="226" id="s_37" to="227">
+  </span>
+  <span from="228" id="s_38" to="232">
+  </span>
+  <span from="232" id="s_39" to="233">
+  </span>
+  <span from="234" id="s_40" to="235">
+  </span>
+  <span from="235" id="s_41" to="239">
+  </span>
+  <span from="239" id="s_42" to="240">
+  </span>
+ </spanList>
+</layer>

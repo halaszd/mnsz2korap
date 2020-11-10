@@ -42,31 +42,33 @@ OPTS = (
     'sentences',
     'paragraphs',
     'word',
-    'lemma',
-    'pos',
+    # 'lemma',
+    # 'pos',
     'msd',
-    'word_cv',
-    'word_syll',
-    'lemma_cv',
-    'lemma_syll',
-    'word_phon',
-    'lemma_phon')
+    # 'word_cv',
+    # 'word_syll',
+    # 'lemma_cv',
+    # 'lemma_syll',
+    # 'word_phon',
+    # 'lemma_phon'
+)
 
 OPT_DICT = {'header': (None, 'header', ''),
             'data': (None, 'data', ''),
             'sentences': (None, 'sentences', 'base'),
             'paragraphs': (None, 'paragraphs', 'base'),
             'word': (None, 'tokens', 'noske'),
-            'lemma': (('lemma',), 'lemma', 'noske'),
-            'pos': (('word', 'lemma', 'pos'), 'part-of-speech', 'noske'),
+            # 'lemma': (('lemma',), 'lemma', 'noske'),
+            # 'pos': (('word', 'lemma', 'pos'), 'part-of-speech', 'noske'),
             # 'msd': (('lemma', 'pos', 'msd'), 'morpho', 'noske'),
             'msd': (('lemma', 'pos', 'msd'), 'morpho', 'hnc'),
-            'word_cv': (('word', 'word_cv'), 'word_cv', 'noske'),
-            'word_syll': (('word', 'word_syll'), 'word_syll', 'noske'),
-            'lemma_cv': (('lemma', 'lemma_cv'), 'lemma_cv', 'noske'),
-            'lemma_syll': (('lemma', 'lemma_syll'), 'lemma_syll', 'noske'),
-            'word_phon': (('word', 'word_phon'), 'word_phon', 'noske'),
-            'lemma_phon': (('lemma', 'lemma_phon'), 'lemma_phon', 'noske')}
+            # 'word_cv': (('word', 'word_cv'), 'word_cv', 'noske'),
+            # 'word_syll': (('word', 'word_syll'), 'word_syll', 'noske'),
+            # 'lemma_cv': (('lemma', 'lemma_cv'), 'lemma_cv', 'noske'),
+            # 'lemma_syll': (('lemma', 'lemma_syll'), 'lemma_syll', 'noske'),
+            # 'word_phon': (('word', 'word_phon'), 'word_phon', 'noske'),
+            # 'lemma_phon': (('lemma', 'lemma_phon'), 'lemma_phon', 'noske')
+            }
 
 PAT_CUT_SPACE = re.compile(r' ?NoSpace ?')
 
@@ -508,7 +510,7 @@ def process_documents(noske_inps, corpora_dir, last_parent_folder_number, last_c
                       meta_dict['parent_folder_name'], \
                       meta_dict['child_folder_name']
 
-            is_last_subfile = True if j == len(noske_divs) - 1 else False
+            is_last_subfile = True if j == len(noske_divs)-1 else False
             writing_backup_file(backup_filepath, False,
                                 (fname_wo_ext, f'{i}', f'{child_folder_number}', f'{is_last_subfile}'))
 
