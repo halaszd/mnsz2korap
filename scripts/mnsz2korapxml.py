@@ -53,22 +53,23 @@ OPTS = (
     # 'lemma_phon'
 )
 
-OPT_DICT = {'header': (None, 'header', ''),
-            'data': (None, 'data', ''),
-            'sentences': (None, 'sentences', 'base'),
-            'paragraphs': (None, 'paragraphs', 'base'),
-            'word': (None, 'tokens', 'noske'),
-            # 'lemma': (('lemma',), 'lemma', 'noske'),
-            # 'pos': (('word', 'lemma', 'pos'), 'part-of-speech', 'noske'),
-            # 'msd': (('lemma', 'pos', 'msd'), 'morpho', 'noske'),
-            'msd': (('lemma', 'pos', 'msd'), 'morpho', 'hnc'),
-            # 'word_cv': (('word', 'word_cv'), 'word_cv', 'noske'),
-            # 'word_syll': (('word', 'word_syll'), 'word_syll', 'noske'),
-            # 'lemma_cv': (('lemma', 'lemma_cv'), 'lemma_cv', 'noske'),
-            # 'lemma_syll': (('lemma', 'lemma_syll'), 'lemma_syll', 'noske'),
-            # 'word_phon': (('word', 'word_phon'), 'word_phon', 'noske'),
-            # 'lemma_phon': (('lemma', 'lemma_phon'), 'lemma_phon', 'noske')
-            }
+OPT_DICT = {
+    'header': (None, 'header', ''),
+    'data': (None, 'data', ''),
+    'sentences': (None, 'sentences', 'base'),
+    'paragraphs': (None, 'paragraphs', 'base'),
+    'word': (None, 'tokens', 'noske'),
+    # 'lemma': (('lemma',), 'lemma', 'noske'),
+    # 'pos': (('word', 'lemma', 'pos'), 'part-of-speech', 'noske'),
+    # 'msd': (('lemma', 'pos', 'msd'), 'morpho', 'noske'),
+    'msd': (('lemma', 'pos', 'msd'), 'morpho', 'hnc'),
+    # 'word_cv': (('word', 'word_cv'), 'word_cv', 'noske'),
+    # 'word_syll': (('word', 'word_syll'), 'word_syll', 'noske'),
+    # 'lemma_cv': (('lemma', 'lemma_cv'), 'lemma_cv', 'noske'),
+    # 'lemma_syll': (('lemma', 'lemma_syll'), 'lemma_syll', 'noske'),
+    # 'word_phon': (('word', 'word_phon'), 'word_phon', 'noske'),
+    # 'lemma_phon': (('lemma', 'lemma_phon'), 'lemma_phon', 'noske')
+}
 
 PAT_CUT_SPACE = re.compile(r' ?NoSpace ?')
 
@@ -235,8 +236,7 @@ def gen_header_xml(header_type, corpora_dir=None, parent_dir=None, clean_xml=Non
             if isinstance(content, dict) and 'iso8601' in content.keys():
                 creat_date.string = content['iso8601']
             else:
-                creat_date.string= content.text
-
+                creat_date.string = content.text
 
     return soup
 
@@ -510,7 +510,7 @@ def process_documents(noske_inps, corpora_dir, last_parent_folder_number, last_c
                       meta_dict['parent_folder_name'], \
                       meta_dict['child_folder_name']
 
-            is_last_subfile = True if j == len(noske_divs)-1 else False
+            is_last_subfile = True if j == len(noske_divs) - 1 else False
             writing_backup_file(backup_filepath, False,
                                 (fname_wo_ext, f'{i}', f'{child_folder_number}', f'{is_last_subfile}'))
 
@@ -552,6 +552,9 @@ def get_args():
                              'the MNSZ to KorAp format from the beginning.',
                         nargs='?',
                         type=str2bool, const=True, default=False)
+    parser.add_argument('-a', '--append', help='Append new annotation xml files to existed output KorAP-XML-s',
+                        nargs='?',
+                        type=str2bool, const=True, default=False)
 
     args = parser.parse_args()
 
@@ -589,7 +592,7 @@ def get_args():
 def main():
     args = get_args()
 
-    if args['create_new']:
+    if args['create_new'] and not args['append']:
         try:
             shutil.rmtree(args['output_dir'])
         except FileNotFoundError:
@@ -597,9 +600,9 @@ def main():
 
     # Az legutóbbi kovertálás során keletkezett legutolsó fájl sorszámának betöltése
     last_parent_folder_number, \
-        last_child_folder_number, \
-        last_documentum_name, \
-        processed_documents = loading_backup_file(args['backup_filepath'], args['create_new'])
+    last_child_folder_number, \
+    last_documentum_name, \
+    processed_documents = loading_backup_file(args['backup_filepath'], args['create_new'])
     corpora_dir = args['output_dir']
 
     # Noske fájlok az annotációk kinyeréséhez
@@ -614,12 +617,14 @@ def main():
         child_dir = outpf[2]
         annot_folder = outpf[0]['annot_folder']
         os.makedirs(os.path.join(corpora_dir, parent_dir, child_dir, annot_folder), exist_ok=True)
-        # print(os.path.join(corpora_dir, parent_dir, child_dir, annot_folder))
+
         with open(os.path.join(corpora_dir, parent_dir, child_dir,
                                annot_folder, os.path.splitext(outpf[0]['output_xmlname'])[0] + '.xml'),
                   "w", encoding="utf-8") as f:
+
             if 'data' in outpf[0]['output_xmlname']:
-                # A prettify() két szóközt és egy entert rak a szöveg elejére, ami később problémát okozott az indexelésnél
+                # A prettify() két szóközt és egy entert rak a szöveg elejére, ami később problémát
+                # okozott az indexelésnél
                 f.write(f'{outpf[0]["output_xml"]}')
             else:
                 f.write(f'{outpf[0]["output_xml"].prettify()}')
