@@ -415,7 +415,7 @@ def get_annotations(tag_to_iterate, annotations_per_line):
                     annotations = {}
                     annotation_count = 0
 
-                    for k, annotation in enumerate(line.split('\t')):
+                    for k, annotation in enumerate(line.split('\t')[:11]):
                         annotation_count = k
                         annotations[ANNOTATION_TYPES_ORDERED[k]] = annotation
 
