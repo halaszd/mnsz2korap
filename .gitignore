@@ -3,8 +3,11 @@ TODO.txt
 hncxml.dtd
 mnsz2korap.txt
 multi_divs_mnsz_files.txt
+.TODO*
 .idea/
 .venv/
+inputs/noske_test2
+inputs/xml_clean_test2
 sample_input/*
 inputs/noske
 MNSZ_KorAP/

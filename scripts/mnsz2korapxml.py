@@ -277,11 +277,13 @@ def gen_annotated_xml(annot_types, docid, annotations_per_line, opt):
 
     for i, (is_space, annotations) in enumerate(annotations_per_line):
 
-        if not is_space:  # i != 0 and annotations_per_line[i - 1][1] not in STOPS and not is_space:
+        if not is_space and from_index > 0:
             from_index -= 1
 
         if annotations == 'SSTOP' or annotations == 'PSTOP':
             if (annotations == 'SSTOP' and opt == 'sentences') or (annotations == 'PSTOP' and opt == 'paragraphs'):
+                if from_index_sp == to_index:
+                    from_index_sp -= 1
                 BASE_SPAN_ATTRS['from'] = f'{from_index_sp}'
                 BASE_SPAN_ATTRS['to'] = f'{to_index}'
                 span = soup.new_tag('span', attrs=BASE_SPAN_ATTRS)
