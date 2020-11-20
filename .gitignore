@@ -8,7 +8,6 @@ multi_divs_mnsz_files.txt
 .venv/
 inputs_home/
 sample_input/*
-inputs/noske
 MNSZ_KorAP/
 inputs/xml_clean
 sample_to_reproduce
