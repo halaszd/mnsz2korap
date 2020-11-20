@@ -543,9 +543,9 @@ def get_args():
     """
 
     parser = argparse.ArgumentParser()
-    parser.add_argument('input_noske_filepath', help='Path to file.', nargs="+")
+    parser.add_argument('input_noske_filepath', help='Path to NosKe files.', nargs="+")
     parser.add_argument('-d', '--output_dir', help='Path to output directory', nargs='?')
-    parser.add_argument('-m', '--input_clean_iglob_filepath', help='Path to root folder for iglob module.', nargs="?")
+    parser.add_argument('-m', '--input_clean_iglob_filepath', help='Path of clean files root folder for iglob module.', nargs="?")
     parser.add_argument('-b', '--backup_filepath',
                         help='Path of backup file which contains informations about processed files.',
                         nargs='?', default='./backup.txt')
